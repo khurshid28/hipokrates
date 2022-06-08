@@ -5,6 +5,9 @@
 # - Bloc StateMent [flutter_bloc: ^8.0.1](https://pub.dev/packages/flutter_bloc)
 
 # - Responsive [flutter_screenutil: ^5.5.3+2](https://pub.dev/packages/flutter_screenutil)
+
+# - FontStyle [google_fonts: ^3.0.1](https://pub.dev/packages/google_fonts)
+
 ## MVC
 ![Screenshot_1](https://user-images.githubusercontent.com/95979088/172630349-cb51833f-e222-4969-a900-d180dc63b644.png)
 
