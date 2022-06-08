@@ -2,7 +2,7 @@
 
 # - MVC structures
 
-# - Bloc StateMent
+# - Bloc StateMent [flutter_bloc: ^8.0.1](https://pub.dev/packages/flutter_bloc)
 
 # - Responsive [flutter_screenutil: ^5.5.3+2](https://pub.dev/packages/flutter_screenutil)
 ## MVC
