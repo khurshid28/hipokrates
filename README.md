@@ -10,7 +10,7 @@
 ## Register View
 ![Screenshot_2](https://user-images.githubusercontent.com/95979088/172630368-bbade855-188b-4d62-967f-f3db17e01d85.png)
 
-## 
+## Register View (2)
 ![Screenshot_3](https://user-images.githubusercontent.com/95979088/172630381-ed3d0922-a188-49d2-87f9-8748fc1561f5.png)
 
 
