@@ -1,6 +1,6 @@
 # hipokrates
 
-# - MVC structures
+# - MVC structures [mvc in youtube](https://youtu.be/RQf5VVuGJh8)
 
 # - Bloc StateMent [flutter_bloc: ^8.0.1](https://pub.dev/packages/flutter_bloc)
 
