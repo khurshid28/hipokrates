@@ -11,7 +11,7 @@ class SignUpModel {
 
   String? hospitalUnvon;
   String? hospitalDaraja;
-  String? hospitalposition;
+  String? hospitalPosition;
   String? hospitalYili;
 
   SignUpModel.fromJsonNameNumberDate(Map<String, dynamic> json) {
@@ -34,7 +34,7 @@ class SignUpModel {
 
     hospitalUnvon = json["hospitalUnvon"];
     hospitalDaraja = json["hospitalDaraja"];
-    hospitalposition = json["hospitalPosition"];
+    hospitalPosition = json["hospitalPosition"];
     hospitalYili = json["hospitalYili"];
   }
 
@@ -49,7 +49,7 @@ class SignUpModel {
         "universityYili": universityYili,
         "hospitalUnvon": hospitalUnvon,
         "hospitalDaraja": hospitalDaraja,
-        "hospitalposition": hospitalposition,
+        "hospitalPosition": hospitalPosition,
         "hospitalYili": hospitalYili,
       };
 }
