@@ -34,7 +34,7 @@ class SignUpModel {
 
     hospitalUnvon = json["hospitalUnvon"];
     hospitalDaraja = json["hospitalDaraja"];
-    hospitalposition = json["hospitalposition"];
+    hospitalposition = json["hospitalPosition"];
     hospitalYili = json["hospitalYili"];
   }
 
