@@ -14,23 +14,23 @@ class SignUpModel {
   String? hospitalPosition;
   String? hospitalYili;
 
-  SignUpModel.fromJsonNameNumberDate(Map<String, dynamic> json) {
+  fromJsonNameNumberDate(Map<String, dynamic> json) {
     name = json["name"];
     number = json["number"];
     date = json["date"];
   }
-  SignUpModel.fromJsonPassword(Map<String, dynamic> json) {
+  fromJsonPassword(Map<String, dynamic> json) {
     password = json["password"];
   }
-  SignUpModel.fromJsonPerson(Map<String, dynamic> json) {
+  fromJsonPerson(Map<String, dynamic> json) {
     person = json["person"];
   } 
-  SignUpModel.fromJsonUniversity(Map<String, dynamic> json) {
+  fromJsonUniversity(Map<String, dynamic> json) {
     universityUnvon = json["universityUnvon"];
     universityDaraja = json["universityDaraja"];
     universityYili = json["universityYili"];
   }
-  SignUpModel.fromJsonHospital(Map<String, dynamic> json) {
+  fromJsonHospital(Map<String, dynamic> json) {
 
     hospitalUnvon = json["hospitalUnvon"];
     hospitalDaraja = json["hospitalDaraja"];
