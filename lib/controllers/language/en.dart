@@ -1,5 +1,4 @@
 import '_mylanguage.dart';
 
-class en extends Language{
-  
-}
+class en extends Language {}
+

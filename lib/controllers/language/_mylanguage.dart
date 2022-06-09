@@ -1,7 +1,9 @@
-class MyLanguage{
+class MyLanguage {
   static late Language data;
 }
 
-abstract class Language{}
+abstract class Language {
+  late RegisterWords register;
+}
 
-
+class RegisterWords {}
