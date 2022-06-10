@@ -16,9 +16,10 @@ class _SignUpUniversityViewState extends State<SignUpUniversityView> {
     bool agreedToTerms = false;
     bool isError = false;
     return Scaffold(
-      backgroundColor: Colors.blue,
+      backgroundColor: const Color(0xff0C57AF),
       resizeToAvoidBottomInset: false,
       appBar: AppBar(
+        backgroundColor: const Color(0xff0C57AF),
         toolbarHeight: 100.0.h,
         elevation: 0.0,
         automaticallyImplyLeading: false,
@@ -46,6 +47,7 @@ class _SignUpUniversityViewState extends State<SignUpUniversityView> {
                   ),
                   child: SvgPicture.asset(
                     "assets/icons/back.svg",
+                    color: Color(0xff5596E2),
                   ),
                 ),
                 onTap: () {
@@ -308,7 +310,7 @@ class _SignUpUniversityViewState extends State<SignUpUniversityView> {
                           width: 40.h,
                           padding: EdgeInsets.all(10.h),
                           decoration: const BoxDecoration(
-                            color: Colors.blue,
+                            color: Color(0xff0C57AF),
                             borderRadius: BorderRadius.only(
                               topRight: Radius.circular(8),
                               bottomRight: Radius.circular(8),

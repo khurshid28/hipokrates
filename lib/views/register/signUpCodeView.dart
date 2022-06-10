@@ -16,9 +16,10 @@ class _SignUpCodeViewState extends State<SignUpCodeView> {
     bool agreedToTerms = false;
     bool isError = false;
     return Scaffold(
-      backgroundColor: Colors.blue,
+      backgroundColor: const Color(0xff0C57AF),
       resizeToAvoidBottomInset: false,
       appBar: AppBar(
+        backgroundColor: Color(0xff0C57AF),
         toolbarHeight: 100.0.h,
         elevation: 0.0,
         automaticallyImplyLeading: false,
@@ -46,6 +47,7 @@ class _SignUpCodeViewState extends State<SignUpCodeView> {
                   ),
                   child: SvgPicture.asset(
                     "assets/icons/back.svg",
+                    color:Color(0xff5596E2)
                   ),
                 ),
                 onTap: () {
@@ -108,7 +110,7 @@ class _SignUpCodeViewState extends State<SignUpCodeView> {
                     children: [
                       Text(
                         "На Ваш номер был отправлен код. Пожалуйста",
-                        style: GoogleFonts.inter(
+                        style: GoogleFonts.nunito(
                             color: Colors.black54,
                             fontWeight: FontWeight.bold,
                             fontSize: 12.sp),
@@ -120,7 +122,7 @@ class _SignUpCodeViewState extends State<SignUpCodeView> {
                     children: [
                       Text(
                         "введите его для продолжения.",
-                        style: GoogleFonts.inter(
+                        style: GoogleFonts.nunito(
                             color: Colors.black54,
                             fontWeight: FontWeight.bold,
                             fontSize: 12.sp),
@@ -192,7 +194,6 @@ class _SignUpCodeViewState extends State<SignUpCodeView> {
                       ),
                     ),
                   ),
-                  
                   SizedBox(
                     height: 24.0.h,
                   ),
@@ -203,8 +204,8 @@ class _SignUpCodeViewState extends State<SignUpCodeView> {
                       children: [
                         Text(
                           "Отправить код повторно.",
-                          style: GoogleFonts.inter(
-                              color: Colors.blue,
+                          style: GoogleFonts.nunito(
+                              color: const Color(0xff0C57AF),
                               fontWeight: FontWeight.bold,
                               fontSize: 12.sp),
                         ),

@@ -16,9 +16,10 @@ class _SignUpPersonViewState extends State<SignUpPersonView> {
     bool agreedToTerms = false;
     bool isError = false;
     return Scaffold(
-      backgroundColor: Colors.blue,
+      backgroundColor: const Color(0xff0C57AF),
       resizeToAvoidBottomInset: false,
       appBar: AppBar(
+        backgroundColor: const Color(0xff0C57AF),
         toolbarHeight: 100.0.h,
         elevation: 0.0,
         automaticallyImplyLeading: false,
@@ -46,6 +47,7 @@ class _SignUpPersonViewState extends State<SignUpPersonView> {
                   ),
                   child: SvgPicture.asset(
                     "assets/icons/back.svg",
+                    color: Color(0xff5596E2),
                   ),
                 ),
                 onTap: () {
@@ -110,7 +112,7 @@ class _SignUpPersonViewState extends State<SignUpPersonView> {
                       children: [
                         Text(
                           "Определите свою позицию.",
-                          style: GoogleFonts.inter(
+                          style: GoogleFonts.nunito(
                               color: Colors.black54,
                               fontWeight: FontWeight.bold,
                               fontSize: 12.sp),
@@ -139,8 +141,8 @@ class _SignUpPersonViewState extends State<SignUpPersonView> {
                                   ),
                                 ),
                                 color: Colors.white,
-                                border:
-                                    Border.all(color: Colors.blue, width: 2),
+                                border: Border.all(
+                                    color: const Color(0xff0C57AF), width: 2),
                                 borderRadius: BorderRadius.all(
                                   Radius.circular(10.r),
                                 ),
@@ -148,7 +150,7 @@ class _SignUpPersonViewState extends State<SignUpPersonView> {
                             ),
                             Text(
                               "Студент",
-                              style: GoogleFonts.inter(
+                              style: GoogleFonts.nunito(
                                   fontWeight: FontWeight.bold, fontSize: 18.sp),
                             ),
                           ],
@@ -165,9 +167,9 @@ class _SignUpPersonViewState extends State<SignUpPersonView> {
                                     "assets/images/person2.png",
                                   ),
                                 ),
-                                color: Colors.blue.withOpacity(0.3),
-                                border:
-                                    Border.all(color: Colors.blue, width: 2),
+                                color: const Color(0xff0C57AF).withOpacity(0.3),
+                                border: Border.all(
+                                    color: const Color(0xff0C57AF), width: 2),
                                 borderRadius: BorderRadius.all(
                                   Radius.circular(10.r),
                                 ),
@@ -175,7 +177,7 @@ class _SignUpPersonViewState extends State<SignUpPersonView> {
                             ),
                             Text(
                               "Доктор",
-                              style: GoogleFonts.inter(
+                              style: GoogleFonts.nunito(
                                   fontWeight: FontWeight.bold, fontSize: 18.sp),
                             ),
                           ],

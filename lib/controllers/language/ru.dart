@@ -1,5 +1,6 @@
 import '_mylanguage.dart';
 
-class ru extends Language{
-  
+class ru implements Language {
+  @override
+  late RegisterWords register;
 }

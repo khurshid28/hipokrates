@@ -16,9 +16,10 @@ class _SignUpViewState extends State<SignUpView> {
     bool agreedToTerms = false;
     bool isError = false;
     return Scaffold(
-      backgroundColor: Colors.blue,
+      backgroundColor: const Color(0xff0C57AF),
       resizeToAvoidBottomInset: false,
       appBar: AppBar(
+        backgroundColor: Color(0xff0C57AF),
         toolbarHeight: 100.0.h,
         elevation: 0.0,
         automaticallyImplyLeading: false,
@@ -46,6 +47,7 @@ class _SignUpViewState extends State<SignUpView> {
                   ),
                   child: SvgPicture.asset(
                     "assets/icons/back.svg",
+                    color: Color(0xff5596E2),
                   ),
                 ),
                 onTap: () {
@@ -154,7 +156,6 @@ class _SignUpViewState extends State<SignUpView> {
                                 color: Colors.amber,
                               )
                             : null,
-                        
                         border: const OutlineInputBorder(
                           borderSide: BorderSide.none,
                           borderRadius: BorderRadius.all(
@@ -220,7 +221,6 @@ class _SignUpViewState extends State<SignUpView> {
                                 color: Colors.amber,
                               )
                             : null,
-                        
                         border: const OutlineInputBorder(
                           borderSide: BorderSide.none,
                           borderRadius: BorderRadius.all(
@@ -247,7 +247,6 @@ class _SignUpViewState extends State<SignUpView> {
                   SizedBox(
                     height: 6.h,
                   ),
-                  
                   Container(
                     height: 40.0.h,
                     width: MediaQuery.of(context).size.width - 48.w,
@@ -311,7 +310,7 @@ class _SignUpViewState extends State<SignUpView> {
                           width: 40.h,
                           padding: EdgeInsets.all(10.h),
                           decoration: const BoxDecoration(
-                            color: Colors.blue,
+                            color: Color(0xff0C57AF),
                             borderRadius: BorderRadius.only(
                               topRight: Radius.circular(8),
                               bottomRight: Radius.circular(8),
@@ -323,11 +322,10 @@ class _SignUpViewState extends State<SignUpView> {
                       ],
                     ),
                   ),
-                 
                   SizedBox(
                     height: 12.0.h,
                   ),
-                   SizedBox(
+                  SizedBox(
                     height: 34.0.h,
                   ),
                   ElevatedButtonPress(
@@ -337,7 +335,6 @@ class _SignUpViewState extends State<SignUpView> {
                     },
                     const Color.fromRGBO(12, 87, 175, 0.5),
                   ),
-                  
                 ],
               ),
             ),

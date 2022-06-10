@@ -16,9 +16,10 @@ class _SignInViewState extends State<SignInView> {
     bool agreedToTerms = false;
     bool isError = false;
     return Scaffold(
-      backgroundColor: Colors.blue,
+      backgroundColor: Color(0xff0C57AF),
       resizeToAvoidBottomInset: false,
       appBar: AppBar(
+        backgroundColor: Color(0xff0C57AF),
         toolbarHeight: 100.0.h,
         elevation: 0.0,
         automaticallyImplyLeading: false,
@@ -46,6 +47,7 @@ class _SignInViewState extends State<SignInView> {
                   ),
                   child: SvgPicture.asset(
                     "assets/icons/back.svg",
+                    color: Color(0xff5596E2),
                   ),
                 ),
                 onTap: () {
@@ -255,7 +257,6 @@ class _SignInViewState extends State<SignInView> {
                   SizedBox(
                     height: 12.0.h,
                   ),
-                 
                   Row(
                     children: [
                       Checkbox(
@@ -304,8 +305,8 @@ class _SignInViewState extends State<SignInView> {
                         InkWell(
                           child: Text(
                             "Забыли пароль?",
-                            style: GoogleFonts.inter(
-                              color: Colors.blue,
+                            style: GoogleFonts.nunito(
+                              color: Color(0xff0C57AF),
                               fontSize: 14.sp,
                               fontWeight: FontWeight.bold,
                             ),

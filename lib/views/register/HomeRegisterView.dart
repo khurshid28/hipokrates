@@ -13,8 +13,7 @@ class HomeRegisterView extends StatefulWidget {
 class _HomeRegisterViewState extends State<HomeRegisterView> {
   @override
   Widget build(BuildContext context) {
-   
-    return  Scaffold(
+    return Scaffold(
       body: SafeArea(
         child: Stack(
           children: [
@@ -50,7 +49,7 @@ class _HomeRegisterViewState extends State<HomeRegisterView> {
               ),
             ),
             Positioned(
-              top: 40.h,
+              top: 60.h,
               left: 37.w,
               right: 37.w,
               child: SizedBox(
@@ -64,19 +63,18 @@ class _HomeRegisterViewState extends State<HomeRegisterView> {
             Positioned(
               left: 24.w,
               right: 24.w,
-              top: 357.h,
+              top: 397.h,
               child: SizedBox(
                 width: 327.w,
                 child: Column(
                   children: [
                     Text(
                       "Что по поводу аккаунта?",
-                      style: GoogleFonts.inter(
+                      style: GoogleFonts.nunito(
                           fontWeight: FontWeight.bold,
                           color: Colors.black,
                           fontSize: 22.sp),
                     ),
-                    
                   ],
                 ),
               ),
@@ -91,12 +89,12 @@ class _HomeRegisterViewState extends State<HomeRegisterView> {
                   children: [
                     Text(
                       "У вас уже имеется свой аккаунт или вы",
-                      style: GoogleFonts.inter(
+                      style: GoogleFonts.nunito(
                           color: Colors.black, fontSize: 14.sp),
                     ),
-                     Text(
+                    Text(
                       "впервые используете это приложение?",
-                      style: GoogleFonts.inter(
+                      style: GoogleFonts.nunito(
                           color: Colors.black, fontSize: 14.sp),
                     ),
                   ],
@@ -117,29 +115,28 @@ class _HomeRegisterViewState extends State<HomeRegisterView> {
                   decoration: BoxDecoration(
                     color: Colors.white,
                     borderRadius: BorderRadius.all(
-                      Radius.circular(16.r),
+                      Radius.circular(10.r),
                     ),
                   ),
                   child: Row(
                     children: [
                       InkWell(
-                        onTap: (){
+                        onTap: () {
                           Navigator.pushNamed(context, "/SignInView");
-                             
                         },
                         child: Container(
                           width: 164.w,
                           height: 42.h,
                           alignment: Alignment.center,
                           decoration: BoxDecoration(
-                            color: Colors.blue,
+                            color: const Color(0xff0C57AF),
                             borderRadius: BorderRadius.all(
-                              Radius.circular(16.r),
+                              Radius.circular(10.r),
                             ),
                           ),
                           child: Text(
                             "Вход",
-                            style: GoogleFonts.inter(
+                            style: GoogleFonts.nunito(
                               fontSize: 16,
                               color: Colors.white,
                               fontWeight: FontWeight.bold,
@@ -148,9 +145,8 @@ class _HomeRegisterViewState extends State<HomeRegisterView> {
                         ),
                       ),
                       InkWell(
-                        onTap: (){
+                        onTap: () {
                           Navigator.pushNamed(context, "/SignUpView");
-                             
                         },
                         child: Container(
                           width: 164.w,
@@ -158,21 +154,20 @@ class _HomeRegisterViewState extends State<HomeRegisterView> {
                           alignment: Alignment.center,
                           child: Text(
                             "Регистрация",
-                            style: GoogleFonts.inter(
+                            style: GoogleFonts.nunito(
                               fontSize: 16,
-                              color: Colors.blue,
+                              color: const Color(0xff0C57AF),
                               fontWeight: FontWeight.bold,
                             ),
                           ),
                         ),
                       ),
-                     
                     ],
                   ),
                 ),
               ),
             ),
-             Positioned(
+            Positioned(
               left: 24.w,
               right: 24.w,
               top: 32.h,
@@ -189,14 +184,15 @@ class _HomeRegisterViewState extends State<HomeRegisterView> {
                       alignment: Alignment.center,
                       decoration: BoxDecoration(
                         color: Colors.white,
-                        border: Border.all(color: Colors.blue, width: 2),
+                        border: Border.all(
+                            color: const Color(0xff5596E2), width: 2),
                         borderRadius: BorderRadius.all(
                           Radius.circular(10.r),
                         ),
                       ),
                       child: SvgPicture.asset(
                         "assets/icons/back.svg",
-                        color: Colors.blue,
+                        color: const Color(0xff5596E2),
                       ),
                     ),
                   ),
@@ -205,21 +201,19 @@ class _HomeRegisterViewState extends State<HomeRegisterView> {
                     height: 40.h,
                     decoration: BoxDecoration(
                       color: Colors.white,
-                      border: Border.all(color: Colors.blue, width: 2),
+                      border:
+                          Border.all(color: const Color(0xff5596E2), width: 2),
                       borderRadius: BorderRadius.all(Radius.circular(10.r)),
                     ),
                     alignment: Alignment.center,
-                    child:
-                      SvgPicture.asset("assets/icons/rus_flag.svg"),
+                    child: SvgPicture.asset("assets/icons/rus_flag.svg"),
                   ),
                 ],
               ),
             ),
-          
           ],
         ),
       ),
     );
- 
   }
 }

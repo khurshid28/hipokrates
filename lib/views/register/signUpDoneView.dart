@@ -70,14 +70,14 @@ class _SignUpDoneViewState extends State<SignUpDoneView> {
                   children: [
                     Text(
                       "Давайте начнем",
-                      style: GoogleFonts.inter(
+                      style: GoogleFonts.nunito(
                           fontWeight: FontWeight.bold,
                           color: Colors.black,
                           fontSize: 26.sp),
                     ),
                     Text(
                       "путешествие!",
-                      style: GoogleFonts.inter(
+                      style: GoogleFonts.nunito(
                           fontWeight: FontWeight.bold,
                           color: Colors.black,
                           fontSize: 26.sp),
@@ -96,17 +96,17 @@ class _SignUpDoneViewState extends State<SignUpDoneView> {
                   children: [
                     Text(
                       "Если у Вас будут иметься вопросы или",
-                      style: GoogleFonts.inter(
+                      style: GoogleFonts.nunito(
                           color: Colors.black, fontSize: 14.sp),
                     ),
                     Text(
                       "предложения, просим писать в службу",
-                      style: GoogleFonts.inter(
+                      style: GoogleFonts.nunito(
                           color: Colors.black, fontSize: 14.sp),
                     ),
                     Text(
                       "поддержки и мы всегда будем Вам рады!",
-                      style: GoogleFonts.inter(
+                      style: GoogleFonts.nunito(
                           color: Colors.black, fontSize: 14.sp),
                     ),
                   ],
@@ -121,7 +121,7 @@ class _SignUpDoneViewState extends State<SignUpDoneView> {
                 width: 328.w,
                 height: 42.h,
                 decoration: BoxDecoration(
-                  color: Colors.blue,
+                  color: Color(0xff0C57AF),
                   borderRadius: BorderRadius.all(
                     Radius.circular(16.r),
                   ),
@@ -129,7 +129,7 @@ class _SignUpDoneViewState extends State<SignUpDoneView> {
                 alignment: Alignment.center,
                 child: Text(
                   "Начать свой путь",
-                  style: GoogleFonts.inter(
+                  style: GoogleFonts.nunito(
                     fontSize: 16,
                     color: Colors.white,
                     fontWeight: FontWeight.bold,
@@ -154,14 +154,14 @@ class _SignUpDoneViewState extends State<SignUpDoneView> {
                       alignment: Alignment.center,
                       decoration: BoxDecoration(
                         color: Colors.white,
-                        border: Border.all(color: Colors.blue, width: 2),
+                        border: Border.all(color: Color(0xff5596E2), width: 2),
                         borderRadius: BorderRadius.all(
                           Radius.circular(10.r),
                         ),
                       ),
                       child: SvgPicture.asset(
                         "assets/icons/back.svg",
-                        color: Colors.blue,
+                        color: Color(0xff5596E2),
                       ),
                     ),
                   ),
@@ -170,27 +170,25 @@ class _SignUpDoneViewState extends State<SignUpDoneView> {
                     height: 40.h,
                     decoration: BoxDecoration(
                       color: Colors.white,
-                      border: Border.all(color: Colors.blue, width: 2),
+                      border: Border.all(color: Color(0xff5596E2), width: 2),
                       borderRadius: BorderRadius.all(Radius.circular(10.r)),
                     ),
                     alignment: Alignment.center,
-                    child:
-                      SvgPicture.asset("assets/icons/rus_flag.svg"),
+                    child: SvgPicture.asset("assets/icons/rus_flag.svg"),
                     //  Container(
                     //   width: 28.w,
                     //   height: 28.w,
                     //   decoration: BoxDecoration(
-                        
+
                     //   image:const DecorationImage(image:,),
                     //   borderRadius: BorderRadius.all(Radius.circular(14.w)),
                     // ),
-                     
+
                     // ),
                   ),
                 ],
               ),
             ),
-          
           ],
         ),
       ),

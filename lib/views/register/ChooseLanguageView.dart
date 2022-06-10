@@ -69,14 +69,14 @@ class _ChooseLanguageViewState extends State<ChooseLanguageView> {
                   children: [
                     Text(
                       "Добро пожаловать",
-                      style: GoogleFonts.inter(
+                      style: GoogleFonts.nunito(
                           fontWeight: FontWeight.bold,
                           color: Colors.black,
                           fontSize: 26.sp),
                     ),
                     Text(
                       "в Гиппократ",
-                      style: GoogleFonts.inter(
+                      style: GoogleFonts.nunito(
                           fontWeight: FontWeight.bold,
                           color: Colors.black,
                           fontSize: 26.sp),
@@ -95,12 +95,12 @@ class _ChooseLanguageViewState extends State<ChooseLanguageView> {
                   children: [
                     Text(
                       "Мы поможем Вам найти лучший способ",
-                      style: GoogleFonts.inter(
+                      style: GoogleFonts.nunito(
                           color: Colors.black, fontSize: 14.sp),
                     ),
                     Text(
                       "для предоставления помощи пациентам!",
-                      style: GoogleFonts.inter(
+                      style: GoogleFonts.nunito(
                           color: Colors.black, fontSize: 14.sp),
                     ),
                   ],
@@ -117,7 +117,7 @@ class _ChooseLanguageViewState extends State<ChooseLanguageView> {
                   children: [
                     Text(
                       "Для начала выберите язык пользования.",
-                      style: GoogleFonts.inter(
+                      style: GoogleFonts.nunito(
                           color: Colors.black, fontSize: 14.sp),
                     ),
                   ],
@@ -138,7 +138,7 @@ class _ChooseLanguageViewState extends State<ChooseLanguageView> {
                   decoration: BoxDecoration(
                     color: Colors.white,
                     borderRadius: BorderRadius.all(
-                      Radius.circular(16.r),
+                      Radius.circular(10.r),
                     ),
                   ),
                   child: Row(
@@ -147,18 +147,18 @@ class _ChooseLanguageViewState extends State<ChooseLanguageView> {
                         width: 109.w,
                         height: 42.h,
                         alignment: Alignment.center,
+                        decoration: BoxDecoration(
+                          color: Color(0xff0C57AF),
+                          borderRadius: BorderRadius.all(
+                            Radius.circular(10.r),
+                          ),
+                        ),
                         child: Text(
                           "Русский",
-                          style: GoogleFonts.inter(
+                          style: GoogleFonts.nunito(
                             fontSize: 16,
                             color: Colors.white,
                             fontWeight: FontWeight.bold,
-                          ),
-                        ),
-                        decoration: BoxDecoration(
-                          color: Colors.blue,
-                          borderRadius: BorderRadius.all(
-                            Radius.circular(16.r),
                           ),
                         ),
                       ),
@@ -168,9 +168,9 @@ class _ChooseLanguageViewState extends State<ChooseLanguageView> {
                         alignment: Alignment.center,
                         child: Text(
                           "Узбекский",
-                          style: GoogleFonts.inter(
+                          style: GoogleFonts.nunito(
                             fontSize: 16,
-                            color: Colors.blue,
+                            color: Color(0xff0C57AF),
                             fontWeight: FontWeight.bold,
                           ),
                         ),
@@ -179,17 +179,17 @@ class _ChooseLanguageViewState extends State<ChooseLanguageView> {
                         width: 109.w,
                         height: 42.h,
                         alignment: Alignment.center,
-                        child: Text(
-                          "Английский",
-                          style: GoogleFonts.inter(
-                            fontSize: 16,
-                            color: Colors.blue,
-                            fontWeight: FontWeight.bold,
-                          ),
-                        ),
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.all(
-                            Radius.circular(16.r),
+                            Radius.circular(10.r),
+                          ),
+                        ),
+                        child: Text(
+                          "Английский",
+                          style: GoogleFonts.nunito(
+                            fontSize: 16,
+                            color: Color(0xff0C57AF),
+                            fontWeight: FontWeight.bold,
                           ),
                         ),
                       ),
@@ -202,6 +202,5 @@ class _ChooseLanguageViewState extends State<ChooseLanguageView> {
         ),
       ),
     );
- 
   }
 }

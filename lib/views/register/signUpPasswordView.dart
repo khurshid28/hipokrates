@@ -16,9 +16,10 @@ class _SignUpPasswordViewState extends State<SignUpPasswordView> {
     bool agreedToTerms = false;
     bool isError = false;
     return Scaffold(
-      backgroundColor: Colors.blue,
+      backgroundColor: const Color(0xff0C57AF),
       resizeToAvoidBottomInset: false,
       appBar: AppBar(
+        backgroundColor: const Color(0xff0C57AF),
         toolbarHeight: 100.0.h,
         elevation: 0.0,
         automaticallyImplyLeading: false,
@@ -46,6 +47,7 @@ class _SignUpPasswordViewState extends State<SignUpPasswordView> {
                   ),
                   child: SvgPicture.asset(
                     "assets/icons/back.svg",
+                    color: Color(0xff5596E2),
                   ),
                 ),
                 onTap: () {
@@ -262,8 +264,8 @@ class _SignUpPasswordViewState extends State<SignUpPasswordView> {
                       children: [
                         Text(
                           "Отправить код повторно.",
-                          style: GoogleFonts.inter(
-                              color: Colors.blue,
+                          style: GoogleFonts.nunito(
+                              color: const Color(0xff0C57AF),
                               fontWeight: FontWeight.bold,
                               fontSize: 12.sp),
                         ),
@@ -276,7 +278,7 @@ class _SignUpPasswordViewState extends State<SignUpPasswordView> {
                   ElevatedButtonPress(
                     "Продолжить",
                     () {
-                       Navigator.pushNamed(context, "/SignUpPersonView");
+                      Navigator.pushNamed(context, "/SignUpPersonView");
                     },
                     const Color.fromRGBO(12, 87, 175, 0.5),
                   ),
