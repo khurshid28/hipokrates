@@ -260,6 +260,7 @@ class RecipeSubPage extends StatelessWidget {
                                   ),
                                 ),
                                 Container(
+                                  margin: EdgeInsets.all(2),
                                   decoration: BoxDecoration(
                                     color: Color.fromARGB(255, 132, 133, 133),
                                     borderRadius: BorderRadius.all(
