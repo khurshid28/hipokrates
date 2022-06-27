@@ -8,7 +8,7 @@
 
 # - FontStyle [google_fonts: ^3.0.1](https://pub.dev/packages/google_fonts)
 
-# - Snacbar [another_flushbar: ^1.10.29]((https://pub.dev/packages/another_flushbar))
+# - Snacbar [another_flushbar: ^1.10.29](https://pub.dev/packages/another_flushbar)
 
 ## MVC
 ![Screenshot_1](https://user-images.githubusercontent.com/95979088/172630349-cb51833f-e222-4969-a900-d180dc63b644.png)
