@@ -1,0 +1,4 @@
+#Mon Jun 27 15:46:39 KST 2022
+base.0=/Users/dmonster/FlutterApps/hipokrates/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
