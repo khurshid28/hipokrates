@@ -1,16 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:hipokrates/views/register/ChooseLanguageView.dart';
+import 'exportpaths.dart';
 
-import 'views/register/HomeRegisterView.dart';
-import 'views/register/signInView.dart';
-import 'views/register/signUpCodeView.dart';
-import 'views/register/signUpDoneView.dart';
-import 'views/register/signUpHospitalType.dart';
-import 'views/register/signUpPasswordView.dart';
-import 'views/register/signUpPersonTypeView.dart';
-import 'views/register/signUpUniversityType.dart';
-import 'views/register/signUpView.dart';
+
 
 
 class HipokratesApp extends StatelessWidget {
@@ -29,14 +21,59 @@ class HipokratesApp extends StatelessWidget {
       routes: {
         "/ChooseLanguageView":(context) =>const ChooseLanguageView(),
         "/HomeRegisterView":(context) =>const HomeRegisterView(),
+        //auth 
+
+        //signIn
         "/SignInView":(context) =>const SignInView(),
+
+        //signUp
+        "/SignUpView":(context) =>const SignUpView(),
         "/SignUpCodeView":(context) =>const SignUpCodeView(),
-        "/SignUpDoneView":(context) =>const SignUpDoneView(),
-        "/SignUpHospitalView":(context) =>const SignUpHospitalView(),
         "/SignUpPasswordView":(context) =>const SignUpPasswordView(),
         "/SignUpPersonView":(context) =>const SignUpPersonView(),
         "/SignUpUniversityView":(context) =>const SignUpUniversityView(),
-        "/SignUpView":(context) =>const SignUpView(),
+        "/SignUpHospitalView":(context) =>const SignUpHospitalView(),
+
+        "/SignUpDoneView":(context) =>const SignUpDoneView(),
+
+
+        
+
+         
+
+         //main
+        "/MainView":(context) =>const MainView(),
+
+        //childrens
+        "/HomeView":(context) =>const HomeView(),
+         
+
+        //profileDetails
+        "/ProfileView":(context) =>const ProfileView(),
+        "/SettingsView":(context) =>const SettingsView(),
+
+        "/YazikView":(context) =>const YazikView(),
+        "/NotificationView":(context) =>const NotificationView(),
+        "/LockView":(context) =>const LockView(),
+        "/ChangeLoginView":(context) =>const ChangeLoginView(),
+        
+        
+         
+        // aboutMe
+       "/BioView":(context) =>const BioView(),
+       "/BioEditView":(context) =>const BioEditView(),
+       
+       "/ExperienceView":(context) =>const ExperienceView(),
+       "/StudyView":(context) =>const StudyView(),
+       "/CertificateView":(context) =>const CertificateView(),
+       "/ArticlesView":(context) =>const ArticlesView(),
+       "/ArticlesReadView":(context) => const ArticlesReadView(),
+       "/AnswersView":(context) =>const AnswersView(),
+        
+
+
+        
+        
        
       },
     );

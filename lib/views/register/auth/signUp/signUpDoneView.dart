@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutter_svg/flutter_svg.dart';
+import 'package:flutter_svg/svg.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class HomeRegisterView extends StatefulWidget {
-  const HomeRegisterView({Key? key}) : super(key: key);
+class SignUpDoneView extends StatefulWidget {
+  const SignUpDoneView({Key? key}) : super(key: key);
 
   @override
-  State<HomeRegisterView> createState() => _HomeRegisterViewState();
+  State<SignUpDoneView> createState() => _SignUpDoneViewState();
 }
 
-class _HomeRegisterViewState extends State<HomeRegisterView> {
+class _SignUpDoneViewState extends State<SignUpDoneView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -50,30 +50,37 @@ class _HomeRegisterViewState extends State<HomeRegisterView> {
             ),
             Positioned(
               top: 60.h,
-              left: 37.w,
-              right: 37.w,
+              left: 32.w,
+              right: 32.w,
               child: SizedBox(
                 width: 312.w,
                 height: 276.h,
                 child: Image.asset(
-                  "assets/images/doctor2.png",
+                  "assets/images/doctor3.png",
                 ),
               ),
             ),
             Positioned(
               left: 24.w,
               right: 24.w,
-              top: 397.h,
+              top: 357.h,
               child: SizedBox(
                 width: 327.w,
                 child: Column(
                   children: [
                     Text(
-                      "Что по поводу аккаунта?",
+                      "Давайте начнем",
                       style: GoogleFonts.nunito(
                           fontWeight: FontWeight.bold,
                           color: Colors.black,
-                          fontSize: 22.sp),
+                          fontSize: 26.sp),
+                    ),
+                    Text(
+                      "путешествие!",
+                      style: GoogleFonts.nunito(
+                          fontWeight: FontWeight.bold,
+                          color: Colors.black,
+                          fontSize: 26.sp),
                     ),
                   ],
                 ),
@@ -88,12 +95,17 @@ class _HomeRegisterViewState extends State<HomeRegisterView> {
                 child: Column(
                   children: [
                     Text(
-                      "У вас уже имеется свой аккаунт или вы",
+                      "Если у Вас будут иметься вопросы или",
                       style: GoogleFonts.nunito(
                           color: Colors.black, fontSize: 14.sp),
                     ),
                     Text(
-                      "впервые используете это приложение?",
+                      "предложения, просим писать в службу",
+                      style: GoogleFonts.nunito(
+                          color: Colors.black, fontSize: 14.sp),
+                    ),
+                    Text(
+                      "поддержки и мы всегда будем Вам рады!",
                       style: GoogleFonts.nunito(
                           color: Colors.black, fontSize: 14.sp),
                     ),
@@ -105,60 +117,31 @@ class _HomeRegisterViewState extends State<HomeRegisterView> {
               left: 23.5.w,
               right: 23.5.w,
               top: 521.h,
-              child: Container(
-                width: 328.w,
-                height: 42.h,
-                decoration: BoxDecoration(
-                  color: Colors.white,
-                  borderRadius: BorderRadius.all(
-                    Radius.circular(10.r),
+              child: InkWell(
+                splashColor: Colors.transparent,
+                highlightColor: Colors.transparent,
+                onTap: () {
+                  Navigator.pushNamedAndRemoveUntil(
+                      context, "/MainView", (route) => false);
+                },
+                child: Container(
+                  width: 328.w,
+                  height: 42.h,
+                  decoration: BoxDecoration(
+                    color: Color(0xff0C57AF),
+                    borderRadius: BorderRadius.all(
+                      Radius.circular(16.r),
+                    ),
                   ),
-                ),
-                child: Row(
-                  children: [
-                    InkWell(
-                      onTap: () {
-                        Navigator.pushNamed(context, "/SignInView");
-                      },
-                      child: Container(
-                        width: 164.w,
-                        height: 42.h,
-                        alignment: Alignment.center,
-                        decoration: BoxDecoration(
-                          color: const Color(0xff0C57AF),
-                          borderRadius: BorderRadius.all(
-                            Radius.circular(10.r),
-                          ),
-                        ),
-                        child: Text(
-                          "Вход",
-                          style: GoogleFonts.nunito(
-                            fontSize: 16,
-                            color: Colors.white,
-                            fontWeight: FontWeight.bold,
-                          ),
-                        ),
-                      ),
+                  alignment: Alignment.center,
+                  child: Text(
+                    "Начать свой путь",
+                    style: GoogleFonts.nunito(
+                      fontSize: 16,
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
                     ),
-                    InkWell(
-                      onTap: () {
-                        Navigator.pushNamed(context, "/SignUpView");
-                      },
-                      child: Container(
-                        width: 164.w,
-                        height: 42.h,
-                        alignment: Alignment.center,
-                        child: Text(
-                          "Регистрация",
-                          style: GoogleFonts.nunito(
-                            fontSize: 16,
-                            color: const Color(0xff0C57AF),
-                            fontWeight: FontWeight.bold,
-                          ),
-                        ),
-                      ),
-                    ),
-                  ],
+                  ),
                 ),
               ),
             ),
@@ -183,15 +166,14 @@ class _HomeRegisterViewState extends State<HomeRegisterView> {
                       alignment: Alignment.center,
                       decoration: BoxDecoration(
                         color: Colors.white,
-                        border: Border.all(
-                            color: const Color(0xff5596E2), width: 2),
+                        border: Border.all(color: Color(0xff5596E2), width: 2),
                         borderRadius: BorderRadius.all(
                           Radius.circular(10.r),
                         ),
                       ),
                       child: SvgPicture.asset(
                         "assets/icons/back.svg",
-                        color: const Color(0xff5596E2),
+                        color: Color(0xff5596E2),
                       ),
                     ),
                   ),
@@ -295,20 +277,6 @@ class _HomeRegisterViewState extends State<HomeRegisterView> {
                                 ],
                               ),
                             ),
-                            // actions: [
-                            //   TextButton(
-                            //     onPressed: () {
-                            //       Navigator.of(context).pop();
-                            //     },
-                            //     child: Text('YES', style: TextStyle(color: Colors.black),),
-                            //   ),
-                            //   TextButton(
-                            //     onPressed: () {
-                            //       Navigator.of(context).pop();
-                            //     },
-                            //     child: Text('NO', style: TextStyle(color: Colors.black),),
-                            //   ),
-                            // ],
                           );
                         },
                       );
@@ -319,12 +287,21 @@ class _HomeRegisterViewState extends State<HomeRegisterView> {
                       padding: EdgeInsets.all(8.75.w,),
                       decoration: BoxDecoration(
                         color: Colors.white,
-                        border: Border.all(
-                            color: const Color(0xff5596E2), width: 2),
+                        border: Border.all(color: Color(0xff5596E2), width: 2),
                         borderRadius: BorderRadius.all(Radius.circular(10.r)),
                       ),
                       alignment: Alignment.center,
                       child: SvgPicture.asset("assets/icons/rus_flag.svg"),
+                      //  Container(
+                      //   width: 28.w,
+                      //   height: 28.w,
+                      //   decoration: BoxDecoration(
+
+                      //   image:const DecorationImage(image:,),
+                      //   borderRadius: BorderRadius.all(Radius.circular(14.w)),
+                      // ),
+
+                      // ),
                     ),
                   ),
                 ],
