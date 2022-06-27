@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:hipokrates/views/main/childrens/Recipes/recipeSubPage.dart';
 import 'exportpaths.dart';
 
 class HipokratesApp extends StatelessWidget {
@@ -51,13 +52,15 @@ class HipokratesApp extends StatelessWidget {
             // aboutMe
             "/BioView": (context) => const BioView(),
             "/BioEditView": (context) => const BioEditView(),
-
             "/ExperienceView": (context) => const ExperienceView(),
             "/StudyView": (context) => const StudyView(),
             "/CertificateView": (context) => const CertificateView(),
             "/ArticlesView": (context) => const ArticlesView(),
             "/ArticlesReadView": (context) => const ArticlesReadView(),
             "/AnswersView": (context) => const AnswersView(),
+
+            //Recipes
+            "/RecipeSubPage": (context) => const RecipeSubPage(),
           },
         );
       },

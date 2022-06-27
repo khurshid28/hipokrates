@@ -95,126 +95,124 @@ class _HomeViewState extends State<HomeView> {
             horizontal: 24.w,
           ),
           child: SingleChildScrollView(
-            physics:  BouncingScrollPhysics(),
+            physics: BouncingScrollPhysics(),
             child: Column(
               children: [
-                SizedBox(height: 24.h,),
-                 Padding(
-                      padding: EdgeInsets.symmetric(
-                        vertical: 4.h,
+                SizedBox(
+                  height: 24.h,
+                ),
+                Padding(
+                  padding: EdgeInsets.symmetric(
+                    vertical: 4.h,
+                  ),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Container(
+                        padding: EdgeInsets.symmetric(
+                          horizontal: 10.w,
+                          vertical: 10.h,
+                        ),
+                        width: MediaQuery.of(context).size.width / 2 - 34.w,
+                        height: 220.h,
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.circular(14.r),
+                          boxShadow: [
+                            BoxShadow(
+                                color: Colors.black.withOpacity(0.1),
+                                // offset:  Offset(0, 2.h),
+                                blurRadius: 12.r),
+                          ],
+                        ),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              "Консультация",
+                              style: GoogleFonts.nunito(
+                                color: const Color(0xff050505),
+                                fontSize: 16.sp,
+                                fontWeight: FontWeight.w400,
+                              ),
+                            ),
+                            Container(
+                              margin: EdgeInsets.symmetric(
+                                horizontal: 2.w,
+                                vertical: 2.h,
+                              ),
+                              width:
+                                  MediaQuery.of(context).size.width / 2 - 34.w,
+                              height: 130.h,
+                              decoration: BoxDecoration(
+                                  // image: DecorationImage(
+                                  //   image: AssetImage(
+                                  //     cards[index * 2].path,
+                                  //   ),
+                                  //   fit: BoxFit.fitWidth,
+                                  // ),
+                                  ),
+                            ),
+                          ],
+                        ),
                       ),
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        children: [
-                          Container(
-                            
-                            padding: EdgeInsets.symmetric(
-                              horizontal: 10.w,
-                              vertical: 10.h,
+                      // Image(
+                      //   image: AssetImage(
+                      //     cards[index * 2].path,
+                      //   ),
+                      //   width: MediaQuery.of(context).size.width / 2 - 24.w,
+                      // ),
+                      Container(
+                        margin: EdgeInsets.symmetric(
+                          horizontal: 2.w,
+                          vertical: 2.h,
+                        ),
+                        padding: EdgeInsets.symmetric(
+                          horizontal: 10.w,
+                          vertical: 10.h,
+                        ),
+                        width: MediaQuery.of(context).size.width / 2 - 34.w,
+                        height: 220.h,
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.circular(14.r),
+                          boxShadow: [
+                            BoxShadow(
+                                color: Colors.black.withOpacity(0.1),
+                                // offset:  Offset(0, 2.h),
+                                blurRadius: 12.r),
+                          ],
+                        ),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              "Помощь",
+                              style: GoogleFonts.nunito(
+                                color: const Color(0xff050505),
+                                fontSize: 16.sp,
+                                fontWeight: FontWeight.w400,
+                              ),
                             ),
-                            width: MediaQuery.of(context).size.width / 2 - 34.w,
-                            height: 220.h,
-                            decoration: BoxDecoration(
-                              color: Colors.white,
-                              borderRadius: BorderRadius.circular(14.r),
-                              boxShadow: [
-                                BoxShadow(
-                            color: Colors.black.withOpacity(0.1),
-                            // offset:  Offset(0, 2.h),
-                            blurRadius: 12.r
-                          ),
-                              ],
-                            ),
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                Text(
-                                  "Консультация",
-                                  style: GoogleFonts.nunito(
-                                    color: const Color(0xff050505),
-                                    fontSize: 16.sp,
-                                    fontWeight: FontWeight.w400,
+                            Container(
+                              width:
+                                  MediaQuery.of(context).size.width / 2 - 32.w,
+                              height: 130.h,
+                              decoration: BoxDecoration(
+                                  // image: DecorationImage(
+                                  //   image: AssetImage(
+                                  //     cards[index * 2 + 1].path,
+                                  //   ),
+                                  //   fit: BoxFit.fitWidth,
+                                  // ),
                                   ),
-                                ),
-                                Container(
-                                  margin: EdgeInsets.symmetric(
-                                    horizontal: 2.w,
-                                    vertical: 2.h,
-                                  ),
-                                  width: MediaQuery.of(context).size.width / 2 -
-                                      34.w,
-                                  height: 130.h,
-                                  decoration: BoxDecoration(
-                                    // image: DecorationImage(
-                                    //   image: AssetImage(
-                                    //     cards[index * 2].path,
-                                    //   ),
-                                    //   fit: BoxFit.fitWidth,
-                                    // ),
-                                  ),
-                                ),
-                              ],
                             ),
-                          ),
-                          // Image(
-                          //   image: AssetImage(
-                          //     cards[index * 2].path,
-                          //   ),
-                          //   width: MediaQuery.of(context).size.width / 2 - 24.w,
-                          // ),
-                          Container(
-                            margin: EdgeInsets.symmetric(
-                              horizontal: 2.w,
-                              vertical: 2.h,
-                            ),
-                            padding: EdgeInsets.symmetric(
-                              horizontal: 10.w,
-                              vertical: 10.h,
-                            ),
-                            width: MediaQuery.of(context).size.width / 2 - 34.w,
-                            height: 220.h,
-                            decoration: BoxDecoration(
-                              color: Colors.white,
-                              borderRadius: BorderRadius.circular(14.r),
-                              boxShadow: [
-                                BoxShadow(
-                            color: Colors.black.withOpacity(0.1),
-                            // offset:  Offset(0, 2.h),
-                            blurRadius: 12.r
-                          ),
-                              ],
-                            ),
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                Text(
-                                  "Помощь",
-                                  style: GoogleFonts.nunito(
-                                    color: const Color(0xff050505),
-                                    fontSize: 16.sp,
-                                    fontWeight: FontWeight.w400,
-                                  ),
-                                ),
-                                Container(
-                                  width: MediaQuery.of(context).size.width / 2 -
-                                      32.w,
-                                  height: 130.h,
-                                  decoration: BoxDecoration(
-                                    // image: DecorationImage(
-                                    //   image: AssetImage(
-                                    //     cards[index * 2 + 1].path,
-                                    //   ),
-                                    //   fit: BoxFit.fitWidth,
-                                    // ),
-                                  ),
-                                ),
-                              ],
-                            ),
-                          ),
-                        ],
+                          ],
+                        ),
                       ),
-                    ),
-                  
+                    ],
+                  ),
+                ),
               ],
             ),
           ),
