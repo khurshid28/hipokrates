@@ -37,7 +37,7 @@ class DiseasesView extends StatelessWidget {
             children: [
               SizedBox(),
               Text(
-                "Рецепты",
+                "Болезни",
                 style: GoogleFonts.nunito(
                   fontSize: 20.sp,
                   fontWeight: FontWeight.w700,
@@ -48,24 +48,22 @@ class DiseasesView extends StatelessWidget {
                 splashColor: Colors.transparent,
                 highlightColor: Colors.transparent,
                 onTap: () {
-                  Navigator.pushNamed(context, "/SettingsView");
+                  Navigator.pushNamed(context, "/ProfileView");
                 },
                 child: Container(
-                  width: 36.w,
-                  height: 36.w,
-                  padding: EdgeInsets.symmetric(
-                    vertical: 6.w,
-                    horizontal: 6.w,
-                  ),
+                  height: 40.0.h,
+                  width: 40.0.h,
+                  padding: EdgeInsets.symmetric(vertical: 8.h, horizontal: 8.h),
                   decoration: BoxDecoration(
-                    border:
-                        Border.all(color: const Color(0xff5596E2), width: 2),
-                    color: const Color.fromRGBO(252, 252, 252, 1),
+                    // border: Border.all(color: const Color(0xff5596E2), width: 2),
+                    // color: const Color.fromRGBO(252, 252, 252, 1),
+                    image: const DecorationImage(
+                      image: AssetImage("assets/images/profile.png"),
+                    ),
                     borderRadius: BorderRadius.circular(
                       10.0.h,
                     ),
                   ),
-                  child: Image.asset("assets/images/profile.png"),
                 ),
               ),
             ],
@@ -190,7 +188,7 @@ class DiseasesView extends StatelessWidget {
                     highlightColor: Colors.transparent,
                     onTap: () {
                       print("Pushed to DiseasesDetailPage");
-                      Navigator.pushNamed(context, "/RecipeSubDetailPage");
+                      Navigator.pushNamed(context, "/DiseasesDetailPage");
                     },
                     child: Padding(
                       padding: const EdgeInsets.only(bottom: 12.0),
@@ -233,6 +231,68 @@ class DiseasesView extends StatelessWidget {
                                   ),
                                 ),
                               ]),
+                            ),
+                            Wrap(
+                              // mainAxisAlignment: MainAxisAlignment.center,
+                              // crossAxisAlignment: CrossAxisAlignment.center,
+                              children: [
+                                ActionChip(
+                                  // avatar: CircleAvatar(
+                                  //   backgroundColor: Colors.grey.shade800,
+                                  //   child: const Text('AB'),
+                                  // ),
+                                  label: Text(
+                                    'Кашель',
+                                    style: GoogleFonts.nunito(
+                                      fontSize: 12.sp,
+                                      fontWeight: FontWeight.w600,
+                                      color: Colors.black,
+                                    ),
+                                  ),
+                                  onPressed: () {
+                                    print(
+                                        'Chip selected not you can change view with some flag');
+                                  },
+                                ),
+                                SizedBox(width: 8),
+                                ActionChip(
+                                  // avatar: CircleAvatar(
+                                  //   backgroundColor: Colors.grey.shade800,
+                                  //   child: const Text('AB'),
+                                  // ),
+                                  label: Text(
+                                    'Температура',
+                                    style: GoogleFonts.nunito(
+                                      fontSize: 12.sp,
+                                      fontWeight: FontWeight.w600,
+                                      color: Colors.black,
+                                    ),
+                                  ),
+                                  onPressed: () {
+                                    print(
+                                        'Chip selected not you can change view with some flag');
+                                  },
+                                ),
+                                SizedBox(width: 8),
+                                ActionChip(
+                                  // avatar: CircleAvatar(
+                                  //   backgroundColor: Colors.grey.shade800,
+                                  //   child: const Text('AB'),
+                                  // ),
+                                  label: Text(
+                                    'Боль в горле',
+                                    style: GoogleFonts.nunito(
+                                      fontSize: 12.sp,
+                                      fontWeight: FontWeight.w600,
+                                      color: Colors.black,
+                                    ),
+                                  ),
+                                  onPressed: () {
+                                    print(
+                                        'Chip selected not you can change view with some flag');
+                                  },
+                                ),
+                              ],
                             ),
                           ],
                         ),
