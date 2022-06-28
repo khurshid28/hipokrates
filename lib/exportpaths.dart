@@ -1,5 +1,4 @@
-
-export  'package:hipokrates/views/register/ChooseLanguageView.dart';
+export 'package:hipokrates/views/register/ChooseLanguageView.dart';
 
 //register
 export 'views/register/HomeRegisterView.dart';
@@ -16,7 +15,6 @@ export 'views/register/auth/signUp/signUpPersonTypeView.dart';
 export 'views/register/auth/signUp/signUpUniversityType.dart';
 export 'views/register/auth/signUp/signUpView.dart';
 
-
 //main
 export 'views/main/mainView.dart';
 
@@ -30,7 +28,6 @@ export 'views/main/profile/settingsChildrens/yazikView.dart';
 export 'views/main/profile/settingsChildrens/notificationView.dart';
 export 'views/main/profile/settingsChildrens/lockView.dart';
 export 'views/main/profile/settingsChildrens/changeLoginView.dart';
-
 
 //aboutMe
 
@@ -46,3 +43,13 @@ export 'views/main/profile/aboutMe/certificateView.dart';
 export 'views/main/profile/aboutMe/experienceView.dart';
 export 'views/main/profile/aboutMe/studyView.dart';
 
+//recipes
+
+export 'views/main/childrens/Recipes/recipeSubDetailPage.dart';
+export 'views/main/childrens/Recipes/recipeSubPage.dart';
+
+//diseases
+export 'views/main/childrens/Diseases/diseasesDetailPage.dart';
+
+//chats
+export 'views/main/childrens/chatsView.dart';
