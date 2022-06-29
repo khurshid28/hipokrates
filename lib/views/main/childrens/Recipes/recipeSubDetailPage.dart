@@ -99,7 +99,7 @@ class RecipeSubDetailPage extends StatelessWidget {
           child: SingleChildScrollView(
             child: Column(children: [
               Padding(
-                padding: const EdgeInsets.only(bottom: 12.0),
+                padding: const EdgeInsets.only(bottom: 16.0),
                 child: Container(
                   height: 76.w,
                   padding: EdgeInsets.symmetric(
@@ -205,6 +205,7 @@ class RecipeSubDetailPage extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
                     ActionChip(
+                      labelPadding: EdgeInsets.all(2),
                       // avatar: CircleAvatar(
                       //   backgroundColor: Colors.grey.shade800,
                       //   child: const Text('AB'),
@@ -224,6 +225,7 @@ class RecipeSubDetailPage extends StatelessWidget {
                     ),
                     SizedBox(width: 8),
                     ActionChip(
+                      labelPadding: EdgeInsets.all(2),
                       // avatar: CircleAvatar(
                       //   backgroundColor: Colors.grey.shade800,
                       //   child: const Text('AB'),
@@ -243,6 +245,7 @@ class RecipeSubDetailPage extends StatelessWidget {
                     ),
                     SizedBox(width: 8),
                     ActionChip(
+                      labelPadding: EdgeInsets.all(2),
                       // avatar: CircleAvatar(
                       //   backgroundColor: Colors.grey.shade800,
                       //   child: const Text('AB'),
@@ -263,6 +266,7 @@ class RecipeSubDetailPage extends StatelessWidget {
                   ],
                 ),
               ),
+              SizedBox(height: 16),
               Container(
                 width: MediaQuery.of(context).size.width,
                 padding: EdgeInsets.symmetric(

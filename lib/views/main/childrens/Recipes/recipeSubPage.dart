@@ -97,6 +97,7 @@ class RecipeSubPage extends StatelessWidget {
       body: Padding(
         padding: const EdgeInsets.all(24.0),
         child: Column(children: [
+          //SearchBox
           TextFormField(
             autovalidateMode: AutovalidateMode.onUserInteraction,
             onChanged: (v) {},
@@ -130,6 +131,7 @@ class RecipeSubPage extends StatelessWidget {
             ),
           ),
           SizedBox(height: 24),
+          //Lekarstva and Filter
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             crossAxisAlignment: CrossAxisAlignment.center,
@@ -200,6 +202,7 @@ class RecipeSubPage extends StatelessWidget {
             ],
           ),
           SizedBox(height: 16),
+          //List of Lekarstva
           SizedBox(
             height: MediaQuery.of(context).size.height * .6,
             child: ListView.builder(
@@ -254,7 +257,7 @@ class RecipeSubPage extends StatelessWidget {
                               "assets/images/profile.png",
                             ),
                           ),
-                          SizedBox(width: 10), // middle space
+                          SizedBox(width: 12), // middle space
                           Column(
                             mainAxisAlignment: MainAxisAlignment.center,
                             crossAxisAlignment: CrossAxisAlignment.start,

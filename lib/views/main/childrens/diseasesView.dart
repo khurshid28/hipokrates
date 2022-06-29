@@ -178,130 +178,133 @@ class DiseasesView extends StatelessWidget {
               ],
             ),
             SizedBox(height: 16),
-            SizedBox(
-              height: MediaQuery.of(context).size.height * .6,
-              child: ListView.builder(
-                itemCount: 10,
-                itemBuilder: (context, index) {
-                  return InkWell(
-                    splashColor: Colors.transparent,
-                    highlightColor: Colors.transparent,
-                    onTap: () {
-                      print("Pushed to DiseasesDetailPage");
-                      Navigator.pushNamed(context, "/DiseasesDetailPage");
-                    },
-                    child: Padding(
-                      padding: const EdgeInsets.only(bottom: 12.0),
-                      child: Container(
-                        padding: EdgeInsets.symmetric(
-                          horizontal: 16.w,
-                          vertical: 8.h,
-                        ),
-                        decoration: BoxDecoration(
-                          color: Colors.white,
-                          borderRadius: BorderRadius.circular(
-                            8.r,
+            Padding(
+              padding: const EdgeInsets.only(bottom: 100.0),
+              child: SizedBox(
+                height: MediaQuery.of(context).size.height * .50,
+                child: ListView.builder(
+                  itemCount: 10,
+                  itemBuilder: (context, index) {
+                    return InkWell(
+                      splashColor: Colors.transparent,
+                      highlightColor: Colors.transparent,
+                      onTap: () {
+                        print("Pushed to DiseasesDetailPage");
+                        Navigator.pushNamed(context, "/DiseasesDetailPage");
+                      },
+                      child: Padding(
+                        padding: const EdgeInsets.only(bottom: 12.0),
+                        child: Container(
+                          padding: EdgeInsets.symmetric(
+                            horizontal: 16.w,
+                            vertical: 8.h,
                           ),
-                          boxShadow: [
-                            BoxShadow(
-                                color: Colors.black.withOpacity(0.1),
-                                blurRadius: 5.r),
-                          ],
-                        ),
-                        child: Column(
-                          children: [
-                            RichText(
-                              textAlign: TextAlign.start,
-                              text: TextSpan(children: [
-                                TextSpan(
-                                  text: 'Простуда' " - ",
-                                  style: GoogleFonts.nunito(
-                                    fontSize: 16.sp,
-                                    fontWeight: FontWeight.w600,
-                                    color: Colors.black,
-                                  ),
-                                ),
-                                TextSpan(
-                                  text:
-                                      "Термин «простуда» не является медицинским, однако он настолько приходится на холодное время года. Eтся присоединение бактериальной или вирусной инфекции.Возможно также совокупное воздействие этих микроорганизмов, когда на фоне ослабления иммунитета вследствие флоры.",
-                                  style: GoogleFonts.nunito(
-                                    fontSize: 14.sp,
-                                    fontWeight: FontWeight.w500,
-                                    color: Colors.grey,
-                                  ),
-                                ),
-                              ]),
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                            borderRadius: BorderRadius.circular(
+                              8.r,
                             ),
-                            Wrap(
-                              // mainAxisAlignment: MainAxisAlignment.center,
-                              // crossAxisAlignment: CrossAxisAlignment.center,
-                              children: [
-                                ActionChip(
-                                  // avatar: CircleAvatar(
-                                  //   backgroundColor: Colors.grey.shade800,
-                                  //   child: const Text('AB'),
-                                  // ),
-                                  label: Text(
-                                    'Кашель',
+                            boxShadow: [
+                              BoxShadow(
+                                  color: Colors.black.withOpacity(0.1),
+                                  blurRadius: 5.r),
+                            ],
+                          ),
+                          child: Column(
+                            children: [
+                              RichText(
+                                textAlign: TextAlign.start,
+                                text: TextSpan(children: [
+                                  TextSpan(
+                                    text: 'Простуда' " - ",
                                     style: GoogleFonts.nunito(
-                                      fontSize: 12.sp,
+                                      fontSize: 16.sp,
                                       fontWeight: FontWeight.w600,
                                       color: Colors.black,
                                     ),
                                   ),
-                                  onPressed: () {
-                                    print(
-                                        'Chip selected not you can change view with some flag');
-                                  },
-                                ),
-                                SizedBox(width: 8),
-                                ActionChip(
-                                  // avatar: CircleAvatar(
-                                  //   backgroundColor: Colors.grey.shade800,
-                                  //   child: const Text('AB'),
-                                  // ),
-                                  label: Text(
-                                    'Температура',
+                                  TextSpan(
+                                    text:
+                                        "Термин «простуда» не является медицинским, однако он настолько приходится на холодное время года. Eтся присоединение бактериальной или вирусной инфекции.Возможно также совокупное воздействие этих микроорганизмов, когда на фоне ослабления иммунитета вследствие флоры.",
                                     style: GoogleFonts.nunito(
-                                      fontSize: 12.sp,
-                                      fontWeight: FontWeight.w600,
-                                      color: Colors.black,
+                                      fontSize: 14.sp,
+                                      fontWeight: FontWeight.w500,
+                                      color: Colors.grey,
                                     ),
                                   ),
-                                  onPressed: () {
-                                    print(
-                                        'Chip selected not you can change view with some flag');
-                                  },
-                                ),
-                                SizedBox(width: 8),
-                                ActionChip(
-                                  // avatar: CircleAvatar(
-                                  //   backgroundColor: Colors.grey.shade800,
-                                  //   child: const Text('AB'),
-                                  // ),
-                                  label: Text(
-                                    'Боль в горле',
-                                    style: GoogleFonts.nunito(
-                                      fontSize: 12.sp,
-                                      fontWeight: FontWeight.w600,
-                                      color: Colors.black,
+                                ]),
+                              ),
+                              Wrap(
+                                // mainAxisAlignment: MainAxisAlignment.center,
+                                // crossAxisAlignment: CrossAxisAlignment.center,
+                                children: [
+                                  ActionChip(
+                                    // avatar: CircleAvatar(
+                                    //   backgroundColor: Colors.grey.shade800,
+                                    //   child: const Text('AB'),
+                                    // ),
+                                    label: Text(
+                                      'Кашель',
+                                      style: GoogleFonts.nunito(
+                                        fontSize: 12.sp,
+                                        fontWeight: FontWeight.w600,
+                                        color: Colors.black,
+                                      ),
                                     ),
+                                    onPressed: () {
+                                      print(
+                                          'Chip selected not you can change view with some flag');
+                                    },
                                   ),
-                                  onPressed: () {
-                                    print(
-                                        'Chip selected not you can change view with some flag');
-                                  },
-                                ),
-                              ],
-                            ),
-                          ],
+                                  SizedBox(width: 8),
+                                  ActionChip(
+                                    // avatar: CircleAvatar(
+                                    //   backgroundColor: Colors.grey.shade800,
+                                    //   child: const Text('AB'),
+                                    // ),
+                                    label: Text(
+                                      'Температура',
+                                      style: GoogleFonts.nunito(
+                                        fontSize: 12.sp,
+                                        fontWeight: FontWeight.w600,
+                                        color: Colors.black,
+                                      ),
+                                    ),
+                                    onPressed: () {
+                                      print(
+                                          'Chip selected not you can change view with some flag');
+                                    },
+                                  ),
+                                  SizedBox(width: 8),
+                                  ActionChip(
+                                    // avatar: CircleAvatar(
+                                    //   backgroundColor: Colors.grey.shade800,
+                                    //   child: const Text('AB'),
+                                    // ),
+                                    label: Text(
+                                      'Боль в горле',
+                                      style: GoogleFonts.nunito(
+                                        fontSize: 12.sp,
+                                        fontWeight: FontWeight.w600,
+                                        color: Colors.black,
+                                      ),
+                                    ),
+                                    onPressed: () {
+                                      print(
+                                          'Chip selected not you can change view with some flag');
+                                    },
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
                         ),
                       ),
-                    ),
-                  );
-                },
+                    );
+                  },
+                ),
               ),
-            )
+            ),
           ]),
         ),
       ),
