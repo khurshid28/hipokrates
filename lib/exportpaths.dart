@@ -53,3 +53,6 @@ export 'views/main/childrens/Diseases/diseasesDetailPage.dart';
 
 //chats
 export 'views/main/childrens/chatsView.dart';
+
+//community
+export 'views/main/childrens/Community/communitySub.dart';

@@ -67,6 +67,9 @@ class HipokratesApp extends StatelessWidget {
 
             //Chats
             "/ChatsView": (context) => const ChatsView(),
+
+            //Community
+            "/CommunitySub": (context) => const CommunitySub(),
           },
         );
       },
