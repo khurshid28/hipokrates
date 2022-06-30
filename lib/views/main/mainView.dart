@@ -2,8 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:hipokrates/exportpaths.dart';
 import 'package:hipokrates/views/main/childrens/homeView.dart';
-import 'package:hipokrates/views/main/childrens/newsView.dart';
+import 'package:hipokrates/views/main/childrens/diseasesView.dart';
 import 'package:hipokrates/views/main/childrens/recipesView.dart';
 
 class MainView extends StatefulWidget {
@@ -20,8 +21,10 @@ class _MainViewState extends State<MainView> {
       return const HomeView();
     } else if (num == 1) {
       return const RecipesView();
+    } else if (num == 2) {
+      return const DiseasesView();
     } else {
-      return const NewsView();
+      return const ChatsView();
     }
   }
 
@@ -45,11 +48,7 @@ class _MainViewState extends State<MainView> {
       height: 78.h,
       decoration: BoxDecoration(
         boxShadow: [
-          BoxShadow(
-          color: Colors.black.withOpacity(0.1),
-        
-         blurRadius: 12.r
-         ),
+          BoxShadow(color: Colors.black.withOpacity(0.1), blurRadius: 12.r),
         ],
         color: Colors.white,
         borderRadius: BorderRadius.only(
@@ -149,7 +148,7 @@ class _MainViewState extends State<MainView> {
               child: Row(
                 children: [
                   SvgPicture.asset(
-                    "assets/icons/Phome${ selectBottomItem == 0 ? "2": "" }.svg",
+                    "assets/icons/Phome${selectBottomItem == 0 ? "2" : ""}.svg",
                     color: selectBottomItem == 0
                         ? const Color(0xff5596E2)
                         : const Color(0xff6F767E),
@@ -194,7 +193,7 @@ class _MainViewState extends State<MainView> {
               child: Row(
                 children: [
                   SvgPicture.asset(
-                    "assets/icons/Precipes${selectBottomItem == 1 ? "2": ""}.svg",
+                    "assets/icons/Precipes${selectBottomItem == 1 ? "2" : ""}.svg",
                     color: selectBottomItem == 1
                         ? const Color(0xff5596E2)
                         : const Color(0xff6F767E),
@@ -237,7 +236,7 @@ class _MainViewState extends State<MainView> {
               child: Row(
                 children: [
                   SvgPicture.asset(
-                    "assets/icons/Pbolezni${ selectBottomItem == 2 ? "2": "" }.svg",
+                    "assets/icons/Pbolezni${selectBottomItem == 2 ? "2" : ""}.svg",
                     color: selectBottomItem == 2
                         ? const Color(0xff5596E2)
                         : const Color(0xff6F767E),
@@ -280,7 +279,7 @@ class _MainViewState extends State<MainView> {
               child: Row(
                 children: [
                   SvgPicture.asset(
-                    "assets/icons/Pchat${ selectBottomItem == 3 ? "2": "" }.svg",
+                    "assets/icons/Pchat${selectBottomItem == 3 ? "2" : ""}.svg",
                     color: selectBottomItem == 3
                         ? const Color(0xff5596E2)
                         : const Color(0xff6F767E),

@@ -19,7 +19,6 @@ dependencies:
   flutter_svg: ^1.1.0
   another_flushbar: ^1.10.29
   flutter_switch: ^0.3.2
- 
   
 
 dev_dependencies:
