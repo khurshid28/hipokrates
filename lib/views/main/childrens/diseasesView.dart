@@ -38,7 +38,8 @@ class DiseasesView extends StatelessWidget {
               SizedBox(),
               Text(
                 "Болезни",
-                style: GoogleFonts.nunito(
+                style: TextStyle(
+                  fontFamily: "Nunito",
                   fontSize: 20.sp,
                   fontWeight: FontWeight.w700,
                   color: Colors.black,
@@ -96,7 +97,8 @@ class DiseasesView extends StatelessWidget {
                 filled: true,
                 prefixIcon: Icon(Icons.search_outlined),
                 hintText: "Поиск",
-                hintStyle: GoogleFonts.nunito(
+                hintStyle: TextStyle(
+                  fontFamily: "Nunito",
                   fontSize: 14.sp,
                   fontWeight: FontWeight.w600,
                   color: const Color(
@@ -114,7 +116,8 @@ class DiseasesView extends StatelessWidget {
               children: [
                 Text(
                   "Болезни",
-                  style: GoogleFonts.nunito(
+                  style: TextStyle(
+                    fontFamily: "Nunito",
                     fontSize: 24.sp,
                     fontWeight: FontWeight.w700,
                     color: Colors.black,
@@ -318,8 +321,8 @@ class DiseasesView extends StatelessWidget {
                                                     prefixIcon: Icon(
                                                         Icons.search_outlined),
                                                     hintText: "Поиск",
-                                                    hintStyle:
-                                                        GoogleFonts.nunito(
+                                                    hintStyle: TextStyle(
+                                                      fontFamily: "Nunito",
                                                       fontSize: 14.sp,
                                                       fontWeight:
                                                           FontWeight.w600,
@@ -500,7 +503,8 @@ class DiseasesView extends StatelessWidget {
                                   ),
                                   Text(
                                     "Фильтр",
-                                    style: GoogleFonts.nunito(
+                                    style: TextStyle(
+                                      fontFamily: "Nunito",
                                       fontSize: 14.sp,
                                       fontWeight: FontWeight.w600,
                                       color: Colors.blue,
@@ -557,7 +561,8 @@ class DiseasesView extends StatelessWidget {
                                 text: TextSpan(children: [
                                   TextSpan(
                                     text: 'Простуда' " - ",
-                                    style: GoogleFonts.nunito(
+                                    style: TextStyle(
+                                      fontFamily: "Nunito",
                                       fontSize: 16.sp,
                                       fontWeight: FontWeight.w600,
                                       color: Colors.black,
@@ -566,7 +571,8 @@ class DiseasesView extends StatelessWidget {
                                   TextSpan(
                                     text:
                                         "Термин «простуда» не является медицинским, однако он настолько приходится на холодное время года. Eтся присоединение бактериальной или вирусной инфекции.Возможно также совокупное воздействие этих микроорганизмов, когда на фоне ослабления иммунитета вследствие флоры.",
-                                    style: GoogleFonts.nunito(
+                                    style: TextStyle(
+                                      fontFamily: "Nunito",
                                       fontSize: 14.sp,
                                       fontWeight: FontWeight.w500,
                                       color: Colors.grey,
@@ -585,7 +591,8 @@ class DiseasesView extends StatelessWidget {
                                     // ),
                                     label: Text(
                                       'Кашель',
-                                      style: GoogleFonts.nunito(
+                                      style: TextStyle(
+                                        fontFamily: "Nunito",
                                         fontSize: 12.sp,
                                         fontWeight: FontWeight.w600,
                                         color: Colors.black,
@@ -604,7 +611,8 @@ class DiseasesView extends StatelessWidget {
                                     // ),
                                     label: Text(
                                       'Температура',
-                                      style: GoogleFonts.nunito(
+                                      style: TextStyle(
+                                        fontFamily: "Nunito",
                                         fontSize: 12.sp,
                                         fontWeight: FontWeight.w600,
                                         color: Colors.black,
@@ -623,7 +631,8 @@ class DiseasesView extends StatelessWidget {
                                     // ),
                                     label: Text(
                                       'Боль в горле',
-                                      style: GoogleFonts.nunito(
+                                      style: TextStyle(
+                                        fontFamily: "Nunito",
                                         fontSize: 12.sp,
                                         fontWeight: FontWeight.w600,
                                         color: Colors.black,

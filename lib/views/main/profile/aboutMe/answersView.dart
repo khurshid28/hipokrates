@@ -65,7 +65,8 @@ class _AnswersViewState extends State<AnswersView> {
               ),
               Text(
                 "Вопросы",
-                style: GoogleFonts.nunito(
+                style: TextStyle(
+                  fontFamily: "Nunito",
                   fontSize: 20.sp,
                   fontWeight: FontWeight.w700,
                   color: Colors.black,
@@ -88,7 +89,6 @@ class _AnswersViewState extends State<AnswersView> {
               //   ),
               //   child: SvgPicture.asset("assets/icons/settings.svg"),
               // ),
-           
             ],
           ),
         ),

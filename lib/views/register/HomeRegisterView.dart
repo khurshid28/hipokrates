@@ -70,7 +70,8 @@ class _HomeRegisterViewState extends State<HomeRegisterView> {
                   children: [
                     Text(
                       "Что по поводу аккаунта?",
-                      style: GoogleFonts.nunito(
+                      style: TextStyle(
+                          fontFamily: "Nunito",
                           fontWeight: FontWeight.bold,
                           color: Colors.black,
                           fontSize: 22.sp),
@@ -89,13 +90,17 @@ class _HomeRegisterViewState extends State<HomeRegisterView> {
                   children: [
                     Text(
                       "У вас уже имеется свой аккаунт или вы",
-                      style: GoogleFonts.nunito(
-                          color: Colors.black, fontSize: 14.sp),
+                      style: TextStyle(
+                          fontFamily: "Nunito",
+                          color: Colors.black,
+                          fontSize: 14.sp),
                     ),
                     Text(
                       "впервые используете это приложение?",
-                      style: GoogleFonts.nunito(
-                          color: Colors.black, fontSize: 14.sp),
+                      style: TextStyle(
+                          fontFamily: "Nunito",
+                          color: Colors.black,
+                          fontSize: 14.sp),
                     ),
                   ],
                 ),
@@ -132,7 +137,8 @@ class _HomeRegisterViewState extends State<HomeRegisterView> {
                         ),
                         child: Text(
                           "Вход",
-                          style: GoogleFonts.nunito(
+                          style: TextStyle(
+                            fontFamily: "Nunito",
                             fontSize: 16,
                             color: Colors.white,
                             fontWeight: FontWeight.bold,
@@ -150,7 +156,8 @@ class _HomeRegisterViewState extends State<HomeRegisterView> {
                         alignment: Alignment.center,
                         child: Text(
                           "Регистрация",
-                          style: GoogleFonts.nunito(
+                          style: TextStyle(
+                            fontFamily: "Nunito",
                             fontSize: 16,
                             color: const Color(0xff0C57AF),
                             fontWeight: FontWeight.bold,
@@ -233,7 +240,8 @@ class _HomeRegisterViewState extends State<HomeRegisterView> {
                                     ),
                                     title: Text(
                                       "Русский",
-                                      style: GoogleFonts.nunito(
+                                      style: TextStyle(
+                                        fontFamily: "Nunito",
                                         color: const Color(0xff6F767E),
                                         fontWeight: FontWeight.bold,
                                       ),
@@ -259,7 +267,8 @@ class _HomeRegisterViewState extends State<HomeRegisterView> {
                                     ),
                                     title: Text(
                                       "Узбекский",
-                                      style: GoogleFonts.nunito(
+                                      style: TextStyle(
+                                        fontFamily: "Nunito",
                                         color: const Color(0xff6F767E),
                                         fontWeight: FontWeight.bold,
                                       ),
@@ -286,7 +295,8 @@ class _HomeRegisterViewState extends State<HomeRegisterView> {
                                     ),
                                     title: Text(
                                       "Английский",
-                                      style: GoogleFonts.nunito(
+                                      style: TextStyle(
+                                        fontFamily: "Nunito",
                                         color: const Color(0xff6F767E),
                                         fontWeight: FontWeight.bold,
                                       ),
@@ -316,7 +326,9 @@ class _HomeRegisterViewState extends State<HomeRegisterView> {
                     child: Container(
                       width: 36.w,
                       height: 36.w,
-                      padding: EdgeInsets.all(8.75.w,),
+                      padding: EdgeInsets.all(
+                        8.75.w,
+                      ),
                       decoration: BoxDecoration(
                         color: Colors.white,
                         border: Border.all(

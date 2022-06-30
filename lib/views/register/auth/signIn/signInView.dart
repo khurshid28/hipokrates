@@ -35,7 +35,6 @@ class _SignInViewState extends State<SignInView> {
                 child: Container(
                   width: 36.w,
                   height: 36.w,
-                  
                 ),
                 onTap: () {
                   Navigator.pop(context);
@@ -44,11 +43,9 @@ class _SignInViewState extends State<SignInView> {
               InkWell(
                 splashColor: Colors.transparent,
                 highlightColor: Colors.transparent,
-                
                 child: SizedBox(
                   width: 36.w,
                   height: 36.w,
-                 
                 ),
               ),
             ],
@@ -76,7 +73,8 @@ class _SignInViewState extends State<SignInView> {
                     padding: EdgeInsets.symmetric(vertical: 20.0.w),
                     child: Text(
                       "Вход",
-                      style: GoogleFonts.nunito(
+                      style: TextStyle(
+                        fontFamily: "Nunito",
                         fontSize: 32.sp,
                         fontWeight: FontWeight.w700,
                         color: Colors.black,
@@ -94,7 +92,8 @@ class _SignInViewState extends State<SignInView> {
                     alignment: Alignment.topLeft,
                     child: Text(
                       "Логин",
-                      style: GoogleFonts.nunito(
+                      style: TextStyle(
+                        fontFamily: "Nunito",
                         fontWeight: FontWeight.w600,
                       ),
                     ),
@@ -128,7 +127,8 @@ class _SignInViewState extends State<SignInView> {
                       },
                       decoration: InputDecoration(
                         hintText: "Введите логин",
-                        hintStyle: GoogleFonts.nunito(
+                        hintStyle: TextStyle(
+                            fontFamily: "Nunito",
                             fontWeight: FontWeight.w600,
                             color: const Color.fromRGBO(111, 118, 126, 1)),
                         contentPadding: const EdgeInsets.all(15),
@@ -170,7 +170,8 @@ class _SignInViewState extends State<SignInView> {
                     alignment: Alignment.topLeft,
                     child: Text(
                       "Пароль",
-                      style: GoogleFonts.nunito(
+                      style: TextStyle(
+                        fontFamily: "Nunito",
                         fontWeight: FontWeight.w600,
                       ),
                     ),
@@ -204,7 +205,8 @@ class _SignInViewState extends State<SignInView> {
                       },
                       decoration: InputDecoration(
                         hintText: "Введите пароль",
-                        hintStyle: GoogleFonts.nunito(
+                        hintStyle: TextStyle(
+                            fontFamily: "Nunito",
                             fontWeight: FontWeight.w600,
                             color: const Color.fromRGBO(111, 118, 126, 1)),
                         contentPadding: const EdgeInsets.all(15),
@@ -262,7 +264,8 @@ class _SignInViewState extends State<SignInView> {
                       ),
                       Text(
                         'Запомнить меня',
-                        style: GoogleFonts.nunito(
+                        style: TextStyle(
+                            fontFamily: "Nunito",
                             fontSize: 12.0.w,
                             color: const Color.fromRGBO(130, 130, 130, 1),
                             fontWeight: FontWeight.w600),
@@ -293,7 +296,8 @@ class _SignInViewState extends State<SignInView> {
                         InkWell(
                           child: Text(
                             "Забыли пароль?",
-                            style: GoogleFonts.nunito(
+                            style: TextStyle(
+                              fontFamily: "Nunito",
                               color: Color(0xff0C57AF),
                               fontSize: 14.sp,
                               fontWeight: FontWeight.bold,
@@ -334,7 +338,8 @@ class _SignInViewState extends State<SignInView> {
       onPressed: press,
       child: Text(
         text,
-        style: GoogleFonts.nunito(
+        style: TextStyle(
+          fontFamily: "Nunito",
           fontWeight: FontWeight.w700,
           fontSize: 16.sp,
           color: Colors.white,

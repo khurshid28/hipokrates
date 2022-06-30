@@ -66,13 +66,14 @@ class _ExperienceViewState extends State<ExperienceView> {
               ),
               Text(
                 "Опыт работы",
-                style: GoogleFonts.nunito(
+                style: TextStyle(
+                  fontFamily: "Nunito",
                   fontSize: 20.sp,
                   fontWeight: FontWeight.w700,
                   color: Colors.black,
                 ),
               ),
-               InkWell(
+              InkWell(
                 onTap: () {},
                 child: Container(
                   width: 36.w,
@@ -139,7 +140,8 @@ class _ExperienceViewState extends State<ExperienceView> {
                               children: [
                                 Text(
                                   "Аспирант",
-                                  style: GoogleFonts.nunito(
+                                  style: TextStyle(
+                                    fontFamily: "Nunito",
                                     fontSize: 16.sp,
                                     fontWeight: FontWeight.w400,
                                     color: const Color(0xff0C57AF),
@@ -150,7 +152,8 @@ class _ExperienceViewState extends State<ExperienceView> {
                                 ),
                                 Text(
                                   "Med Shox Center",
-                                  style: GoogleFonts.nunito(
+                                  style: TextStyle(
+                                    fontFamily: "Nunito",
                                     fontSize: 14.sp,
                                     fontWeight: FontWeight.w600,
                                     color: const Color(0xff050505),
@@ -161,7 +164,8 @@ class _ExperienceViewState extends State<ExperienceView> {
                                 ),
                                 Text(
                                   "Август 2020 – Сентябрь 2021",
-                                  style: GoogleFonts.nunito(
+                                  style: TextStyle(
+                                    fontFamily: "Nunito",
                                     fontSize: 14.sp,
                                     fontWeight: FontWeight.w600,
                                     color: const Color(0xff6F767E),

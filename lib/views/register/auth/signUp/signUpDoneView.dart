@@ -70,14 +70,16 @@ class _SignUpDoneViewState extends State<SignUpDoneView> {
                   children: [
                     Text(
                       "Давайте начнем",
-                      style: GoogleFonts.nunito(
+                      style: TextStyle(
+                          fontFamily: "Nunito",
                           fontWeight: FontWeight.bold,
                           color: Colors.black,
                           fontSize: 26.sp),
                     ),
                     Text(
                       "путешествие!",
-                      style: GoogleFonts.nunito(
+                      style: TextStyle(
+                          fontFamily: "Nunito",
                           fontWeight: FontWeight.bold,
                           color: Colors.black,
                           fontSize: 26.sp),
@@ -96,18 +98,24 @@ class _SignUpDoneViewState extends State<SignUpDoneView> {
                   children: [
                     Text(
                       "Если у Вас будут иметься вопросы или",
-                      style: GoogleFonts.nunito(
-                          color: Colors.black, fontSize: 14.sp),
+                      style: TextStyle(
+                          fontFamily: "Nunito",
+                          color: Colors.black,
+                          fontSize: 14.sp),
                     ),
                     Text(
                       "предложения, просим писать в службу",
-                      style: GoogleFonts.nunito(
-                          color: Colors.black, fontSize: 14.sp),
+                      style: TextStyle(
+                          fontFamily: "Nunito",
+                          color: Colors.black,
+                          fontSize: 14.sp),
                     ),
                     Text(
                       "поддержки и мы всегда будем Вам рады!",
-                      style: GoogleFonts.nunito(
-                          color: Colors.black, fontSize: 14.sp),
+                      style: TextStyle(
+                          fontFamily: "Nunito",
+                          color: Colors.black,
+                          fontSize: 14.sp),
                     ),
                   ],
                 ),
@@ -136,7 +144,8 @@ class _SignUpDoneViewState extends State<SignUpDoneView> {
                   alignment: Alignment.center,
                   child: Text(
                     "Начать свой путь",
-                    style: GoogleFonts.nunito(
+                    style: TextStyle(
+                      fontFamily: "Nunito",
                       fontSize: 16,
                       color: Colors.white,
                       fontWeight: FontWeight.bold,
@@ -215,7 +224,8 @@ class _SignUpDoneViewState extends State<SignUpDoneView> {
                                     ),
                                     title: Text(
                                       "Русский",
-                                      style: GoogleFonts.nunito(
+                                      style: TextStyle(
+                                        fontFamily: "Nunito",
                                         color: const Color(0xff6F767E),
                                         fontWeight: FontWeight.bold,
                                       ),
@@ -241,7 +251,8 @@ class _SignUpDoneViewState extends State<SignUpDoneView> {
                                     ),
                                     title: Text(
                                       "Узбекский",
-                                      style: GoogleFonts.nunito(
+                                      style: TextStyle(
+                                        fontFamily: "Nunito",
                                         color: const Color(0xff6F767E),
                                         fontWeight: FontWeight.bold,
                                       ),
@@ -268,7 +279,8 @@ class _SignUpDoneViewState extends State<SignUpDoneView> {
                                     ),
                                     title: Text(
                                       "Английский",
-                                      style: GoogleFonts.nunito(
+                                      style: TextStyle(
+                                        fontFamily: "Nunito",
                                         color: const Color(0xff6F767E),
                                         fontWeight: FontWeight.bold,
                                       ),
@@ -284,7 +296,9 @@ class _SignUpDoneViewState extends State<SignUpDoneView> {
                     child: Container(
                       width: 36.w,
                       height: 36.w,
-                      padding: EdgeInsets.all(8.75.w,),
+                      padding: EdgeInsets.all(
+                        8.75.w,
+                      ),
                       decoration: BoxDecoration(
                         color: Colors.white,
                         border: Border.all(color: Color(0xff5596E2), width: 2),

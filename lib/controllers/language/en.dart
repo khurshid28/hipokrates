@@ -4,4 +4,3 @@ class en implements Language {
   @override
   late RegisterWords register;
 }
-

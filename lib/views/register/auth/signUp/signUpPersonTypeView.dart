@@ -92,7 +92,8 @@ class _SignUpPersonViewState extends State<SignUpPersonView> {
                                 ),
                                 title: Text(
                                   "Русский",
-                                  style: GoogleFonts.nunito(
+                                  style: TextStyle(
+                                    fontFamily: "Nunito",
                                     color: const Color(0xff6F767E),
                                     fontWeight: FontWeight.bold,
                                   ),
@@ -118,7 +119,8 @@ class _SignUpPersonViewState extends State<SignUpPersonView> {
                                 ),
                                 title: Text(
                                   "Узбекский",
-                                  style: GoogleFonts.nunito(
+                                  style: TextStyle(
+                                    fontFamily: "Nunito",
                                     color: const Color(0xff6F767E),
                                     fontWeight: FontWeight.bold,
                                   ),
@@ -145,7 +147,8 @@ class _SignUpPersonViewState extends State<SignUpPersonView> {
                                 ),
                                 title: Text(
                                   "Английский",
-                                  style: GoogleFonts.nunito(
+                                  style: TextStyle(
+                                    fontFamily: "Nunito",
                                     color: const Color(0xff6F767E),
                                     fontWeight: FontWeight.bold,
                                   ),
@@ -161,7 +164,9 @@ class _SignUpPersonViewState extends State<SignUpPersonView> {
                 child: Container(
                   width: 36.w,
                   height: 36.w,
-                  padding: EdgeInsets.all(8.75.w,),
+                  padding: EdgeInsets.all(
+                    8.75.w,
+                  ),
                   decoration: BoxDecoration(
                     color: const Color.fromRGBO(252, 252, 252, 1),
                     borderRadius: BorderRadius.circular(
@@ -196,7 +201,8 @@ class _SignUpPersonViewState extends State<SignUpPersonView> {
                     padding: EdgeInsets.symmetric(vertical: 20.0.w),
                     child: Text(
                       "Регистрация",
-                      style: GoogleFonts.nunito(
+                      style: TextStyle(
+                        fontFamily: "Nunito",
                         fontSize: 32.sp,
                         fontWeight: FontWeight.w700,
                         color: Colors.black,
@@ -217,7 +223,8 @@ class _SignUpPersonViewState extends State<SignUpPersonView> {
                       children: [
                         Text(
                           "Определите свою позицию.",
-                          style: GoogleFonts.nunito(
+                          style: TextStyle(
+                              fontFamily: "Nunito",
                               color: Colors.black54,
                               fontWeight: FontWeight.bold,
                               fontSize: 12.sp),
@@ -255,8 +262,10 @@ class _SignUpPersonViewState extends State<SignUpPersonView> {
                             ),
                             Text(
                               "Студент",
-                              style: GoogleFonts.nunito(
-                                  fontWeight: FontWeight.bold, fontSize: 18.sp),
+                              style: TextStyle(
+                                  fontFamily: "Nunito",
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 18.sp),
                             ),
                           ],
                         ),
@@ -282,8 +291,10 @@ class _SignUpPersonViewState extends State<SignUpPersonView> {
                             ),
                             Text(
                               "Доктор",
-                              style: GoogleFonts.nunito(
-                                  fontWeight: FontWeight.bold, fontSize: 18.sp),
+                              style: TextStyle(
+                                  fontFamily: "Nunito",
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 18.sp),
                             ),
                           ],
                         ),
@@ -331,7 +342,8 @@ class _SignUpPersonViewState extends State<SignUpPersonView> {
       onPressed: press,
       child: Text(
         text,
-        style: GoogleFonts.nunito(
+        style: TextStyle(
+          fontFamily: "Nunito",
           fontWeight: FontWeight.w700,
           fontSize: 16.sp,
           color: Colors.white,

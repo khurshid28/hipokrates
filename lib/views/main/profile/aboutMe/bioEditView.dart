@@ -42,7 +42,6 @@ class _BioEditViewState extends State<BioEditView> {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               InkWell(
-
                 child: Container(
                   width: 36.w,
                   height: 36.w,
@@ -69,7 +68,8 @@ class _BioEditViewState extends State<BioEditView> {
               ),
               Text(
                 "Биография",
-                style: GoogleFonts.nunito(
+                style: TextStyle(
+                  fontFamily: "Nunito",
                   fontSize: 20.sp,
                   fontWeight: FontWeight.w700,
                   color: Colors.black,
@@ -77,19 +77,21 @@ class _BioEditViewState extends State<BioEditView> {
               ),
               // Container()
               InkWell(
-                onTap: () async{
+                onTap: () async {
                   Navigator.pop(context);
 
                   await Flushbar(
                     title: 'Hipokrates',
-                    dismissDirection:FlushbarDismissDirection.HORIZONTAL,
-                    flushbarPosition:FlushbarPosition.TOP,
+                    dismissDirection: FlushbarDismissDirection.HORIZONTAL,
+                    flushbarPosition: FlushbarPosition.TOP,
                     backgroundColor: Colors.green,
                     margin: EdgeInsets.symmetric(vertical: 20.h),
-                    padding: EdgeInsets.symmetric(horizontal: 16.w,vertical: 20.h,),
-                    message:
-                        'Data is saved to local storage',
-                    duration:const Duration(seconds: 2),
+                    padding: EdgeInsets.symmetric(
+                      horizontal: 16.w,
+                      vertical: 20.h,
+                    ),
+                    message: 'Data is saved to local storage',
+                    duration: const Duration(seconds: 2),
                   ).show(context);
                 },
                 child: Container(
@@ -100,7 +102,8 @@ class _BioEditViewState extends State<BioEditView> {
                     horizontal: 6.w,
                   ),
                   decoration: BoxDecoration(
-                    border: Border.all(color: const Color(0xff5596E2), width: 2),
+                    border:
+                        Border.all(color: const Color(0xff5596E2), width: 2),
                     color: const Color.fromRGBO(252, 252, 252, 1),
                     borderRadius: BorderRadius.circular(
                       10.0.h,

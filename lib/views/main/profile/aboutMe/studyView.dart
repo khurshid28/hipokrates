@@ -64,7 +64,8 @@ class _StudyViewState extends State<StudyView> {
               ),
               Text(
                 "Образование",
-                style: GoogleFonts.nunito(
+                style: TextStyle(
+                  fontFamily: "Nunito",
                   fontSize: 20.sp,
                   fontWeight: FontWeight.w700,
                   color: Colors.black,
@@ -94,8 +95,7 @@ class _StudyViewState extends State<StudyView> {
           ),
         ),
       ),
-      body:
-       SafeArea(
+      body: SafeArea(
         child: SingleChildScrollView(
           physics: const BouncingScrollPhysics(),
           child: Column(
@@ -138,7 +138,8 @@ class _StudyViewState extends State<StudyView> {
                               children: [
                                 Text(
                                   "Школа 23",
-                                  style: GoogleFonts.nunito(
+                                  style: TextStyle(
+                                    fontFamily: "Nunito",
                                     fontSize: 16.sp,
                                     fontWeight: FontWeight.w400,
                                     color: const Color(0xff0C57AF),
@@ -149,7 +150,8 @@ class _StudyViewState extends State<StudyView> {
                                 ),
                                 Text(
                                   "Среднее образование",
-                                  style: GoogleFonts.nunito(
+                                  style: TextStyle(
+                                    fontFamily: "Nunito",
                                     fontSize: 14.sp,
                                     fontWeight: FontWeight.w600,
                                     color: const Color(0xff050505),
@@ -160,7 +162,8 @@ class _StudyViewState extends State<StudyView> {
                                 ),
                                 Text(
                                   "Август 2020 – Сентябрь 2021",
-                                  style: GoogleFonts.nunito(
+                                  style: TextStyle(
+                                    fontFamily: "Nunito",
                                     fontSize: 14.sp,
                                     fontWeight: FontWeight.w600,
                                     color: const Color(0xff6F767E),
@@ -203,7 +206,6 @@ class _StudyViewState extends State<StudyView> {
           ),
         ),
       ),
-    
     );
   }
 }

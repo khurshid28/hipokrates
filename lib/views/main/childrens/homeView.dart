@@ -45,7 +45,8 @@ class _HomeViewState extends State<HomeView> {
                 children: [
                   Text(
                     "Доброе утро,",
-                    style: GoogleFonts.nunito(
+                    style: TextStyle(
+                      fontFamily: "Nunito",
                       fontSize: 14.sp,
                       fontWeight: FontWeight.w400,
                       color: const Color(
@@ -55,7 +56,8 @@ class _HomeViewState extends State<HomeView> {
                   ),
                   Text(
                     "Азизбек Азизов",
-                    style: GoogleFonts.nunito(
+                    style: TextStyle(
+                      fontFamily: "Nunito",
                       fontSize: 18.sp,
                       fontWeight: FontWeight.w700,
                       color: Colors.black,
@@ -103,7 +105,8 @@ class _HomeViewState extends State<HomeView> {
                 children: [
                   Text(
                     "Сообщество",
-                    style: GoogleFonts.nunito(
+                    style: TextStyle(
+                      fontFamily: "Nunito",
                       fontSize: 24.sp,
                       fontWeight: FontWeight.w700,
                       color: Colors.black,
@@ -141,7 +144,8 @@ class _HomeViewState extends State<HomeView> {
                               ),
                               child: Text(
                                 "Подробнее",
-                                style: GoogleFonts.nunito(
+                                style: TextStyle(
+                                  fontFamily: "Nunito",
                                   fontSize: 14.sp,
                                   fontWeight: FontWeight.w600,
                                   color: Colors.blue,
@@ -197,7 +201,8 @@ class _HomeViewState extends State<HomeView> {
                           ),
                           title: Text(
                             "Ибрагим Мухаммедов",
-                            style: GoogleFonts.nunito(
+                            style: TextStyle(
+                              fontFamily: "Nunito",
                               fontSize: 16.sp,
                               fontWeight: FontWeight.w600,
                               color: Colors.black,
@@ -209,7 +214,8 @@ class _HomeViewState extends State<HomeView> {
                             children: [
                               Text(
                                 "Главный невролог",
-                                style: GoogleFonts.nunito(
+                                style: TextStyle(
+                                  fontFamily: "Nunito",
                                   fontSize: 12.sp,
                                   fontWeight: FontWeight.w400,
                                   color: Colors.black,
@@ -217,7 +223,8 @@ class _HomeViewState extends State<HomeView> {
                               ),
                               Text(
                                 "12.02.2022",
-                                style: GoogleFonts.nunito(
+                                style: TextStyle(
+                                  fontFamily: "Nunito",
                                   fontSize: 12.sp,
                                   fontWeight: FontWeight.w400,
                                   color: Colors.black,
@@ -233,7 +240,8 @@ class _HomeViewState extends State<HomeView> {
                             children: [
                               Text(
                                 "Хотел сообщить вам о невероятно важном открытии, которое повергло меня в шок. Буквально недавно была проведена операция по трансплантации сердца. И в этой ситуации удивительно было то, что пациент, которому оказывалась данная пересадка, был мертв в течении 5 минут, но ожил, как только ему пересадили сердце. ",
-                                style: GoogleFonts.nunito(
+                                style: TextStyle(
+                                  fontFamily: "Nunito",
                                   fontSize: 14.sp,
                                   fontWeight: FontWeight.w400,
                                   height: 1.5,
@@ -253,7 +261,8 @@ class _HomeViewState extends State<HomeView> {
                                     ),
                                     child: Text(
                                       "Ибуклин",
-                                      style: GoogleFonts.nunito(
+                                      style: TextStyle(
+                                        fontFamily: "Nunito",
                                         fontSize: 12.sp,
                                         fontWeight: FontWeight.w600,
                                         color: Colors.black,
@@ -271,7 +280,8 @@ class _HomeViewState extends State<HomeView> {
                                     ),
                                     child: Text(
                                       "Болиутоляющее",
-                                      style: GoogleFonts.nunito(
+                                      style: TextStyle(
+                                        fontFamily: "Nunito",
                                         fontSize: 12.sp,
                                         fontWeight: FontWeight.w600,
                                         color: Colors.black,
@@ -304,7 +314,8 @@ class _HomeViewState extends State<HomeView> {
                                     onPressed: () {},
                                     child: Text(
                                       "Ответить",
-                                      style: GoogleFonts.nunito(
+                                      style: TextStyle(
+                                        fontFamily: "Nunito",
                                         fontSize: 14.sp,
                                         fontWeight: FontWeight.w400,
                                         height: 1.5,
@@ -362,7 +373,8 @@ class _HomeViewState extends State<HomeView> {
                 children: [
                   Text(
                     "Болезни",
-                    style: GoogleFonts.nunito(
+                    style: TextStyle(
+                      fontFamily: "Nunito",
                       fontSize: 24.sp,
                       fontWeight: FontWeight.w700,
                       color: Colors.black,
@@ -400,7 +412,8 @@ class _HomeViewState extends State<HomeView> {
                               ),
                               child: Text(
                                 "Подробнее",
-                                style: GoogleFonts.nunito(
+                                style: TextStyle(
+                                  fontFamily: "Nunito",
                                   fontSize: 14.sp,
                                   fontWeight: FontWeight.w600,
                                   color: Colors.blue,
@@ -448,7 +461,8 @@ class _HomeViewState extends State<HomeView> {
                           text: TextSpan(children: [
                             TextSpan(
                               text: 'Простуда' " - ",
-                              style: GoogleFonts.nunito(
+                              style: TextStyle(
+                                fontFamily: "Nunito",
                                 fontSize: 16.sp,
                                 fontWeight: FontWeight.w600,
                                 color: Colors.black,
@@ -457,7 +471,8 @@ class _HomeViewState extends State<HomeView> {
                             TextSpan(
                               text:
                                   "Термин «простуда» не является медицинским, однако он настолько приходится на холодное время года. Eтся присоединение бактериальной или вирусной инфекции.Возможно также совокупное воздействие этих микроорганизмов, когда на фоне ослабления иммунитета вследствие флоры.",
-                              style: GoogleFonts.nunito(
+                              style: TextStyle(
+                                fontFamily: "Nunito",
                                 fontSize: 14.sp,
                                 fontWeight: FontWeight.w500,
                                 color: Colors.grey,
@@ -476,7 +491,8 @@ class _HomeViewState extends State<HomeView> {
                               // ),
                               label: Text(
                                 'Кашель',
-                                style: GoogleFonts.nunito(
+                                style: TextStyle(
+                                  fontFamily: "Nunito",
                                   fontSize: 12.sp,
                                   fontWeight: FontWeight.w600,
                                   color: Colors.black,
@@ -495,7 +511,8 @@ class _HomeViewState extends State<HomeView> {
                               // ),
                               label: Text(
                                 'Температура',
-                                style: GoogleFonts.nunito(
+                                style: TextStyle(
+                                  fontFamily: "Nunito",
                                   fontSize: 12.sp,
                                   fontWeight: FontWeight.w600,
                                   color: Colors.black,
@@ -514,7 +531,8 @@ class _HomeViewState extends State<HomeView> {
                               // ),
                               label: Text(
                                 'Боль в горле',
-                                style: GoogleFonts.nunito(
+                                style: TextStyle(
+                                  fontFamily: "Nunito",
                                   fontSize: 12.sp,
                                   fontWeight: FontWeight.w600,
                                   color: Colors.black,
@@ -574,7 +592,8 @@ class _HomeViewState extends State<HomeView> {
                 children: [
                   Text(
                     "Частые категории",
-                    style: GoogleFonts.nunito(
+                    style: TextStyle(
+                      fontFamily: "Nunito",
                       fontSize: 24.sp,
                       fontWeight: FontWeight.w700,
                       color: Colors.black,
@@ -612,7 +631,8 @@ class _HomeViewState extends State<HomeView> {
                               ),
                               child: Text(
                                 "Подробнее",
-                                style: GoogleFonts.nunito(
+                                style: TextStyle(
+                                  fontFamily: "Nunito",
                                   fontSize: 14.sp,
                                   fontWeight: FontWeight.w600,
                                   color: Colors.blue,
@@ -662,7 +682,8 @@ class _HomeViewState extends State<HomeView> {
                             ),
                             Text(
                               "Сердце",
-                              style: GoogleFonts.nunito(
+                              style: TextStyle(
+                                fontFamily: "Nunito",
                                 fontSize: 20.sp,
                                 fontWeight: FontWeight.w600,
                                 color: Colors.black,
@@ -704,98 +725,8 @@ class _HomeViewState extends State<HomeView> {
                             ),
                             Text(
                               "Сердце",
-                              style: GoogleFonts.nunito(
-                                fontSize: 20.sp,
-                                fontWeight: FontWeight.w600,
-                                color: Colors.black,
-                              ),
-                            ),
-                          ],
-                        ),
-                      ),
-                    ],
-                  ),
-                ],
-              ),
-              SizedBox(height: 16.h),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                crossAxisAlignment: CrossAxisAlignment.center,
-                children: [
-                  Row(
-                    children: [
-                      Container(
-                        height: 56.w,
-                        width: MediaQuery.of(context).size.width * 0.4,
-                        padding: EdgeInsets.symmetric(
-                          horizontal: 16.w,
-                          vertical: 8.h,
-                        ),
-                        decoration: BoxDecoration(
-                          color: Colors.white,
-                          borderRadius: BorderRadius.circular(
-                            8.r,
-                          ),
-                          boxShadow: [
-                            BoxShadow(
-                                color: Colors.black.withOpacity(0.1),
-                                blurRadius: 5.r),
-                          ],
-                        ),
-                        child: Row(
-                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          crossAxisAlignment: CrossAxisAlignment.center,
-                          children: [
-                            Image.asset(
-                              "assets/images/profile.png",
-                              height: 32.h,
-                              width: 24.w,
-                            ),
-                            Text(
-                              "Сердце",
-                              style: GoogleFonts.nunito(
-                                fontSize: 20.sp,
-                                fontWeight: FontWeight.w600,
-                                color: Colors.black,
-                              ),
-                            ),
-                          ],
-                        ),
-                      ),
-                    ],
-                  ),
-                  Row(
-                    children: [
-                      Container(
-                        height: 56.w,
-                        width: MediaQuery.of(context).size.width * 0.4,
-                        padding: EdgeInsets.symmetric(
-                          horizontal: 16.w,
-                          vertical: 8.h,
-                        ),
-                        decoration: BoxDecoration(
-                          color: Colors.white,
-                          borderRadius: BorderRadius.circular(
-                            8.r,
-                          ),
-                          boxShadow: [
-                            BoxShadow(
-                                color: Colors.black.withOpacity(0.1),
-                                blurRadius: 5.r),
-                          ],
-                        ),
-                        child: Row(
-                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          crossAxisAlignment: CrossAxisAlignment.center,
-                          children: [
-                            Image.asset(
-                              "assets/images/profile.png",
-                              height: 32.h,
-                              width: 24.w,
-                            ),
-                            Text(
-                              "Сердце",
-                              style: GoogleFonts.nunito(
+                              style: TextStyle(
+                                fontFamily: "Nunito",
                                 fontSize: 20.sp,
                                 fontWeight: FontWeight.w600,
                                 color: Colors.black,
@@ -844,7 +775,8 @@ class _HomeViewState extends State<HomeView> {
                             ),
                             Text(
                               "Сердце",
-                              style: GoogleFonts.nunito(
+                              style: TextStyle(
+                                fontFamily: "Nunito",
                                 fontSize: 20.sp,
                                 fontWeight: FontWeight.w600,
                                 color: Colors.black,
@@ -886,7 +818,101 @@ class _HomeViewState extends State<HomeView> {
                             ),
                             Text(
                               "Сердце",
-                              style: GoogleFonts.nunito(
+                              style: TextStyle(
+                                fontFamily: "Nunito",
+                                fontSize: 20.sp,
+                                fontWeight: FontWeight.w600,
+                                color: Colors.black,
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
+                ],
+              ),
+              SizedBox(height: 16.h),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  Row(
+                    children: [
+                      Container(
+                        height: 56.w,
+                        width: MediaQuery.of(context).size.width * 0.4,
+                        padding: EdgeInsets.symmetric(
+                          horizontal: 16.w,
+                          vertical: 8.h,
+                        ),
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.circular(
+                            8.r,
+                          ),
+                          boxShadow: [
+                            BoxShadow(
+                                color: Colors.black.withOpacity(0.1),
+                                blurRadius: 5.r),
+                          ],
+                        ),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          crossAxisAlignment: CrossAxisAlignment.center,
+                          children: [
+                            Image.asset(
+                              "assets/images/profile.png",
+                              height: 32.h,
+                              width: 24.w,
+                            ),
+                            Text(
+                              "Сердце",
+                              style: TextStyle(
+                                fontFamily: "Nunito",
+                                fontSize: 20.sp,
+                                fontWeight: FontWeight.w600,
+                                color: Colors.black,
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
+                  Row(
+                    children: [
+                      Container(
+                        height: 56.w,
+                        width: MediaQuery.of(context).size.width * 0.4,
+                        padding: EdgeInsets.symmetric(
+                          horizontal: 16.w,
+                          vertical: 8.h,
+                        ),
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.circular(
+                            8.r,
+                          ),
+                          boxShadow: [
+                            BoxShadow(
+                                color: Colors.black.withOpacity(0.1),
+                                blurRadius: 5.r),
+                          ],
+                        ),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          crossAxisAlignment: CrossAxisAlignment.center,
+                          children: [
+                            Image.asset(
+                              "assets/images/profile.png",
+                              height: 32.h,
+                              width: 24.w,
+                            ),
+                            Text(
+                              "Сердце",
+                              style: TextStyle(
+                                fontFamily: "Nunito",
                                 fontSize: 20.sp,
                                 fontWeight: FontWeight.w600,
                                 color: Colors.black,
@@ -925,7 +951,7 @@ class _HomeViewState extends State<HomeView> {
                   //     children: [
                   //       Text(
                   //         "Консультация",
-                  //         style: GoogleFonts.nunito(
+                  //         style: TextStyle(fontFamily: "Nunito",
                   //           color: const Color(0xff050505),
                   //           fontSize: 16.sp,
                   //           fontWeight: FontWeight.w400,
@@ -984,7 +1010,7 @@ class _HomeViewState extends State<HomeView> {
                   //     children: [
                   //       Text(
                   //         "Помощь",
-                  //         style: GoogleFonts.nunito(
+                  //         style: TextStyle(fontFamily: "Nunito",
                   //           color: const Color(0xff050505),
                   //           fontSize: 16.sp,
                   //           fontWeight: FontWeight.w400,

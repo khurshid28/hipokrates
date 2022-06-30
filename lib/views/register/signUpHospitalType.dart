@@ -91,7 +91,8 @@ class _SignUpHospitalViewState extends State<SignUpHospitalView> {
                     padding: EdgeInsets.symmetric(vertical: 20.0.w),
                     child: Text(
                       "Регистрация",
-                      style: GoogleFonts.nunito(
+                      style: TextStyle(
+                        fontFamily: "Nunito",
                         fontSize: 32.sp,
                         fontWeight: FontWeight.w700,
                         color: Colors.black,
@@ -109,7 +110,8 @@ class _SignUpHospitalViewState extends State<SignUpHospitalView> {
                     alignment: Alignment.topLeft,
                     child: Text(
                       "Название Больницы",
-                      style: GoogleFonts.nunito(
+                      style: TextStyle(
+                        fontFamily: "Nunito",
                         fontWeight: FontWeight.w600,
                       ),
                     ),
@@ -143,7 +145,8 @@ class _SignUpHospitalViewState extends State<SignUpHospitalView> {
                       },
                       decoration: InputDecoration(
                         hintText: "Впишите тег",
-                        hintStyle: GoogleFonts.nunito(
+                        hintStyle: TextStyle(
+                            fontFamily: "Nunito",
                             fontWeight: FontWeight.w600,
                             color: const Color.fromRGBO(111, 118, 126, 1)),
                         contentPadding: const EdgeInsets.all(15),
@@ -174,7 +177,8 @@ class _SignUpHospitalViewState extends State<SignUpHospitalView> {
                     alignment: Alignment.topLeft,
                     child: Text(
                       "Департамент",
-                      style: GoogleFonts.nunito(
+                      style: TextStyle(
+                        fontFamily: "Nunito",
                         fontWeight: FontWeight.w600,
                       ),
                     ),
@@ -208,7 +212,8 @@ class _SignUpHospitalViewState extends State<SignUpHospitalView> {
                       },
                       decoration: InputDecoration(
                         hintText: "Степень",
-                        hintStyle: GoogleFonts.nunito(
+                        hintStyle: TextStyle(
+                            fontFamily: "Nunito",
                             fontWeight: FontWeight.w600,
                             color: const Color.fromRGBO(111, 118, 126, 1)),
                         contentPadding: const EdgeInsets.all(15),
@@ -247,7 +252,8 @@ class _SignUpHospitalViewState extends State<SignUpHospitalView> {
                                 alignment: Alignment.topLeft,
                                 child: Text(
                                   "Позиция",
-                                  style: GoogleFonts.nunito(
+                                  style: TextStyle(
+                                    fontFamily: "Nunito",
                                     fontWeight: FontWeight.w600,
                                   ),
                                 ),
@@ -282,7 +288,8 @@ class _SignUpHospitalViewState extends State<SignUpHospitalView> {
                                   },
                                   decoration: InputDecoration(
                                     hintText: "Впишите тег",
-                                    hintStyle: GoogleFonts.nunito(
+                                    hintStyle: TextStyle(
+                                        fontFamily: "Nunito",
                                         fontWeight: FontWeight.w600,
                                         color: const Color.fromRGBO(
                                             111, 118, 126, 1)),
@@ -318,7 +325,8 @@ class _SignUpHospitalViewState extends State<SignUpHospitalView> {
                                 alignment: Alignment.topLeft,
                                 child: Text(
                                   "Начало работы",
-                                  style: GoogleFonts.nunito(
+                                  style: TextStyle(
+                                    fontFamily: "Nunito",
                                     fontWeight: FontWeight.w600,
                                   ),
                                 ),
@@ -361,7 +369,8 @@ class _SignUpHospitalViewState extends State<SignUpHospitalView> {
                                         },
                                         decoration: InputDecoration(
                                           hintText: "Дата",
-                                          hintStyle: GoogleFonts.nunito(
+                                          hintStyle: TextStyle(
+                                              fontFamily: "Nunito",
                                               fontWeight: FontWeight.w600,
                                               color: const Color.fromRGBO(
                                                   111, 118, 126, 1)),
@@ -452,7 +461,8 @@ class _SignUpHospitalViewState extends State<SignUpHospitalView> {
       onPressed: press,
       child: Text(
         text,
-        style: GoogleFonts.nunito(
+        style: TextStyle(
+          fontFamily: "Nunito",
           fontWeight: FontWeight.w700,
           fontSize: 16.sp,
           color: Colors.white,

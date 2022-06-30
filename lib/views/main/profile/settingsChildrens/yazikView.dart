@@ -65,7 +65,8 @@ class _YazikViewState extends State<YazikView> {
               ),
               Text(
                 "Настройки",
-                style: GoogleFonts.nunito(
+                style: TextStyle(
+                  fontFamily: "Nunito",
                   fontSize: 20.sp,
                   fontWeight: FontWeight.w700,
                   color: Colors.black,
@@ -93,7 +94,8 @@ class _YazikViewState extends State<YazikView> {
                 children: [
                   Text(
                     "Язык",
-                    style: GoogleFonts.nunito(
+                    style: TextStyle(
+                      fontFamily: "Nunito",
                       fontSize: 20.sp,
                       fontWeight: FontWeight.w600,
                       color: const Color(0xff050505),
@@ -104,7 +106,6 @@ class _YazikViewState extends State<YazikView> {
               SizedBox(
                 height: 8.h,
               ),
-              
               Container(
                 width: 327.w,
                 height: 140.h,
@@ -138,7 +139,8 @@ class _YazikViewState extends State<YazikView> {
                         children: [
                           Text(
                             "Русский",
-                            style: GoogleFonts.nunito(
+                            style: TextStyle(
+                                fontFamily: "Nunito",
                                 fontSize: 16.sp,
                                 fontWeight: FontWeight.w600,
                                 color: const Color(0xff050505)),
@@ -170,7 +172,8 @@ class _YazikViewState extends State<YazikView> {
                         children: [
                           Text(
                             "Английский",
-                            style: GoogleFonts.nunito(
+                            style: TextStyle(
+                                fontFamily: "Nunito",
                                 fontSize: 16.sp,
                                 fontWeight: FontWeight.w600,
                                 color: const Color(0xff050505)),
@@ -196,7 +199,8 @@ class _YazikViewState extends State<YazikView> {
                           children: [
                             Text(
                               "Узбекский",
-                              style: GoogleFonts.nunito(
+                              style: TextStyle(
+                                  fontFamily: "Nunito",
                                   fontSize: 16.sp,
                                   fontWeight: FontWeight.w600,
                                   color: const Color(0xff050505)),

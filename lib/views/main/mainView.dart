@@ -160,7 +160,8 @@ class _MainViewState extends State<MainView> {
                   if (selectBottomItem == 0)
                     Text(
                       "Главная",
-                      style: GoogleFonts.nunito(
+                      style: TextStyle(
+                        fontFamily: "Nunito",
                         color: selectBottomItem == 0
                             ? const Color(0xff5596E2)
                             : const Color(0xff6F767E),
@@ -205,7 +206,8 @@ class _MainViewState extends State<MainView> {
                   if (selectBottomItem == 1)
                     Text(
                       "Рецепты",
-                      style: GoogleFonts.nunito(
+                      style: TextStyle(
+                        fontFamily: "Nunito",
                         color: const Color(0xff5596E2),
                       ),
                     ),
@@ -248,7 +250,8 @@ class _MainViewState extends State<MainView> {
                   if (selectBottomItem == 2)
                     Text(
                       "Болезни",
-                      style: GoogleFonts.nunito(
+                      style: TextStyle(
+                        fontFamily: "Nunito",
                         color: const Color(0xff5596E2),
                       ),
                     ),
@@ -291,7 +294,8 @@ class _MainViewState extends State<MainView> {
                   if (selectBottomItem == 3)
                     Text(
                       "Чат",
-                      style: GoogleFonts.nunito(
+                      style: TextStyle(
+                        fontFamily: "Nunito",
                         color: const Color(0xff5596E2),
                       ),
                     ),

@@ -38,6 +38,7 @@ class ChooseLanguageWords {
     required this.subtitle,
     required this.trealing,
     required this.languages,
+    required String description,
   });
 }
 

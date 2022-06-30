@@ -65,7 +65,8 @@ class _CommunitySubState extends State<CommunitySub> {
                 ),
                 Text(
                   "Сообщество",
-                  style: GoogleFonts.nunito(
+                  style: TextStyle(
+                    fontFamily: "Nunito",
                     fontSize: 20.sp,
                     fontWeight: FontWeight.w700,
                     color: Colors.black,
@@ -126,7 +127,8 @@ class _CommunitySubState extends State<CommunitySub> {
                   filled: true,
                   prefixIcon: Icon(Icons.search_outlined),
                   hintText: "Поиск",
-                  hintStyle: GoogleFonts.nunito(
+                  hintStyle: TextStyle(
+                    fontFamily: "Nunito",
                     fontSize: 14.sp,
                     fontWeight: FontWeight.w600,
                     color: const Color(
@@ -151,7 +153,8 @@ class _CommunitySubState extends State<CommunitySub> {
                       // ),
                       label: Text(
                         'Описание',
-                        style: GoogleFonts.nunito(
+                        style: TextStyle(
+                          fontFamily: "Nunito",
                           fontSize: 12.sp,
                           fontWeight: FontWeight.w600,
                           color: Colors.black,
@@ -171,7 +174,8 @@ class _CommunitySubState extends State<CommunitySub> {
                       // ),
                       label: Text(
                         'Характеристики',
-                        style: GoogleFonts.nunito(
+                        style: TextStyle(
+                          fontFamily: "Nunito",
                           fontSize: 12.sp,
                           fontWeight: FontWeight.w600,
                           color: Colors.black,
@@ -191,7 +195,8 @@ class _CommunitySubState extends State<CommunitySub> {
                       // ),
                       label: Text(
                         'Инструкция',
-                        style: GoogleFonts.nunito(
+                        style: TextStyle(
+                          fontFamily: "Nunito",
                           fontSize: 12.sp,
                           fontWeight: FontWeight.w600,
                           color: Colors.black,
@@ -256,7 +261,8 @@ class _CommunitySubState extends State<CommunitySub> {
                                       ),
                                       title: Text(
                                         "Ибрагим Мухаммедов",
-                                        style: GoogleFonts.nunito(
+                                        style: TextStyle(
+                                          fontFamily: "Nunito",
                                           fontSize: 16.sp,
                                           fontWeight: FontWeight.w600,
                                           color: Colors.black,
@@ -270,7 +276,8 @@ class _CommunitySubState extends State<CommunitySub> {
                                         children: [
                                           Text(
                                             "Главный невролог",
-                                            style: GoogleFonts.nunito(
+                                            style: TextStyle(
+                                              fontFamily: "Nunito",
                                               fontSize: 12.sp,
                                               fontWeight: FontWeight.w400,
                                               color: Colors.black,
@@ -278,7 +285,8 @@ class _CommunitySubState extends State<CommunitySub> {
                                           ),
                                           Text(
                                             "12.02.2022",
-                                            style: GoogleFonts.nunito(
+                                            style: TextStyle(
+                                              fontFamily: "Nunito",
                                               fontSize: 12.sp,
                                               fontWeight: FontWeight.w400,
                                               color: Colors.black,
@@ -294,7 +302,8 @@ class _CommunitySubState extends State<CommunitySub> {
                                         children: [
                                           Text(
                                             "Хотел сообщить вам о невероятно важном открытии, которое повергло меня в шок. Буквально недавно была проведена операция по трансплантации сердца. И в этой ситуации удивительно было то, что пациент, которому оказывалась данная пересадка, был мертв в течении 5 минут, но ожил, как только ему пересадили сердце. ",
-                                            style: GoogleFonts.nunito(
+                                            style: TextStyle(
+                                              fontFamily: "Nunito",
                                               fontSize: 14.sp,
                                               fontWeight: FontWeight.w400,
                                               height: 1.5,
@@ -316,7 +325,8 @@ class _CommunitySubState extends State<CommunitySub> {
                                                 ),
                                                 child: Text(
                                                   "Ибуклин",
-                                                  style: GoogleFonts.nunito(
+                                                  style: TextStyle(
+                                                    fontFamily: "Nunito",
                                                     fontSize: 12.sp,
                                                     fontWeight: FontWeight.w600,
                                                     color: Colors.black,
@@ -335,7 +345,8 @@ class _CommunitySubState extends State<CommunitySub> {
                                                 ),
                                                 child: Text(
                                                   "Болиутоляющее",
-                                                  style: GoogleFonts.nunito(
+                                                  style: TextStyle(
+                                                    fontFamily: "Nunito",
                                                     fontSize: 12.sp,
                                                     fontWeight: FontWeight.w600,
                                                     color: Colors.black,
@@ -377,7 +388,8 @@ class _CommunitySubState extends State<CommunitySub> {
                                                 onPressed: () {},
                                                 child: Text(
                                                   "Ответить",
-                                                  style: GoogleFonts.nunito(
+                                                  style: TextStyle(
+                                                    fontFamily: "Nunito",
                                                     fontSize: 14.sp,
                                                     fontWeight: FontWeight.w400,
                                                     height: 1.5,

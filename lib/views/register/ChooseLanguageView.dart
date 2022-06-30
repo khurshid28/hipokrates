@@ -69,14 +69,16 @@ class _ChooseLanguageViewState extends State<ChooseLanguageView> {
                   children: [
                     Text(
                       "Добро пожаловать",
-                      style: GoogleFonts.nunito(
+                      style: TextStyle(
+                          fontFamily: "Nunito",
                           fontWeight: FontWeight.bold,
                           color: Colors.black,
                           fontSize: 26.sp),
                     ),
                     Text(
                       "в Гиппократ",
-                      style: GoogleFonts.nunito(
+                      style: TextStyle(
+                          fontFamily: "Nunito",
                           fontWeight: FontWeight.bold,
                           color: Colors.black,
                           fontSize: 26.sp),
@@ -95,13 +97,17 @@ class _ChooseLanguageViewState extends State<ChooseLanguageView> {
                   children: [
                     Text(
                       "Мы поможем Вам найти лучший способ",
-                      style: GoogleFonts.nunito(
-                          color: Colors.black, fontSize: 14.sp),
+                      style: TextStyle(
+                          fontFamily: "Nunito",
+                          color: Colors.black,
+                          fontSize: 14.sp),
                     ),
                     Text(
                       "для предоставления помощи пациентам!",
-                      style: GoogleFonts.nunito(
-                          color: Colors.black, fontSize: 14.sp),
+                      style: TextStyle(
+                          fontFamily: "Nunito",
+                          color: Colors.black,
+                          fontSize: 14.sp),
                     ),
                   ],
                 ),
@@ -117,8 +123,10 @@ class _ChooseLanguageViewState extends State<ChooseLanguageView> {
                   children: [
                     Text(
                       "Для начала выберите язык пользования.",
-                      style: GoogleFonts.nunito(
-                          color: Colors.black, fontSize: 14.sp),
+                      style: TextStyle(
+                          fontFamily: "Nunito",
+                          color: Colors.black,
+                          fontSize: 14.sp),
                     ),
                   ],
                 ),
@@ -155,7 +163,8 @@ class _ChooseLanguageViewState extends State<ChooseLanguageView> {
                         ),
                         child: Text(
                           "Русский",
-                          style: GoogleFonts.nunito(
+                          style: TextStyle(
+                            fontFamily: "Nunito",
                             fontSize: 16,
                             color: Colors.white,
                             fontWeight: FontWeight.bold,
@@ -168,7 +177,8 @@ class _ChooseLanguageViewState extends State<ChooseLanguageView> {
                         alignment: Alignment.center,
                         child: Text(
                           "Узбекский",
-                          style: GoogleFonts.nunito(
+                          style: TextStyle(
+                            fontFamily: "Nunito",
                             fontSize: 16,
                             color: Color(0xff0C57AF),
                             fontWeight: FontWeight.bold,
@@ -186,7 +196,8 @@ class _ChooseLanguageViewState extends State<ChooseLanguageView> {
                         ),
                         child: Text(
                           "Английский",
-                          style: GoogleFonts.nunito(
+                          style: TextStyle(
+                            fontFamily: "Nunito",
                             fontSize: 16,
                             color: Color(0xff0C57AF),
                             fontWeight: FontWeight.bold,

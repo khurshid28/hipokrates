@@ -68,7 +68,8 @@ class _ArticlesViewState extends State<ArticlesView> {
               ),
               Text(
                 "Научные работы",
-                style: GoogleFonts.nunito(
+                style: TextStyle(
+                  fontFamily: "Nunito",
                   fontSize: 20.sp,
                   fontWeight: FontWeight.w700,
                   color: Colors.black,
@@ -185,7 +186,8 @@ class _ArticlesViewState extends State<ArticlesView> {
                                     children: [
                                       Text(
                                         "Название научной работы",
-                                        style: GoogleFonts.nunito(
+                                        style: TextStyle(
+                                          fontFamily: "Nunito",
                                           fontSize: 16.sp,
                                           fontWeight: FontWeight.w400,
                                           color: const Color(0xff0C57AF),
@@ -196,7 +198,8 @@ class _ArticlesViewState extends State<ArticlesView> {
                                       ),
                                       Text(
                                         "Краткое описание",
-                                        style: GoogleFonts.nunito(
+                                        style: TextStyle(
+                                          fontFamily: "Nunito",
                                           fontSize: 14.sp,
                                           fontWeight: FontWeight.w600,
                                           color: const Color(0xff050505),
@@ -207,7 +210,8 @@ class _ArticlesViewState extends State<ArticlesView> {
                                       ),
                                       Text(
                                         "Год получения",
-                                        style: GoogleFonts.nunito(
+                                        style: TextStyle(
+                                          fontFamily: "Nunito",
                                           fontSize: 14.sp,
                                           fontWeight: FontWeight.w600,
                                           color: const Color(0xff6F767E),
@@ -375,7 +379,8 @@ class _ArticlesViewState extends State<ArticlesView> {
                                                                               Text(
                                                                             "Отменить",
                                                                             style:
-                                                                                GoogleFonts.nunito(
+                                                                                TextStyle(
+                                                                              fontFamily: "Nunito",
                                                                               color: const Color(0xff0C57AF),
                                                                               fontSize: 16.sp,
                                                                               fontWeight: FontWeight.w700,
@@ -415,7 +420,8 @@ class _ArticlesViewState extends State<ArticlesView> {
                                                                               Text(
                                                                             "Удалить",
                                                                             style:
-                                                                                GoogleFonts.nunito(
+                                                                                TextStyle(
+                                                                              fontFamily: "Nunito",
                                                                               color: Colors.white,
                                                                               fontSize: 16.sp,
                                                                               fontWeight: FontWeight.w700,
@@ -558,7 +564,8 @@ class _AddorUpdateArticleAlertState extends State<AddorUpdateArticleAlert> {
                   children: [
                     Text(
                       "Добавьте опыт работы",
-                      style: GoogleFonts.nunito(
+                      style: TextStyle(
+                        fontFamily: "Nunito",
                         color: const Color(0xff050505),
                         fontWeight: FontWeight.w700,
                         fontSize: 20.sp,
@@ -612,7 +619,8 @@ class _AddorUpdateArticleAlertState extends State<AddorUpdateArticleAlert> {
                               children: [
                                 Text(
                                   "Место работы",
-                                  style: GoogleFonts.nunito(
+                                  style: TextStyle(
+                                    fontFamily: "Nunito",
                                     fontSize: 16.sp,
                                     fontWeight: FontWeight.w400,
                                     color: const Color(0xff0C57AF),
@@ -646,7 +654,8 @@ class _AddorUpdateArticleAlertState extends State<AddorUpdateArticleAlert> {
                                           },
                                           decoration: InputDecoration(
                                             hintText: "Место работы",
-                                            hintStyle: GoogleFonts.nunito(
+                                            hintStyle: TextStyle(
+                                              fontFamily: "Nunito",
                                               fontSize: 14.sp,
                                               fontWeight: FontWeight.w600,
                                               color: const Color.fromRGBO(
@@ -684,7 +693,8 @@ class _AddorUpdateArticleAlertState extends State<AddorUpdateArticleAlert> {
                               children: [
                                 Text(
                                   "Должность",
-                                  style: GoogleFonts.nunito(
+                                  style: TextStyle(
+                                    fontFamily: "Nunito",
                                     fontSize: 16.sp,
                                     fontWeight: FontWeight.w400,
                                     color: const Color(0xff0C57AF),
@@ -718,7 +728,8 @@ class _AddorUpdateArticleAlertState extends State<AddorUpdateArticleAlert> {
                                           },
                                           decoration: InputDecoration(
                                             hintText: "Должность",
-                                            hintStyle: GoogleFonts.nunito(
+                                            hintStyle: TextStyle(
+                                              fontFamily: "Nunito",
                                               fontSize: 14.sp,
                                               fontWeight: FontWeight.w600,
                                               color: const Color.fromRGBO(
@@ -764,7 +775,8 @@ class _AddorUpdateArticleAlertState extends State<AddorUpdateArticleAlert> {
                               children: [
                                 Text(
                                   "Годы работы",
-                                  style: GoogleFonts.nunito(
+                                  style: TextStyle(
+                                    fontFamily: "Nunito",
                                     fontSize: 16.sp,
                                     fontWeight: FontWeight.w400,
                                     color: const Color(0xff0C57AF),
@@ -800,7 +812,8 @@ class _AddorUpdateArticleAlertState extends State<AddorUpdateArticleAlert> {
                                               },
                                               decoration: InputDecoration(
                                                 hintText: "С",
-                                                hintStyle: GoogleFonts.nunito(
+                                                hintStyle: TextStyle(
+                                                    fontFamily: "Nunito",
                                                     fontWeight: FontWeight.w600,
                                                     color: const Color.fromRGBO(
                                                         111, 118, 126, 1)),
@@ -926,7 +939,8 @@ class _AddorUpdateArticleAlertState extends State<AddorUpdateArticleAlert> {
                                                                             child:
                                                                                 Text(
                                                                               "Отменить",
-                                                                              style: GoogleFonts.nunito(
+                                                                              style: TextStyle(
+                                                                                fontFamily: "Nunito",
                                                                                 color: const Color(0xff5596E2),
                                                                                 fontWeight: FontWeight.w700,
                                                                               ),
@@ -953,7 +967,8 @@ class _AddorUpdateArticleAlertState extends State<AddorUpdateArticleAlert> {
                                                                             child:
                                                                                 Text(
                                                                               "Подтвердить",
-                                                                              style: GoogleFonts.nunito(
+                                                                              style: TextStyle(
+                                                                                fontFamily: "Nunito",
                                                                                 color: Colors.white,
                                                                                 fontWeight: FontWeight.w700,
                                                                               ),
@@ -1002,7 +1017,8 @@ class _AddorUpdateArticleAlertState extends State<AddorUpdateArticleAlert> {
                               children: [
                                 Text(
                                   "",
-                                  style: GoogleFonts.nunito(
+                                  style: TextStyle(
+                                    fontFamily: "Nunito",
                                     fontSize: 16.sp,
                                     fontWeight: FontWeight.w400,
                                     color: const Color(0xff0C57AF),
@@ -1035,7 +1051,8 @@ class _AddorUpdateArticleAlertState extends State<AddorUpdateArticleAlert> {
                                               },
                                               decoration: InputDecoration(
                                                 hintText: "До",
-                                                hintStyle: GoogleFonts.nunito(
+                                                hintStyle: TextStyle(
+                                                    fontFamily: "Nunito",
                                                     fontWeight: FontWeight.w600,
                                                     color: const Color.fromRGBO(
                                                         111, 118, 126, 1)),
@@ -1161,7 +1178,8 @@ class _AddorUpdateArticleAlertState extends State<AddorUpdateArticleAlert> {
                                                                             child:
                                                                                 Text(
                                                                               "Отменить",
-                                                                              style: GoogleFonts.nunito(
+                                                                              style: TextStyle(
+                                                                                fontFamily: "Nunito",
                                                                                 color: const Color(0xff5596E2),
                                                                                 fontWeight: FontWeight.w700,
                                                                               ),
@@ -1188,7 +1206,8 @@ class _AddorUpdateArticleAlertState extends State<AddorUpdateArticleAlert> {
                                                                             child:
                                                                                 Text(
                                                                               "Подтвердить",
-                                                                              style: GoogleFonts.nunito(
+                                                                              style: TextStyle(
+                                                                                fontFamily: "Nunito",
                                                                                 color: Colors.white,
                                                                                 fontWeight: FontWeight.w700,
                                                                               ),
@@ -1244,7 +1263,7 @@ class _AddorUpdateArticleAlertState extends State<AddorUpdateArticleAlert> {
                                     //         borderSide: BorderSide.none,
                                     //       ),
                                     //       hintText: "До",
-                                    //       hintStyle: GoogleFonts.nunito(
+                                    //       hintStyle: TextStyle(fontFamily: "Nunito",
                                     //           color: Color(0xff6F767E),
                                     //           fontSize: 14.sp,
                                     //           fontWeight: FontWeight.w600),
@@ -1296,7 +1315,8 @@ class _AddorUpdateArticleAlertState extends State<AddorUpdateArticleAlert> {
                       ),
                       child: Text(
                         "Добавить еще",
-                        style: GoogleFonts.nunito(
+                        style: TextStyle(
+                          fontFamily: "Nunito",
                           fontSize: 14.sp,
                           fontWeight: FontWeight.w700,
                           color: const Color(0xff5596E2),
@@ -1332,7 +1352,8 @@ class _AddorUpdateArticleAlertState extends State<AddorUpdateArticleAlert> {
                         ),
                         child: Text(
                           "Применить",
-                          style: GoogleFonts.nunito(
+                          style: TextStyle(
+                            fontFamily: "Nunito",
                             fontSize: 16.sp,
                             fontWeight: FontWeight.w700,
                             color: Colors.white,

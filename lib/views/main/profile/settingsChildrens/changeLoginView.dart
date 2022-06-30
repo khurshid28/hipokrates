@@ -66,7 +66,8 @@ class _ChangeLoginViewState extends State<ChangeLoginView> {
               ),
               Text(
                 "Настройки",
-                style: GoogleFonts.nunito(
+                style: TextStyle(
+                  fontFamily: "Nunito",
                   fontSize: 20.sp,
                   fontWeight: FontWeight.w700,
                   color: Colors.black,
@@ -94,7 +95,8 @@ class _ChangeLoginViewState extends State<ChangeLoginView> {
                 children: [
                   Text(
                     "Изменение логина",
-                    style: GoogleFonts.nunito(
+                    style: TextStyle(
+                      fontFamily: "Nunito",
                       fontSize: 20.sp,
                       fontWeight: FontWeight.w600,
                       color: const Color(0xff050505),
@@ -109,7 +111,8 @@ class _ChangeLoginViewState extends State<ChangeLoginView> {
                 children: [
                   Text(
                     "Категории",
-                    style: GoogleFonts.nunito(
+                    style: TextStyle(
+                      fontFamily: "Nunito",
                       fontSize: 14.sp,
                       fontWeight: FontWeight.w600,
                       color: const Color(0xff050505),
@@ -146,7 +149,8 @@ class _ChangeLoginViewState extends State<ChangeLoginView> {
                       borderSide: BorderSide.none,
                     ),
                     hintText: "Прошлый логин",
-                    hintStyle: GoogleFonts.nunito(
+                    hintStyle: TextStyle(
+                      fontFamily: "Nunito",
                       color: const Color(0xff6F767E),
                       fontSize: 14.sp,
                       fontWeight: FontWeight.w600,
@@ -161,7 +165,8 @@ class _ChangeLoginViewState extends State<ChangeLoginView> {
                 children: [
                   Text(
                     "Новый логин",
-                    style: GoogleFonts.nunito(
+                    style: TextStyle(
+                      fontFamily: "Nunito",
                       fontSize: 14.sp,
                       fontWeight: FontWeight.w600,
                       color: const Color(0xff050505),
@@ -198,7 +203,8 @@ class _ChangeLoginViewState extends State<ChangeLoginView> {
                       borderSide: BorderSide.none,
                     ),
                     hintText: "Новый логин",
-                    hintStyle: GoogleFonts.nunito(
+                    hintStyle: TextStyle(
+                      fontFamily: "Nunito",
                       color: const Color(0xff6F767E),
                       fontSize: 14.sp,
                       fontWeight: FontWeight.w600,
@@ -231,7 +237,8 @@ class _ChangeLoginViewState extends State<ChangeLoginView> {
                       ),
                       child: Text(
                         "Сохранить",
-                        style: GoogleFonts.nunito(
+                        style: TextStyle(
+                          fontFamily: "Nunito",
                           fontSize: 16.sp,
                           fontWeight: FontWeight.w600,
                           color: Colors.white,

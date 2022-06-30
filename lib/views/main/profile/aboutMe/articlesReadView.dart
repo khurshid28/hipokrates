@@ -65,7 +65,8 @@ class _ArticlesReadViewState extends State<ArticlesReadView> {
               ),
               Text(
                 "Научные работы",
-                style: GoogleFonts.nunito(
+                style: TextStyle(
+                  fontFamily: "Nunito",
                   fontSize: 20.sp,
                   fontWeight: FontWeight.w700,
                   color: Colors.black,
@@ -95,7 +96,8 @@ class _ArticlesReadViewState extends State<ArticlesReadView> {
                   children: [
                     Text(
                       "Название выпущенной",
-                      style: GoogleFonts.nunito(
+                      style: TextStyle(
+                        fontFamily: "Nunito",
                         color: Colors.black,
                         fontSize: 24.sp,
                         fontWeight: FontWeight.w700,
@@ -104,7 +106,8 @@ class _ArticlesReadViewState extends State<ArticlesReadView> {
                     // SizedBox(height: 8.h,),
                     Text(
                       "научной работы",
-                      style: GoogleFonts.nunito(
+                      style: TextStyle(
+                        fontFamily: "Nunito",
                         color: Colors.black,
                         fontSize: 24.sp,
                         fontWeight: FontWeight.w700,
@@ -118,7 +121,8 @@ class _ArticlesReadViewState extends State<ArticlesReadView> {
                       children: [
                         Text(
                           "Азизбек Азизов · Med Shox Center",
-                          style: GoogleFonts.nunito(
+                          style: TextStyle(
+                            fontFamily: "Nunito",
                             color: const Color(0xff050505),
                             fontSize: 12.5.sp,
                             fontWeight: FontWeight.w400,
@@ -126,7 +130,8 @@ class _ArticlesReadViewState extends State<ArticlesReadView> {
                         ),
                         Text(
                           "12.02.2022",
-                          style: GoogleFonts.nunito(
+                          style: TextStyle(
+                            fontFamily: "Nunito",
                             color: const Color(0xff050505),
                             fontSize: 12.5.sp,
                             fontWeight: FontWeight.w400,
@@ -154,13 +159,16 @@ class _ArticlesReadViewState extends State<ArticlesReadView> {
                       height: 16.h,
                     ),
                     Container(
-                      padding: EdgeInsets.symmetric(horizontal: 2.w,),
+                      padding: EdgeInsets.symmetric(
+                        horizontal: 2.w,
+                      ),
                       width: 327.w,
                       child: Text(
                         "Цель. Оценить эффективность инъекционного использования плазмы, обогащенной тромбоцитами, при лечении ран у экспериментальных животных с ожогами. Материал и методы. Эксперимент проведен на 30 половозрелых крысах-самцах породы Wistar, которые, после моделирования инфицированного ожога кипятком и иссечения на 2-е сутки некротических тканей до «кровяной росы», гемостаза, были разделены на основную и контрольную группы в зависимости от выбранной стратегии дальнейшего лечения. Животным контрольной группы (15 крыс) раневой дефект обрабатывали и накладывали повязки, пропитанные 0,02% раствором декаметоксина. Животным основной группы (15 крыс) дополнительно проводили инъекции в область раны инъекций плазмы, обогащенной тромбоцитами, на 1, 3, 5 сутки после некрэктомии. Остаток этой плазмы путем аппликации наносили на раневую поверхность с последующим закрытием поливинилхлоридной пленкой и марлевой повязкой. Перевязки проводились ежедневно. Изучение предусматривало гистологическое исследование участка раны и окружающих тканей, забор которых осуществлялся на 1, 3, 7, 14-е сутки после удаления некротизированных тканей. Результаты. У животных основной группы, лечение которых предусматривало использование плазмы, обогащенной тромбоцитами, уже на 3 сутки после некрэктомии в области раны определяли уменьшение глубины повреждений, которые распространялись только до подкожной клетчатки, снижение активности воспалительной реакции в тканях с последующей пролиферацией молодого эпидермиса и почти полным заживлением раневого дефекта до 14-х суток. Патологические изменения в тканях участка повреждения животных контрольной группы были более выраженными, с признаками повреждения до мышц. Кроме того, в течение всего периода наблюдения в этой группе животных сохранялась интенсивная воспалительная реакция с низкой пролиферативной активностью. Заключение. Экспериментально подтверждена эффективность инъекционного использования плазмы, обогащенной тромбоцитами, как элемента комплексного местного лечения ожоговых ран у крыс. ",
                         softWrap: true,
                         overflow: TextOverflow.fade,
-                        style: GoogleFonts.nunito(
+                        style: TextStyle(
+                          fontFamily: "Nunito",
                           color: const Color(0xff6F767E),
                           fontWeight: FontWeight.w400,
                           fontSize: 13.sp,

@@ -42,7 +42,6 @@ class _ProfileViewState extends State<ProfileView> {
 
   @override
   Widget build(BuildContext context) {
-    
     return Scaffold(
       appBar: AppBar(
         elevation: 3.0,
@@ -95,7 +94,8 @@ class _ProfileViewState extends State<ProfileView> {
               ),
               Text(
                 "Профиль",
-                style: GoogleFonts.nunito(
+                style: TextStyle(
+                  fontFamily: "Nunito",
                   fontSize: 20.sp,
                   fontWeight: FontWeight.w700,
                   color: Colors.black,
@@ -177,7 +177,8 @@ class _ProfileViewState extends State<ProfileView> {
                           children: [
                             Text(
                               "Азизбек Азизов",
-                              style: GoogleFonts.nunito(
+                              style: TextStyle(
+                                fontFamily: "Nunito",
                                 fontSize: 20.0.sp,
                                 fontWeight: FontWeight.w700,
                               ),
@@ -187,7 +188,8 @@ class _ProfileViewState extends State<ProfileView> {
                             ),
                             Text(
                               "Med Shox Center - \nДиректор,  Невролог",
-                              style: GoogleFonts.nunito(
+                              style: TextStyle(
+                                  fontFamily: "Nunito",
                                   fontSize: 14.sp,
                                   color: const Color(0xff6F767E)),
                             ),
@@ -205,7 +207,8 @@ class _ProfileViewState extends State<ProfileView> {
                                 ),
                                 Text(
                                   "+998 94 234 54 23",
-                                  style: GoogleFonts.nunito(fontSize: 14.sp),
+                                  style: TextStyle(
+                                      fontFamily: "Nunito", fontSize: 14.sp),
                                 ),
                               ],
                             ),
@@ -243,7 +246,8 @@ class _ProfileViewState extends State<ProfileView> {
                             children: [
                               Text(
                                 "Рабочие дни",
-                                style: GoogleFonts.nunito(
+                                style: TextStyle(
+                                    fontFamily: "Nunito",
                                     fontSize: 16.0,
                                     color:
                                         const Color.fromRGBO(12, 87, 175, 1)),
@@ -253,7 +257,8 @@ class _ProfileViewState extends State<ProfileView> {
                               ),
                               Text(
                                 "ПН - ВТ - СР - ПТ - СБ",
-                                style: GoogleFonts.nunito(
+                                style: TextStyle(
+                                  fontFamily: "Nunito",
                                   fontWeight: FontWeight.w600,
                                 ),
                               ),
@@ -280,7 +285,8 @@ class _ProfileViewState extends State<ProfileView> {
                             children: [
                               Text(
                                 "Рабочие часы",
-                                style: GoogleFonts.nunito(
+                                style: TextStyle(
+                                    fontFamily: "Nunito",
                                     fontSize: 16.0,
                                     color:
                                         const Color.fromRGBO(12, 87, 175, 1)),
@@ -290,7 +296,8 @@ class _ProfileViewState extends State<ProfileView> {
                               ),
                               Text(
                                 "12:00 - 18:00",
-                                style: GoogleFonts.nunito(
+                                style: TextStyle(
+                                  fontFamily: "Nunito",
                                   fontWeight: FontWeight.w600,
                                 ),
                               ),
@@ -321,7 +328,8 @@ class _ProfileViewState extends State<ProfileView> {
                   children: [
                     Text(
                       "Текущий статус",
-                      style: GoogleFonts.nunito(
+                      style: TextStyle(
+                        fontFamily: "Nunito",
                         fontSize: 16.sp,
                         color: Colors.black,
                         fontWeight: FontWeight.w700,
@@ -342,7 +350,8 @@ class _ProfileViewState extends State<ProfileView> {
                         ),
                         child: Text(
                           "На работе",
-                          style: GoogleFonts.nunito(
+                          style: TextStyle(
+                            fontFamily: "Nunito",
                             color: const Color(0xff0C57AF),
                             fontWeight: FontWeight.w600,
                           ),
@@ -370,7 +379,7 @@ class _ProfileViewState extends State<ProfileView> {
               //   onPressed: () {},
               //   child: Text(
               //     "Написать тех. поддержке",
-              //     style: GoogleFonts.nunito(
+              //     style: TextStyle(fontFamily: "Nunito",
               //       fontSize: 16.0.w,
               //       fontWeight: FontWeight.w700,
               //     ),
@@ -383,7 +392,7 @@ class _ProfileViewState extends State<ProfileView> {
               //   alignment: Alignment.topLeft,
               //   child: Text(
               //     "Консультация",
-              //     style: GoogleFonts.nunito(
+              //     style: TextStyle(fontFamily: "Nunito",
               //       fontSize: 24.0.w,
               //       fontWeight: FontWeight.w700,
               //     ),
@@ -426,7 +435,7 @@ class _ProfileViewState extends State<ProfileView> {
               //           children: [
               //             Text(
               //               "Основные языки",
-              //               style: GoogleFonts.nunito(
+              //               style: TextStyle(fontFamily: "Nunito",
               //                 color: const Color(0xff6F767E),
               //                 fontWeight: FontWeight.w400,
               //               ),
@@ -445,7 +454,7 @@ class _ProfileViewState extends State<ProfileView> {
               //               ),
               //               child: Text(
               //                 "Русский",
-              //                 style: GoogleFonts.nunito(
+              //                 style: TextStyle(fontFamily: "Nunito",
               //                   color: const Color(0xff050505),
               //                   fontWeight: FontWeight.w700,
               //                 ),
@@ -457,7 +466,7 @@ class _ProfileViewState extends State<ProfileView> {
               //               ),
               //               child: Text(
               //                 "Узбекский",
-              //                 style: GoogleFonts.nunito(
+              //                 style: TextStyle(fontFamily: "Nunito",
               //                   color: const Color(0xff050505),
               //                   fontWeight: FontWeight.w700,
               //                 ),
@@ -469,7 +478,7 @@ class _ProfileViewState extends State<ProfileView> {
               //               ),
               //               child: Text(
               //                 "Английский",
-              //                 style: GoogleFonts.nunito(
+              //                 style: TextStyle(fontFamily: "Nunito",
               //                   color: const Color(0xff050505),
               //                   fontWeight: FontWeight.w700,
               //                 ),
@@ -512,14 +521,14 @@ class _ProfileViewState extends State<ProfileView> {
               //         children: [
               //           Text(
               //             "50 000 сум",
-              //             style: GoogleFonts.nunito(
+              //             style: TextStyle(fontFamily: "Nunito",
               //               color: const Color(0xff0C57AF),
               //               fontWeight: FontWeight.w600,
               //             ),
               //           ),
               //           Text(
               //             "Базовый",
-              //             style: GoogleFonts.nunito(
+              //             style: TextStyle(fontFamily: "Nunito",
               //               color: const Color(0xff050505),
               //               fontWeight: FontWeight.w400,
               //               fontSize: 16.sp,
@@ -553,14 +562,14 @@ class _ProfileViewState extends State<ProfileView> {
               //         children: [
               //           Text(
               //             "100 000 сум",
-              //             style: GoogleFonts.nunito(
+              //             style: TextStyle(fontFamily: "Nunito",
               //               color: const Color(0xff0C57AF),
               //               fontWeight: FontWeight.w600,
               //             ),
               //           ),
               //           Text(
               //             "Стандарт",
-              //             style: GoogleFonts.nunito(
+              //             style: TextStyle(fontFamily: "Nunito",
               //               color: const Color(0xff050505),
               //               fontWeight: FontWeight.w400,
               //               fontSize: 16.sp,
@@ -594,14 +603,14 @@ class _ProfileViewState extends State<ProfileView> {
               //         children: [
               //           Text(
               //             "500 000 сум",
-              //             style: GoogleFonts.nunito(
+              //             style: TextStyle(fontFamily: "Nunito",
               //               color: const Color(0xff0C57AF),
               //               fontWeight: FontWeight.w600,
               //             ),
               //           ),
               //           Text(
               //             "Премиум",
-              //             style: GoogleFonts.nunito(
+              //             style: TextStyle(fontFamily: "Nunito",
               //               color: const Color(0xff050505),
               //               fontWeight: FontWeight.w400,
               //               fontSize: 16.sp,
@@ -638,7 +647,7 @@ class _ProfileViewState extends State<ProfileView> {
               //   ),
               //   child: Text(
               //     "Описание тарифа со всем тем, что будет входить в него и какие ньюансы он будет иметь при себе.",
-              //     style: GoogleFonts.nunito(
+              //     style: TextStyle(fontFamily: "Nunito",
               //       color: const Color(0xff050505),
               //       fontSize: 16.sp,
               //       fontWeight: FontWeight.w400,
@@ -656,7 +665,8 @@ class _ProfileViewState extends State<ProfileView> {
                   alignment: Alignment.topLeft,
                   child: Text(
                     "Обо мне",
-                    style: GoogleFonts.nunito(
+                    style: TextStyle(
+                      fontFamily: "Nunito",
                       fontSize: 24.0.w,
                       fontWeight: FontWeight.w700,
                     ),
@@ -711,7 +721,8 @@ class _ProfileViewState extends State<ProfileView> {
                                 children: [
                                   Text(
                                     cards[index * 2].title,
-                                    style: GoogleFonts.nunito(
+                                    style: TextStyle(
+                                      fontFamily: "Nunito",
                                       color: const Color(0xff050505),
                                       fontSize: 16.sp,
                                       fontWeight: FontWeight.w400,
@@ -763,7 +774,8 @@ class _ProfileViewState extends State<ProfileView> {
                                 children: [
                                   Text(
                                     cards[index * 2 + 1].title,
-                                    style: GoogleFonts.nunito(
+                                    style: TextStyle(
+                                      fontFamily: "Nunito",
                                       color: const Color(0xff050505),
                                       fontSize: 16.sp,
                                       fontWeight: FontWeight.w400,

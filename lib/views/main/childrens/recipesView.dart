@@ -43,7 +43,8 @@ class _RecipesViewState extends State<RecipesView> {
                 children: [
                   Text(
                     "Доброе утро,",
-                    style: GoogleFonts.nunito(
+                    style: TextStyle(
+                      fontFamily: "Nunito",
                       fontSize: 14.sp,
                       fontWeight: FontWeight.w400,
                       color: const Color(
@@ -53,7 +54,8 @@ class _RecipesViewState extends State<RecipesView> {
                   ),
                   Text(
                     "Азизбек Азизов",
-                    style: GoogleFonts.nunito(
+                    style: TextStyle(
+                      fontFamily: "Nunito",
                       fontSize: 18.sp,
                       fontWeight: FontWeight.w700,
                       color: Colors.black,
@@ -115,7 +117,8 @@ class _RecipesViewState extends State<RecipesView> {
                   filled: true,
                   prefixIcon: Icon(Icons.search_outlined),
                   hintText: "Поиск",
-                  hintStyle: GoogleFonts.nunito(
+                  hintStyle: TextStyle(
+                    fontFamily: "Nunito",
                     fontSize: 14.sp,
                     fontWeight: FontWeight.w600,
                     color: const Color(
@@ -134,7 +137,8 @@ class _RecipesViewState extends State<RecipesView> {
                     SizedBox(height: 24),
                     Text(
                       "Категории",
-                      style: GoogleFonts.nunito(
+                      style: TextStyle(
+                        fontFamily: "Nunito",
                         fontSize: 24.sp,
                         fontWeight: FontWeight.w700,
                         color: Colors.black,
@@ -188,7 +192,8 @@ class _RecipesViewState extends State<RecipesView> {
                                         ),
                                         Text(
                                           "Сердце",
-                                          style: GoogleFonts.nunito(
+                                          style: TextStyle(
+                                            fontFamily: "Nunito",
                                             fontSize: 20.sp,
                                             fontWeight: FontWeight.w600,
                                             color: Colors.black,
@@ -234,7 +239,8 @@ class _RecipesViewState extends State<RecipesView> {
                                         ),
                                         Text(
                                           "Сердце",
-                                          style: GoogleFonts.nunito(
+                                          style: TextStyle(
+                                            fontFamily: "Nunito",
                                             fontSize: 20.sp,
                                             fontWeight: FontWeight.w600,
                                             color: Colors.black,
@@ -287,7 +293,8 @@ class _RecipesViewState extends State<RecipesView> {
                                       ),
                                       Text(
                                         "Сердце",
-                                        style: GoogleFonts.nunito(
+                                        style: TextStyle(
+                                          fontFamily: "Nunito",
                                           fontSize: 20.sp,
                                           fontWeight: FontWeight.w600,
                                           color: Colors.black,
@@ -332,104 +339,8 @@ class _RecipesViewState extends State<RecipesView> {
                                       ),
                                       Text(
                                         "Сердце",
-                                        style: GoogleFonts.nunito(
-                                          fontSize: 20.sp,
-                                          fontWeight: FontWeight.w600,
-                                          color: Colors.black,
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                              ],
-                            ),
-                          ],
-                        ),
-                        SizedBox(height: 16.h),
-                        Row(
-                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          crossAxisAlignment: CrossAxisAlignment.center,
-                          children: [
-                            Row(
-                              children: [
-                                Container(
-                                  height: 56.w,
-                                  width:
-                                      MediaQuery.of(context).size.width * 0.4,
-                                  padding: EdgeInsets.symmetric(
-                                    horizontal: 16.w,
-                                    vertical: 8.h,
-                                  ),
-                                  decoration: BoxDecoration(
-                                    color: Colors.white,
-                                    borderRadius: BorderRadius.circular(
-                                      8.r,
-                                    ),
-                                    boxShadow: [
-                                      BoxShadow(
-                                          color: Colors.black.withOpacity(0.1),
-                                          blurRadius: 5.r),
-                                    ],
-                                  ),
-                                  child: Row(
-                                    mainAxisAlignment:
-                                        MainAxisAlignment.spaceBetween,
-                                    crossAxisAlignment:
-                                        CrossAxisAlignment.center,
-                                    children: [
-                                      Image.asset(
-                                        "assets/images/profile.png",
-                                        height: 32.h,
-                                        width: 24.w,
-                                      ),
-                                      Text(
-                                        "Сердце",
-                                        style: GoogleFonts.nunito(
-                                          fontSize: 20.sp,
-                                          fontWeight: FontWeight.w600,
-                                          color: Colors.black,
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                              ],
-                            ),
-                            Row(
-                              children: [
-                                Container(
-                                  height: 56.w,
-                                  width:
-                                      MediaQuery.of(context).size.width * 0.4,
-                                  padding: EdgeInsets.symmetric(
-                                    horizontal: 16.w,
-                                    vertical: 8.h,
-                                  ),
-                                  decoration: BoxDecoration(
-                                    color: Colors.white,
-                                    borderRadius: BorderRadius.circular(
-                                      8.r,
-                                    ),
-                                    boxShadow: [
-                                      BoxShadow(
-                                          color: Colors.black.withOpacity(0.1),
-                                          blurRadius: 5.r),
-                                    ],
-                                  ),
-                                  child: Row(
-                                    mainAxisAlignment:
-                                        MainAxisAlignment.spaceBetween,
-                                    crossAxisAlignment:
-                                        CrossAxisAlignment.center,
-                                    children: [
-                                      Image.asset(
-                                        "assets/images/profile.png",
-                                        height: 32.h,
-                                        width: 24.w,
-                                      ),
-                                      Text(
-                                        "Сердце",
-                                        style: GoogleFonts.nunito(
+                                        style: TextStyle(
+                                          fontFamily: "Nunito",
                                           fontSize: 20.sp,
                                           fontWeight: FontWeight.w600,
                                           color: Colors.black,
@@ -481,7 +392,8 @@ class _RecipesViewState extends State<RecipesView> {
                                       ),
                                       Text(
                                         "Сердце",
-                                        style: GoogleFonts.nunito(
+                                        style: TextStyle(
+                                          fontFamily: "Nunito",
                                           fontSize: 20.sp,
                                           fontWeight: FontWeight.w600,
                                           color: Colors.black,
@@ -526,104 +438,8 @@ class _RecipesViewState extends State<RecipesView> {
                                       ),
                                       Text(
                                         "Сердце",
-                                        style: GoogleFonts.nunito(
-                                          fontSize: 20.sp,
-                                          fontWeight: FontWeight.w600,
-                                          color: Colors.black,
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                              ],
-                            ),
-                          ],
-                        ),
-                        SizedBox(height: 16.h),
-                        Row(
-                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          crossAxisAlignment: CrossAxisAlignment.center,
-                          children: [
-                            Row(
-                              children: [
-                                Container(
-                                  height: 56.w,
-                                  width:
-                                      MediaQuery.of(context).size.width * 0.4,
-                                  padding: EdgeInsets.symmetric(
-                                    horizontal: 16.w,
-                                    vertical: 8.h,
-                                  ),
-                                  decoration: BoxDecoration(
-                                    color: Colors.white,
-                                    borderRadius: BorderRadius.circular(
-                                      8.r,
-                                    ),
-                                    boxShadow: [
-                                      BoxShadow(
-                                          color: Colors.black.withOpacity(0.1),
-                                          blurRadius: 5.r),
-                                    ],
-                                  ),
-                                  child: Row(
-                                    mainAxisAlignment:
-                                        MainAxisAlignment.spaceBetween,
-                                    crossAxisAlignment:
-                                        CrossAxisAlignment.center,
-                                    children: [
-                                      Image.asset(
-                                        "assets/images/profile.png",
-                                        height: 32.h,
-                                        width: 24.w,
-                                      ),
-                                      Text(
-                                        "Сердце",
-                                        style: GoogleFonts.nunito(
-                                          fontSize: 20.sp,
-                                          fontWeight: FontWeight.w600,
-                                          color: Colors.black,
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                              ],
-                            ),
-                            Row(
-                              children: [
-                                Container(
-                                  height: 56.w,
-                                  width:
-                                      MediaQuery.of(context).size.width * 0.4,
-                                  padding: EdgeInsets.symmetric(
-                                    horizontal: 16.w,
-                                    vertical: 8.h,
-                                  ),
-                                  decoration: BoxDecoration(
-                                    color: Colors.white,
-                                    borderRadius: BorderRadius.circular(
-                                      8.r,
-                                    ),
-                                    boxShadow: [
-                                      BoxShadow(
-                                          color: Colors.black.withOpacity(0.1),
-                                          blurRadius: 5.r),
-                                    ],
-                                  ),
-                                  child: Row(
-                                    mainAxisAlignment:
-                                        MainAxisAlignment.spaceBetween,
-                                    crossAxisAlignment:
-                                        CrossAxisAlignment.center,
-                                    children: [
-                                      Image.asset(
-                                        "assets/images/profile.png",
-                                        height: 32.h,
-                                        width: 24.w,
-                                      ),
-                                      Text(
-                                        "Сердце",
-                                        style: GoogleFonts.nunito(
+                                        style: TextStyle(
+                                          fontFamily: "Nunito",
                                           fontSize: 20.sp,
                                           fontWeight: FontWeight.w600,
                                           color: Colors.black,
@@ -675,7 +491,8 @@ class _RecipesViewState extends State<RecipesView> {
                                       ),
                                       Text(
                                         "Сердце",
-                                        style: GoogleFonts.nunito(
+                                        style: TextStyle(
+                                          fontFamily: "Nunito",
                                           fontSize: 20.sp,
                                           fontWeight: FontWeight.w600,
                                           color: Colors.black,
@@ -720,7 +537,8 @@ class _RecipesViewState extends State<RecipesView> {
                                       ),
                                       Text(
                                         "Сердце",
-                                        style: GoogleFonts.nunito(
+                                        style: TextStyle(
+                                          fontFamily: "Nunito",
                                           fontSize: 20.sp,
                                           fontWeight: FontWeight.w600,
                                           color: Colors.black,
@@ -772,7 +590,8 @@ class _RecipesViewState extends State<RecipesView> {
                                       ),
                                       Text(
                                         "Сердце",
-                                        style: GoogleFonts.nunito(
+                                        style: TextStyle(
+                                          fontFamily: "Nunito",
                                           fontSize: 20.sp,
                                           fontWeight: FontWeight.w600,
                                           color: Colors.black,
@@ -817,7 +636,206 @@ class _RecipesViewState extends State<RecipesView> {
                                       ),
                                       Text(
                                         "Сердце",
-                                        style: GoogleFonts.nunito(
+                                        style: TextStyle(
+                                          fontFamily: "Nunito",
+                                          fontSize: 20.sp,
+                                          fontWeight: FontWeight.w600,
+                                          color: Colors.black,
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ],
+                        ),
+                        SizedBox(height: 16.h),
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          crossAxisAlignment: CrossAxisAlignment.center,
+                          children: [
+                            Row(
+                              children: [
+                                Container(
+                                  height: 56.w,
+                                  width:
+                                      MediaQuery.of(context).size.width * 0.4,
+                                  padding: EdgeInsets.symmetric(
+                                    horizontal: 16.w,
+                                    vertical: 8.h,
+                                  ),
+                                  decoration: BoxDecoration(
+                                    color: Colors.white,
+                                    borderRadius: BorderRadius.circular(
+                                      8.r,
+                                    ),
+                                    boxShadow: [
+                                      BoxShadow(
+                                          color: Colors.black.withOpacity(0.1),
+                                          blurRadius: 5.r),
+                                    ],
+                                  ),
+                                  child: Row(
+                                    mainAxisAlignment:
+                                        MainAxisAlignment.spaceBetween,
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.center,
+                                    children: [
+                                      Image.asset(
+                                        "assets/images/profile.png",
+                                        height: 32.h,
+                                        width: 24.w,
+                                      ),
+                                      Text(
+                                        "Сердце",
+                                        style: TextStyle(
+                                          fontFamily: "Nunito",
+                                          fontSize: 20.sp,
+                                          fontWeight: FontWeight.w600,
+                                          color: Colors.black,
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                              ],
+                            ),
+                            Row(
+                              children: [
+                                Container(
+                                  height: 56.w,
+                                  width:
+                                      MediaQuery.of(context).size.width * 0.4,
+                                  padding: EdgeInsets.symmetric(
+                                    horizontal: 16.w,
+                                    vertical: 8.h,
+                                  ),
+                                  decoration: BoxDecoration(
+                                    color: Colors.white,
+                                    borderRadius: BorderRadius.circular(
+                                      8.r,
+                                    ),
+                                    boxShadow: [
+                                      BoxShadow(
+                                          color: Colors.black.withOpacity(0.1),
+                                          blurRadius: 5.r),
+                                    ],
+                                  ),
+                                  child: Row(
+                                    mainAxisAlignment:
+                                        MainAxisAlignment.spaceBetween,
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.center,
+                                    children: [
+                                      Image.asset(
+                                        "assets/images/profile.png",
+                                        height: 32.h,
+                                        width: 24.w,
+                                      ),
+                                      Text(
+                                        "Сердце",
+                                        style: TextStyle(
+                                          fontFamily: "Nunito",
+                                          fontSize: 20.sp,
+                                          fontWeight: FontWeight.w600,
+                                          color: Colors.black,
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ],
+                        ),
+                        SizedBox(height: 16.h),
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          crossAxisAlignment: CrossAxisAlignment.center,
+                          children: [
+                            Row(
+                              children: [
+                                Container(
+                                  height: 56.w,
+                                  width:
+                                      MediaQuery.of(context).size.width * 0.4,
+                                  padding: EdgeInsets.symmetric(
+                                    horizontal: 16.w,
+                                    vertical: 8.h,
+                                  ),
+                                  decoration: BoxDecoration(
+                                    color: Colors.white,
+                                    borderRadius: BorderRadius.circular(
+                                      8.r,
+                                    ),
+                                    boxShadow: [
+                                      BoxShadow(
+                                          color: Colors.black.withOpacity(0.1),
+                                          blurRadius: 5.r),
+                                    ],
+                                  ),
+                                  child: Row(
+                                    mainAxisAlignment:
+                                        MainAxisAlignment.spaceBetween,
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.center,
+                                    children: [
+                                      Image.asset(
+                                        "assets/images/profile.png",
+                                        height: 32.h,
+                                        width: 24.w,
+                                      ),
+                                      Text(
+                                        "Сердце",
+                                        style: TextStyle(
+                                          fontFamily: "Nunito",
+                                          fontSize: 20.sp,
+                                          fontWeight: FontWeight.w600,
+                                          color: Colors.black,
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                              ],
+                            ),
+                            Row(
+                              children: [
+                                Container(
+                                  height: 56.w,
+                                  width:
+                                      MediaQuery.of(context).size.width * 0.4,
+                                  padding: EdgeInsets.symmetric(
+                                    horizontal: 16.w,
+                                    vertical: 8.h,
+                                  ),
+                                  decoration: BoxDecoration(
+                                    color: Colors.white,
+                                    borderRadius: BorderRadius.circular(
+                                      8.r,
+                                    ),
+                                    boxShadow: [
+                                      BoxShadow(
+                                          color: Colors.black.withOpacity(0.1),
+                                          blurRadius: 5.r),
+                                    ],
+                                  ),
+                                  child: Row(
+                                    mainAxisAlignment:
+                                        MainAxisAlignment.spaceBetween,
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.center,
+                                    children: [
+                                      Image.asset(
+                                        "assets/images/profile.png",
+                                        height: 32.h,
+                                        width: 24.w,
+                                      ),
+                                      Text(
+                                        "Сердце",
+                                        style: TextStyle(
+                                          fontFamily: "Nunito",
                                           fontSize: 20.sp,
                                           fontWeight: FontWeight.w600,
                                           color: Colors.black,

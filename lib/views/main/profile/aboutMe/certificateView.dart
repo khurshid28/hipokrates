@@ -66,7 +66,8 @@ class _CertificateViewState extends State<CertificateView> {
               ),
               Text(
                 "Сертификаты",
-                style: GoogleFonts.nunito(
+                style: TextStyle(
+                  fontFamily: "Nunito",
                   fontSize: 20.sp,
                   fontWeight: FontWeight.w700,
                   color: Colors.black,
@@ -92,13 +93,11 @@ class _CertificateViewState extends State<CertificateView> {
                   child: SvgPicture.asset("assets/icons/add.svg"),
                 ),
               ),
-           
             ],
           ),
         ),
       ),
-      body:
-       SafeArea(
+      body: SafeArea(
         child: SingleChildScrollView(
           physics: const BouncingScrollPhysics(),
           child: Column(
@@ -118,17 +117,19 @@ class _CertificateViewState extends State<CertificateView> {
                       Container(
                         height: 228.h,
                         decoration: BoxDecoration(
-                          image:const DecorationImage(image: AssetImage("assets/images/profile.png"),fit: BoxFit.cover),
-                            color: Colors.white,
-                            borderRadius: BorderRadius.circular(
-                              8.r,
-                            ),
-                            boxShadow: [
-                              BoxShadow(
-                                  color: Colors.black.withOpacity(0.1),
-                                  blurRadius: 5.r),
-                            ],
+                          image: const DecorationImage(
+                              image: AssetImage("assets/images/profile.png"),
+                              fit: BoxFit.cover),
+                          color: Colors.white,
+                          borderRadius: BorderRadius.circular(
+                            8.r,
                           ),
+                          boxShadow: [
+                            BoxShadow(
+                                color: Colors.black.withOpacity(0.1),
+                                blurRadius: 5.r),
+                          ],
+                        ),
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.end,
                           children: [
@@ -143,18 +144,20 @@ class _CertificateViewState extends State<CertificateView> {
                                 borderRadius: BorderRadius.circular(
                                   8.r,
                                 ),
-                                
                               ),
                               child: Row(
                                 crossAxisAlignment: CrossAxisAlignment.start,
-                                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                mainAxisAlignment:
+                                    MainAxisAlignment.spaceBetween,
                                 children: [
                                   Column(
-                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
                                     children: [
                                       Text(
                                         "Название сертификата",
-                                        style: GoogleFonts.nunito(
+                                        style: TextStyle(
+                                          fontFamily: "Nunito",
                                           fontSize: 16.sp,
                                           fontWeight: FontWeight.w400,
                                           color: const Color(0xff0C57AF),
@@ -165,7 +168,8 @@ class _CertificateViewState extends State<CertificateView> {
                                       ),
                                       Text(
                                         "Краткое описание",
-                                        style: GoogleFonts.nunito(
+                                        style: TextStyle(
+                                          fontFamily: "Nunito",
                                           fontSize: 14.sp,
                                           fontWeight: FontWeight.w600,
                                           color: const Color(0xff050505),
@@ -176,7 +180,8 @@ class _CertificateViewState extends State<CertificateView> {
                                       ),
                                       Text(
                                         "Год получения",
-                                        style: GoogleFonts.nunito(
+                                        style: TextStyle(
+                                          fontFamily: "Nunito",
                                           fontSize: 14.sp,
                                           fontWeight: FontWeight.w600,
                                           color: const Color(0xff6F767E),
@@ -195,14 +200,16 @@ class _CertificateViewState extends State<CertificateView> {
                                       ),
                                       decoration: BoxDecoration(
                                         border: Border.all(
-                                            color: const Color(0xff5596E2), width: 2),
-                                        color: const Color.fromRGBO(252, 252, 252, 1),
+                                            color: const Color(0xff5596E2),
+                                            width: 2),
+                                        color: const Color.fromRGBO(
+                                            252, 252, 252, 1),
                                         borderRadius: BorderRadius.circular(
                                           10.0.h,
                                         ),
                                       ),
-                                      child:
-                                          SvgPicture.asset("assets/icons/more.svg"),
+                                      child: SvgPicture.asset(
+                                          "assets/icons/more.svg"),
                                     ),
                                   ),
                                 ],
@@ -222,7 +229,6 @@ class _CertificateViewState extends State<CertificateView> {
           ),
         ),
       ),
-    
     );
   }
 }

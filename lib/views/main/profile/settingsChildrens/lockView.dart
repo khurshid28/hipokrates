@@ -66,7 +66,8 @@ class _LockViewState extends State<LockView> {
               ),
               Text(
                 "Настройки",
-                style: GoogleFonts.nunito(
+                style: TextStyle(
+                  fontFamily: "Nunito",
                   fontSize: 20.sp,
                   fontWeight: FontWeight.w700,
                   color: Colors.black,
@@ -94,7 +95,8 @@ class _LockViewState extends State<LockView> {
                 children: [
                   Text(
                     "Конфидециальность",
-                    style: GoogleFonts.nunito(
+                    style: TextStyle(
+                      fontFamily: "Nunito",
                       fontSize: 20.sp,
                       fontWeight: FontWeight.w600,
                       color: const Color(0xff050505),
@@ -145,7 +147,8 @@ class _LockViewState extends State<LockView> {
                           children: [
                             Text(
                               "Изменение логина",
-                              style: GoogleFonts.nunito(
+                              style: TextStyle(
+                                  fontFamily: "Nunito",
                                   fontSize: 16.sp,
                                   fontWeight: FontWeight.w600,
                                   color: const Color(0xff050505)),
@@ -178,7 +181,8 @@ class _LockViewState extends State<LockView> {
                         children: [
                           Text(
                             "Изменение пароля",
-                            style: GoogleFonts.nunito(
+                            style: TextStyle(
+                                fontFamily: "Nunito",
                                 fontSize: 16.sp,
                                 fontWeight: FontWeight.w600,
                                 color: const Color(0xff050505)),
@@ -210,7 +214,8 @@ class _LockViewState extends State<LockView> {
                           children: [
                             Text(
                               "Отслеживание",
-                              style: GoogleFonts.nunito(
+                              style: TextStyle(
+                                  fontFamily: "Nunito",
                                   fontSize: 16.sp,
                                   fontWeight: FontWeight.w600,
                                   color: const Color(0xff050505)),

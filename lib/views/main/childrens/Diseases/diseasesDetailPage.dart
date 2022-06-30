@@ -119,7 +119,8 @@ class _DiseasesDetailPageState extends State<DiseasesDetailPage> {
               ),
               Text(
                 "Болезни",
-                style: GoogleFonts.nunito(
+                style: TextStyle(
+                  fontFamily: "Nunito",
                   fontSize: 20.sp,
                   fontWeight: FontWeight.w700,
                   color: Colors.black,
@@ -181,7 +182,8 @@ class _DiseasesDetailPageState extends State<DiseasesDetailPage> {
                   children: [
                     Text(
                       'Простуда',
-                      style: GoogleFonts.nunito(
+                      style: TextStyle(
+                        fontFamily: "Nunito",
                         fontSize: 18.sp,
                         fontWeight: FontWeight.w600,
                         color: Colors.black,
@@ -198,7 +200,8 @@ class _DiseasesDetailPageState extends State<DiseasesDetailPage> {
                           // ),
                           label: Text(
                             'Кашель',
-                            style: GoogleFonts.nunito(
+                            style: TextStyle(
+                              fontFamily: "Nunito",
                               fontSize: 12.sp,
                               fontWeight: FontWeight.w600,
                               color: Colors.black,
@@ -217,7 +220,8 @@ class _DiseasesDetailPageState extends State<DiseasesDetailPage> {
                           // ),
                           label: Text(
                             'Температура',
-                            style: GoogleFonts.nunito(
+                            style: TextStyle(
+                              fontFamily: "Nunito",
                               fontSize: 12.sp,
                               fontWeight: FontWeight.w600,
                               color: Colors.black,
@@ -236,7 +240,8 @@ class _DiseasesDetailPageState extends State<DiseasesDetailPage> {
                           // ),
                           label: Text(
                             'Боль в горле',
-                            style: GoogleFonts.nunito(
+                            style: TextStyle(
+                              fontFamily: "Nunito",
                               fontSize: 12.sp,
                               fontWeight: FontWeight.w600,
                               color: Colors.black,
@@ -279,7 +284,8 @@ class _DiseasesDetailPageState extends State<DiseasesDetailPage> {
                                       top: 12, left: 12, right: 12),
                                   child: Text(
                                     item['title'],
-                                    style: GoogleFonts.nunito(
+                                    style: TextStyle(
+                                      fontFamily: "Nunito",
                                       fontSize: 16.sp,
                                       fontWeight: FontWeight.w500,
                                       color: Color(0xff0C57AF),
@@ -313,7 +319,8 @@ class _DiseasesDetailPageState extends State<DiseasesDetailPage> {
                       children: [
                         Text(
                           "Болезни",
-                          style: GoogleFonts.nunito(
+                          style: TextStyle(
+                            fontFamily: "Nunito",
                             fontSize: 24.sp,
                             fontWeight: FontWeight.w700,
                             color: Colors.black,
@@ -352,7 +359,8 @@ class _DiseasesDetailPageState extends State<DiseasesDetailPage> {
                                     ),
                                     child: Text(
                                       "Подробнее",
-                                      style: GoogleFonts.nunito(
+                                      style: TextStyle(
+                                        fontFamily: "Nunito",
                                         fontSize: 14.sp,
                                         fontWeight: FontWeight.w600,
                                         color: Colors.blue,
@@ -399,7 +407,8 @@ class _DiseasesDetailPageState extends State<DiseasesDetailPage> {
                                 text: TextSpan(children: [
                                   TextSpan(
                                     text: 'Простуда' " - ",
-                                    style: GoogleFonts.nunito(
+                                    style: TextStyle(
+                                      fontFamily: "Nunito",
                                       fontSize: 16.sp,
                                       fontWeight: FontWeight.w600,
                                       color: Colors.black,
@@ -408,7 +417,8 @@ class _DiseasesDetailPageState extends State<DiseasesDetailPage> {
                                   TextSpan(
                                     text:
                                         "Термин «простуда» не является медицинским, однако он настолько приходится на холодное время года. Eтся присоединение бактериальной или вирусной инфекции.Возможно также совокупное воздействие этих микроорганизмов, когда на фоне ослабления иммунитета вследствие флоры.",
-                                    style: GoogleFonts.nunito(
+                                    style: TextStyle(
+                                      fontFamily: "Nunito",
                                       fontSize: 14.sp,
                                       fontWeight: FontWeight.w500,
                                       color: Colors.grey,
@@ -427,7 +437,8 @@ class _DiseasesDetailPageState extends State<DiseasesDetailPage> {
                                     // ),
                                     label: Text(
                                       'Кашель',
-                                      style: GoogleFonts.nunito(
+                                      style: TextStyle(
+                                        fontFamily: "Nunito",
                                         fontSize: 12.sp,
                                         fontWeight: FontWeight.w600,
                                         color: Colors.black,
@@ -446,7 +457,8 @@ class _DiseasesDetailPageState extends State<DiseasesDetailPage> {
                                     // ),
                                     label: Text(
                                       'Температура',
-                                      style: GoogleFonts.nunito(
+                                      style: TextStyle(
+                                        fontFamily: "Nunito",
                                         fontSize: 12.sp,
                                         fontWeight: FontWeight.w600,
                                         color: Colors.black,
@@ -465,7 +477,8 @@ class _DiseasesDetailPageState extends State<DiseasesDetailPage> {
                                     // ),
                                     label: Text(
                                       'Боль в горле',
-                                      style: GoogleFonts.nunito(
+                                      style: TextStyle(
+                                        fontFamily: "Nunito",
                                         fontSize: 12.sp,
                                         fontWeight: FontWeight.w600,
                                         color: Colors.black,

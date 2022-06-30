@@ -60,7 +60,8 @@ class RecipeSubPage extends StatelessWidget {
               ),
               Text(
                 "Рецепты",
-                style: GoogleFonts.nunito(
+                style: TextStyle(
+                  fontFamily: "Nunito",
                   fontSize: 20.sp,
                   fontWeight: FontWeight.w700,
                   color: Colors.black,
@@ -119,7 +120,8 @@ class RecipeSubPage extends StatelessWidget {
               filled: true,
               prefixIcon: Icon(Icons.search_outlined),
               hintText: "Поиск",
-              hintStyle: GoogleFonts.nunito(
+              hintStyle: TextStyle(
+                fontFamily: "Nunito",
                 fontSize: 14.sp,
                 fontWeight: FontWeight.w600,
                 color: const Color(
@@ -138,7 +140,8 @@ class RecipeSubPage extends StatelessWidget {
             children: [
               Text(
                 "Лекарства",
-                style: GoogleFonts.nunito(
+                style: TextStyle(
+                  fontFamily: "Nunito",
                   fontSize: 24.sp,
                   fontWeight: FontWeight.w700,
                   color: Colors.black,
@@ -185,7 +188,8 @@ class RecipeSubPage extends StatelessWidget {
                               ),
                               Text(
                                 "Фильтр",
-                                style: GoogleFonts.nunito(
+                                style: TextStyle(
+                                  fontFamily: "Nunito",
                                   fontSize: 14.sp,
                                   fontWeight: FontWeight.w600,
                                   color: Colors.blue,
@@ -264,7 +268,8 @@ class RecipeSubPage extends StatelessWidget {
                             children: [
                               Text(
                                 "Ибуклин",
-                                style: GoogleFonts.nunito(
+                                style: TextStyle(
+                                  fontFamily: "Nunito",
                                   fontSize: 20.sp,
                                   fontWeight: FontWeight.w600,
                                   color: Colors.black,
@@ -282,7 +287,8 @@ class RecipeSubPage extends StatelessWidget {
                                     ),
                                     child: Text(
                                       "Ибуклин",
-                                      style: GoogleFonts.nunito(
+                                      style: TextStyle(
+                                        fontFamily: "Nunito",
                                         fontSize: 12.sp,
                                         fontWeight: FontWeight.w600,
                                         color: Colors.black,
@@ -300,7 +306,8 @@ class RecipeSubPage extends StatelessWidget {
                                     ),
                                     child: Text(
                                       "Болиутоляющее",
-                                      style: GoogleFonts.nunito(
+                                      style: TextStyle(
+                                        fontFamily: "Nunito",
                                         fontSize: 12.sp,
                                         fontWeight: FontWeight.w600,
                                         color: Colors.black,

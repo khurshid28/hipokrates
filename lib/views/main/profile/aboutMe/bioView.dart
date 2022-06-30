@@ -67,7 +67,8 @@ class _BioViewState extends State<BioView> {
               ),
               Text(
                 "Биография",
-                style: GoogleFonts.nunito(
+                style: TextStyle(
+                  fontFamily: "Nunito",
                   fontSize: 20.sp,
                   fontWeight: FontWeight.w700,
                   color: Colors.black,
@@ -100,8 +101,7 @@ class _BioViewState extends State<BioView> {
           ),
         ),
       ),
-      body:
-       SafeArea(
+      body: SafeArea(
         child: SingleChildScrollView(
           physics: const BouncingScrollPhysics(),
           child: Column(
@@ -158,7 +158,8 @@ class _BioViewState extends State<BioView> {
                         children: [
                           Text(
                             "Краткая биография",
-                            style: GoogleFonts.nunito(
+                            style: TextStyle(
+                              fontFamily: "Nunito",
                               fontSize: 16.sp,
                               fontWeight: FontWeight.w400,
                               color: const Color(0xff0C57AF),
@@ -169,7 +170,8 @@ class _BioViewState extends State<BioView> {
                           ),
                           Text(
                             "Работаю столько то лет и надеюсь, что моя карьера будет в идеальной форме и в дальнейшем.",
-                            style: GoogleFonts.nunito(
+                            style: TextStyle(
+                              fontFamily: "Nunito",
                               fontSize: 14.sp,
                               fontWeight: FontWeight.w600,
                               color: const Color(0xff050505),
@@ -210,7 +212,8 @@ class _BioViewState extends State<BioView> {
                         children: [
                           Text(
                             "Полное имя",
-                            style: GoogleFonts.nunito(
+                            style: TextStyle(
+                              fontFamily: "Nunito",
                               fontSize: 16.sp,
                               fontWeight: FontWeight.w400,
                               color: const Color(0xff0C57AF),
@@ -221,7 +224,8 @@ class _BioViewState extends State<BioView> {
                           ),
                           Text(
                             "Азизбек Азизов Азизович",
-                            style: GoogleFonts.nunito(
+                            style: TextStyle(
+                              fontFamily: "Nunito",
                               fontSize: 14.sp,
                               fontWeight: FontWeight.w600,
                               color: const Color(0xff050505),
@@ -262,7 +266,8 @@ class _BioViewState extends State<BioView> {
                         children: [
                           Text(
                             "Стаж работы",
-                            style: GoogleFonts.nunito(
+                            style: TextStyle(
+                              fontFamily: "Nunito",
                               fontSize: 16.sp,
                               fontWeight: FontWeight.w400,
                               color: const Color(0xff0C57AF),
@@ -273,7 +278,8 @@ class _BioViewState extends State<BioView> {
                           ),
                           Text(
                             "13 лет",
-                            style: GoogleFonts.nunito(
+                            style: TextStyle(
+                              fontFamily: "Nunito",
                               fontSize: 14.sp,
                               fontWeight: FontWeight.w600,
                               color: const Color(0xff050505),
@@ -314,7 +320,8 @@ class _BioViewState extends State<BioView> {
                         children: [
                           Text(
                             "Дата рождения",
-                            style: GoogleFonts.nunito(
+                            style: TextStyle(
+                              fontFamily: "Nunito",
                               fontSize: 16.sp,
                               fontWeight: FontWeight.w400,
                               color: const Color(0xff0C57AF),
@@ -325,7 +332,8 @@ class _BioViewState extends State<BioView> {
                           ),
                           Text(
                             "12.02.2022",
-                            style: GoogleFonts.nunito(
+                            style: TextStyle(
+                              fontFamily: "Nunito",
                               fontSize: 14.sp,
                               fontWeight: FontWeight.w600,
                               color: const Color(0xff050505),
@@ -366,7 +374,8 @@ class _BioViewState extends State<BioView> {
                         children: [
                           Text(
                             "Номер телефона",
-                            style: GoogleFonts.nunito(
+                            style: TextStyle(
+                              fontFamily: "Nunito",
                               fontSize: 16.sp,
                               fontWeight: FontWeight.w400,
                               color: const Color(0xff0C57AF),
@@ -377,7 +386,8 @@ class _BioViewState extends State<BioView> {
                           ),
                           Text(
                             "+998 93 234 43 23",
-                            style: GoogleFonts.nunito(
+                            style: TextStyle(
+                              fontFamily: "Nunito",
                               fontSize: 14.sp,
                               fontWeight: FontWeight.w600,
                               color: const Color(0xff050505),
@@ -418,7 +428,8 @@ class _BioViewState extends State<BioView> {
                         children: [
                           Text(
                             "Идентификационный документ",
-                            style: GoogleFonts.nunito(
+                            style: TextStyle(
+                              fontFamily: "Nunito",
                               fontSize: 16.sp,
                               fontWeight: FontWeight.w400,
                               color: const Color(0xff0C57AF),
@@ -429,7 +440,8 @@ class _BioViewState extends State<BioView> {
                           ),
                           Text(
                             "ID 232342342",
-                            style: GoogleFonts.nunito(
+                            style: TextStyle(
+                              fontFamily: "Nunito",
                               fontSize: 14.sp,
                               fontWeight: FontWeight.w600,
                               color: const Color(0xff050505),
@@ -470,7 +482,8 @@ class _BioViewState extends State<BioView> {
                         children: [
                           Text(
                             "Кем выдан",
-                            style: GoogleFonts.nunito(
+                            style: TextStyle(
+                              fontFamily: "Nunito",
                               fontSize: 16.sp,
                               fontWeight: FontWeight.w400,
                               color: const Color(0xff0C57AF),
@@ -481,7 +494,8 @@ class _BioViewState extends State<BioView> {
                           ),
                           Text(
                             "Миробадский район",
-                            style: GoogleFonts.nunito(
+                            style: TextStyle(
+                              fontFamily: "Nunito",
                               fontSize: 14.sp,
                               fontWeight: FontWeight.w600,
                               color: const Color(0xff050505),
@@ -522,7 +536,8 @@ class _BioViewState extends State<BioView> {
                         children: [
                           Text(
                             "Гражданство",
-                            style: GoogleFonts.nunito(
+                            style: TextStyle(
+                              fontFamily: "Nunito",
                               fontSize: 16.sp,
                               fontWeight: FontWeight.w400,
                               color: const Color(0xff0C57AF),
@@ -533,7 +548,8 @@ class _BioViewState extends State<BioView> {
                           ),
                           Text(
                             "Узбек",
-                            style: GoogleFonts.nunito(
+                            style: TextStyle(
+                              fontFamily: "Nunito",
                               fontSize: 14.sp,
                               fontWeight: FontWeight.w600,
                               color: const Color(0xff050505),
@@ -566,8 +582,9 @@ class _BioViewState extends State<BioView> {
                         ),
                         boxShadow: [
                           BoxShadow(
-                              color: Colors.black.withOpacity(0.1),
-                              blurRadius: 5.r,),
+                            color: Colors.black.withOpacity(0.1),
+                            blurRadius: 5.r,
+                          ),
                         ],
                       ),
                       child: Column(
@@ -575,7 +592,8 @@ class _BioViewState extends State<BioView> {
                         children: [
                           Text(
                             "Страна",
-                            style: GoogleFonts.nunito(
+                            style: TextStyle(
+                              fontFamily: "Nunito",
                               fontSize: 16.sp,
                               fontWeight: FontWeight.w400,
                               color: const Color(0xff0C57AF),
@@ -586,7 +604,8 @@ class _BioViewState extends State<BioView> {
                           ),
                           Text(
                             "Узбекистан",
-                            style: GoogleFonts.nunito(
+                            style: TextStyle(
+                              fontFamily: "Nunito",
                               fontSize: 14.sp,
                               fontWeight: FontWeight.w600,
                               color: const Color(0xff050505),
@@ -617,7 +636,8 @@ class _BioViewState extends State<BioView> {
                         children: [
                           Text(
                             "Город",
-                            style: GoogleFonts.nunito(
+                            style: TextStyle(
+                              fontFamily: "Nunito",
                               fontSize: 16.sp,
                               fontWeight: FontWeight.w400,
                               color: const Color(0xff0C57AF),
@@ -628,7 +648,8 @@ class _BioViewState extends State<BioView> {
                           ),
                           Text(
                             "Ташкент",
-                            style: GoogleFonts.nunito(
+                            style: TextStyle(
+                              fontFamily: "Nunito",
                               fontSize: 14.sp,
                               fontWeight: FontWeight.w600,
                               color: const Color(0xff050505),
@@ -637,7 +658,6 @@ class _BioViewState extends State<BioView> {
                         ],
                       ),
                     )
-                 
                   ],
                 ),
               ),
@@ -662,8 +682,9 @@ class _BioViewState extends State<BioView> {
                         ),
                         boxShadow: [
                           BoxShadow(
-                              color: Colors.black.withOpacity(0.1),
-                              blurRadius:5.r,),
+                            color: Colors.black.withOpacity(0.1),
+                            blurRadius: 5.r,
+                          ),
                         ],
                       ),
                       child: Column(
@@ -671,7 +692,8 @@ class _BioViewState extends State<BioView> {
                         children: [
                           Text(
                             "Район",
-                            style: GoogleFonts.nunito(
+                            style: TextStyle(
+                              fontFamily: "Nunito",
                               fontSize: 16.sp,
                               fontWeight: FontWeight.w400,
                               color: const Color(0xff0C57AF),
@@ -682,7 +704,8 @@ class _BioViewState extends State<BioView> {
                           ),
                           Text(
                             "Миробадский",
-                            style: GoogleFonts.nunito(
+                            style: TextStyle(
+                              fontFamily: "Nunito",
                               fontSize: 14.sp,
                               fontWeight: FontWeight.w600,
                               color: const Color(0xff050505),
@@ -713,7 +736,8 @@ class _BioViewState extends State<BioView> {
                         children: [
                           Text(
                             "Улица",
-                            style: GoogleFonts.nunito(
+                            style: TextStyle(
+                              fontFamily: "Nunito",
                               fontSize: 16.sp,
                               fontWeight: FontWeight.w400,
                               color: const Color(0xff0C57AF),
@@ -724,7 +748,8 @@ class _BioViewState extends State<BioView> {
                           ),
                           Text(
                             "Нукус",
-                            style: GoogleFonts.nunito(
+                            style: TextStyle(
+                              fontFamily: "Nunito",
                               fontSize: 14.sp,
                               fontWeight: FontWeight.w600,
                               color: const Color(0xff050505),
@@ -733,7 +758,6 @@ class _BioViewState extends State<BioView> {
                         ],
                       ),
                     )
-                 
                   ],
                 ),
               ),
@@ -767,7 +791,8 @@ class _BioViewState extends State<BioView> {
                         children: [
                           Text(
                             "Район",
-                            style: GoogleFonts.nunito(
+                            style: TextStyle(
+                              fontFamily: "Nunito",
                               fontSize: 16.sp,
                               fontWeight: FontWeight.w400,
                               color: const Color(0xff0C57AF),
@@ -778,7 +803,8 @@ class _BioViewState extends State<BioView> {
                           ),
                           Text(
                             "12",
-                            style: GoogleFonts.nunito(
+                            style: TextStyle(
+                              fontFamily: "Nunito",
                               fontSize: 14.sp,
                               fontWeight: FontWeight.w600,
                               color: const Color(0xff050505),
@@ -809,7 +835,8 @@ class _BioViewState extends State<BioView> {
                         children: [
                           Text(
                             "Дом",
-                            style: GoogleFonts.nunito(
+                            style: TextStyle(
+                              fontFamily: "Nunito",
                               fontSize: 16.sp,
                               fontWeight: FontWeight.w400,
                               color: const Color(0xff0C57AF),
@@ -820,7 +847,8 @@ class _BioViewState extends State<BioView> {
                           ),
                           Text(
                             "12",
-                            style: GoogleFonts.nunito(
+                            style: TextStyle(
+                              fontFamily: "Nunito",
                               fontSize: 14.sp,
                               fontWeight: FontWeight.w600,
                               color: const Color(0xff050505),
@@ -829,11 +857,9 @@ class _BioViewState extends State<BioView> {
                         ],
                       ),
                     )
-                 
                   ],
                 ),
               ),
-            
               SizedBox(
                 height: 24.h,
               ),
@@ -841,8 +867,6 @@ class _BioViewState extends State<BioView> {
           ),
         ),
       ),
-    
     );
- 
   }
 }

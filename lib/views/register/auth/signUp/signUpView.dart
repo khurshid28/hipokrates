@@ -93,7 +93,8 @@ class _SignUpViewState extends State<SignUpView> {
                                 ),
                                 title: Text(
                                   "Русский",
-                                  style: GoogleFonts.nunito(
+                                  style: TextStyle(
+                                    fontFamily: "Nunito",
                                     color: const Color(0xff6F767E),
                                     fontWeight: FontWeight.bold,
                                   ),
@@ -119,7 +120,8 @@ class _SignUpViewState extends State<SignUpView> {
                                 ),
                                 title: Text(
                                   "Узбекский",
-                                  style: GoogleFonts.nunito(
+                                  style: TextStyle(
+                                    fontFamily: "Nunito",
                                     color: const Color(0xff6F767E),
                                     fontWeight: FontWeight.bold,
                                   ),
@@ -146,7 +148,8 @@ class _SignUpViewState extends State<SignUpView> {
                                 ),
                                 title: Text(
                                   "Английский",
-                                  style: GoogleFonts.nunito(
+                                  style: TextStyle(
+                                    fontFamily: "Nunito",
                                     color: const Color(0xff6F767E),
                                     fontWeight: FontWeight.bold,
                                   ),
@@ -162,7 +165,9 @@ class _SignUpViewState extends State<SignUpView> {
                 child: Container(
                   width: 36.w,
                   height: 36.w,
-                  padding: EdgeInsets.all(8.75.w,),
+                  padding: EdgeInsets.all(
+                    8.75.w,
+                  ),
                   decoration: BoxDecoration(
                     color: const Color.fromRGBO(252, 252, 252, 1),
                     borderRadius: BorderRadius.circular(
@@ -197,7 +202,8 @@ class _SignUpViewState extends State<SignUpView> {
                     padding: EdgeInsets.symmetric(vertical: 20.0.w),
                     child: Text(
                       "Регистрация",
-                      style: GoogleFonts.nunito(
+                      style: TextStyle(
+                        fontFamily: "Nunito",
                         fontSize: 32.sp,
                         fontWeight: FontWeight.w700,
                         color: Colors.black,
@@ -215,7 +221,8 @@ class _SignUpViewState extends State<SignUpView> {
                     alignment: Alignment.topLeft,
                     child: Text(
                       "Полное имя",
-                      style: GoogleFonts.nunito(
+                      style: TextStyle(
+                        fontFamily: "Nunito",
                         fontWeight: FontWeight.w600,
                       ),
                     ),
@@ -249,7 +256,8 @@ class _SignUpViewState extends State<SignUpView> {
                       },
                       decoration: InputDecoration(
                         hintText: "Имя",
-                        hintStyle: GoogleFonts.nunito(
+                        hintStyle: TextStyle(
+                            fontFamily: "Nunito",
                             fontWeight: FontWeight.w600,
                             color: const Color.fromRGBO(111, 118, 126, 1)),
                         contentPadding: const EdgeInsets.all(15),
@@ -280,7 +288,8 @@ class _SignUpViewState extends State<SignUpView> {
                     alignment: Alignment.topLeft,
                     child: Text(
                       "Номер телефона",
-                      style: GoogleFonts.nunito(
+                      style: TextStyle(
+                        fontFamily: "Nunito",
                         fontWeight: FontWeight.w600,
                       ),
                     ),
@@ -314,7 +323,8 @@ class _SignUpViewState extends State<SignUpView> {
                       },
                       decoration: InputDecoration(
                         hintText: "Номер",
-                        hintStyle: GoogleFonts.nunito(
+                        hintStyle: TextStyle(
+                            fontFamily: "Nunito",
                             fontWeight: FontWeight.w600,
                             color: const Color.fromRGBO(111, 118, 126, 1)),
                         contentPadding: const EdgeInsets.all(15),
@@ -345,7 +355,8 @@ class _SignUpViewState extends State<SignUpView> {
                     alignment: Alignment.topLeft,
                     child: Text(
                       "Дата рождения",
-                      style: GoogleFonts.nunito(
+                      style: TextStyle(
+                        fontFamily: "Nunito",
                         fontWeight: FontWeight.w600,
                       ),
                     ),
@@ -386,7 +397,8 @@ class _SignUpViewState extends State<SignUpView> {
                             },
                             decoration: InputDecoration(
                               hintText: "Дата",
-                              hintStyle: GoogleFonts.nunito(
+                              hintStyle: TextStyle(
+                                  fontFamily: "Nunito",
                                   fontWeight: FontWeight.w600,
                                   color:
                                       const Color.fromRGBO(111, 118, 126, 1)),
@@ -602,7 +614,8 @@ class _SignUpViewState extends State<SignUpView> {
       onPressed: press,
       child: Text(
         text,
-        style: GoogleFonts.nunito(
+        style: TextStyle(
+          fontFamily: "Nunito",
           fontWeight: FontWeight.w700,
           fontSize: 16.sp,
           color: Colors.white,

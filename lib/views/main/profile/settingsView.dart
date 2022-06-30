@@ -66,7 +66,8 @@ class _SettingsViewState extends State<SettingsView> {
               ),
               Text(
                 "Настройки",
-                style: GoogleFonts.nunito(
+                style: TextStyle(
+                  fontFamily: "Nunito",
                   fontSize: 20.sp,
                   fontWeight: FontWeight.w700,
                   color: Colors.black,
@@ -98,7 +99,8 @@ class _SettingsViewState extends State<SettingsView> {
             ),
             Text(
               "Пользователь верифицирован",
-              style: GoogleFonts.nunito(
+              style: TextStyle(
+                fontFamily: "Nunito",
                 fontSize: 20.sp,
                 fontWeight: FontWeight.w600,
                 color: const Color(0xff00BF13),
@@ -159,7 +161,8 @@ class _SettingsViewState extends State<SettingsView> {
                               ),
                               Text(
                                 "Уведомления",
-                                style: GoogleFonts.nunito(
+                                style: TextStyle(
+                                    fontFamily: "Nunito",
                                     fontSize: 16.sp,
                                     fontWeight: FontWeight.w600,
                                     color: const Color(0xff050505)),
@@ -213,7 +216,8 @@ class _SettingsViewState extends State<SettingsView> {
                               ),
                               Text(
                                 "Конфиденциальность",
-                                style: GoogleFonts.nunito(
+                                style: TextStyle(
+                                    fontFamily: "Nunito",
                                     fontSize: 16.sp,
                                     fontWeight: FontWeight.w600,
                                     color: const Color(0xff050505)),
@@ -263,7 +267,8 @@ class _SettingsViewState extends State<SettingsView> {
                               ),
                               Text(
                                 "Язык",
-                                style: GoogleFonts.nunito(
+                                style: TextStyle(
+                                    fontFamily: "Nunito",
                                     fontSize: 16.sp,
                                     fontWeight: FontWeight.w600,
                                     color: const Color(0xff050505)),
@@ -292,7 +297,8 @@ class _SettingsViewState extends State<SettingsView> {
               splashColor: Colors.transparent,
               highlightColor: Colors.transparent,
               onTap: () {
-                Navigator.pushNamedAndRemoveUntil(context, "/SignInView", (route) => false);
+                Navigator.pushNamedAndRemoveUntil(
+                    context, "/SignInView", (route) => false);
               },
               child: Container(
                   width: 327.w,
@@ -312,7 +318,8 @@ class _SettingsViewState extends State<SettingsView> {
                   ),
                   child: Text(
                     "Выйти",
-                    style: GoogleFonts.nunito(
+                    style: TextStyle(
+                      fontFamily: "Nunito",
                       color: const Color(0xffE20909),
                       fontSize: 16.sp,
                       fontWeight: FontWeight.w600,

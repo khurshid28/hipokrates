@@ -66,7 +66,8 @@ class _NotificationViewState extends State<NotificationView> {
               ),
               Text(
                 "Настройки",
-                style: GoogleFonts.nunito(
+                style: TextStyle(
+                  fontFamily: "Nunito",
                   fontSize: 20.sp,
                   fontWeight: FontWeight.w700,
                   color: Colors.black,
@@ -94,7 +95,8 @@ class _NotificationViewState extends State<NotificationView> {
                 children: [
                   Text(
                     "Уведомления",
-                    style: GoogleFonts.nunito(
+                    style: TextStyle(
+                      fontFamily: "Nunito",
                       fontSize: 20.sp,
                       fontWeight: FontWeight.w600,
                       color: const Color(0xff050505),
@@ -105,7 +107,6 @@ class _NotificationViewState extends State<NotificationView> {
               SizedBox(
                 height: 8.h,
               ),
-              
               Container(
                 width: 327.w,
                 height: 140.h,
@@ -139,14 +140,18 @@ class _NotificationViewState extends State<NotificationView> {
                         children: [
                           Text(
                             "Звук",
-                            style: GoogleFonts.nunito(
+                            style: TextStyle(
+                                fontFamily: "Nunito",
                                 fontSize: 16.sp,
                                 fontWeight: FontWeight.w600,
                                 color: const Color(0xff050505)),
                           ),
                           SizedBox(
                             width: 48.w,
-                            child: FlutterSwitch(value: true,onToggle: (v){},),
+                            child: FlutterSwitch(
+                              value: true,
+                              onToggle: (v) {},
+                            ),
                           ),
                         ],
                       ),
@@ -167,14 +172,18 @@ class _NotificationViewState extends State<NotificationView> {
                         children: [
                           Text(
                             "Вибрация",
-                            style: GoogleFonts.nunito(
+                            style: TextStyle(
+                                fontFamily: "Nunito",
                                 fontSize: 16.sp,
                                 fontWeight: FontWeight.w600,
                                 color: const Color(0xff050505)),
                           ),
                           SizedBox(
                             width: 48.w,
-                            child: FlutterSwitch(value: true,onToggle: (v){},),
+                            child: FlutterSwitch(
+                              value: true,
+                              onToggle: (v) {},
+                            ),
                           ),
                         ],
                       ),
@@ -182,9 +191,7 @@ class _NotificationViewState extends State<NotificationView> {
                     InkWell(
                       splashColor: Colors.transparent,
                       highlightColor: Colors.transparent,
-                      onTap: () {
-                        
-                      },
+                      onTap: () {},
                       child: Container(
                         height: 46.h,
                         width: 327.w,
@@ -197,15 +204,19 @@ class _NotificationViewState extends State<NotificationView> {
                           children: [
                             Text(
                               "Показывать текст",
-                              style: GoogleFonts.nunito(
+                              style: TextStyle(
+                                  fontFamily: "Nunito",
                                   fontSize: 16.sp,
                                   fontWeight: FontWeight.w600,
                                   color: const Color(0xff050505)),
                             ),
                             SizedBox(
-                            width: 48.w,
-                            child: FlutterSwitch(value: false,onToggle: (v){},),
-                          ),
+                              width: 48.w,
+                              child: FlutterSwitch(
+                                value: false,
+                                onToggle: (v) {},
+                              ),
+                            ),
                           ],
                         ),
                       ),
@@ -220,7 +231,8 @@ class _NotificationViewState extends State<NotificationView> {
                 children: [
                   Text(
                     "Категории",
-                    style: GoogleFonts.nunito(
+                    style: TextStyle(
+                      fontFamily: "Nunito",
                       fontSize: 20.sp,
                       fontWeight: FontWeight.w600,
                       color: const Color(0xff050505),
@@ -264,23 +276,25 @@ class _NotificationViewState extends State<NotificationView> {
                         children: [
                           Text(
                             "Сообщество",
-                            style: GoogleFonts.nunito(
+                            style: TextStyle(
+                                fontFamily: "Nunito",
                                 fontSize: 16.sp,
                                 fontWeight: FontWeight.w600,
                                 color: const Color(0xff050505)),
                           ),
                           SizedBox(
                             width: 48.w,
-                            child: FlutterSwitch(value: false,onToggle: (v){},),
+                            child: FlutterSwitch(
+                              value: false,
+                              onToggle: (v) {},
+                            ),
                           ),
                         ],
                       ),
                     ),
-                   
                   ],
                 ),
               ),
-            
             ],
           ),
         ),
