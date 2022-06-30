@@ -132,42 +132,382 @@ class DiseasesView extends StatelessWidget {
                     children: [
                       Row(
                         children: [
-                          Container(
-                            height: 32.h,
-                            width: 110.w,
-                            padding: EdgeInsets.symmetric(
-                              horizontal: 16.w,
-                              vertical: 8.h,
-                            ),
-                            decoration: BoxDecoration(
-                              color: Colors.white,
-                              borderRadius: BorderRadius.circular(
-                                8.r,
+                          InkWell(
+                            onTap: () {
+                              print("hi ");
+                              // showGeneralDialog(
+                              //   context: context,
+                              //   barrierDismissible: true,
+                              //   barrierLabel: MaterialLocalizations.of(context)
+                              //       .modalBarrierDismissLabel,
+                              //   barrierColor: Colors.black38,
+                              //   transitionDuration:
+                              //       const Duration(milliseconds: 200),
+                              //   pageBuilder: (BuildContext buildContext,
+                              //       Animation animation,
+                              //       Animation secondaryAnimation) {
+                              //     return Stack(
+                              //       children: [
+                              //         Positioned(
+                              //           top: 50.h,
+                              //           left: 50.h,
+                              //           child: Container(
+                              //             color: Colors.white,
+                              //             height: 466.h,
+                              //             width: MediaQuery.of(context)
+                              //                     .size
+                              //                     .width *
+                              //                 .7,
+                              //             child: Material(
+                              //               child: Padding(
+                              //                 padding:
+                              //                     const EdgeInsets.all(8.0),
+                              //                 child: Column(
+                              //                   children: [
+                              //                     Row(
+                              //                       children: [
+                              //                         Container(
+                              //                           width: MediaQuery.of(
+                              //                                       context)
+                              //                                   .size
+                              //                                   .width *
+                              //                               0.4,
+                              //                           height: 40.h,
+                              //                           child: TextFormField(
+                              //                             autovalidateMode:
+                              //                                 AutovalidateMode
+                              //                                     .onUserInteraction,
+                              //                             onChanged: (v) {},
+                              //                             decoration:
+                              //                                 InputDecoration(
+                              //                               border:
+                              //                                   const OutlineInputBorder(),
+                              //                               enabledBorder:
+                              //                                   OutlineInputBorder(
+                              //                                 borderSide:
+                              //                                     BorderSide
+                              //                                         .none,
+                              //                                 borderRadius:
+                              //                                     BorderRadius
+                              //                                         .circular(
+                              //                                             10),
+                              //                               ),
+                              //                               focusedBorder:
+                              //                                   OutlineInputBorder(
+                              //                                 borderSide:
+                              //                                     BorderSide
+                              //                                         .none,
+                              //                                 borderRadius:
+                              //                                     BorderRadius
+                              //                                         .circular(
+                              //                                             10),
+                              //                               ),
+                              //                               errorBorder:
+                              //                                   OutlineInputBorder(
+                              //                                 borderSide:
+                              //                                     BorderSide(
+                              //                                         color: Colors
+                              //                                             .red,
+                              //                                         width: 1),
+                              //                                 borderRadius:
+                              //                                     BorderRadius
+                              //                                         .circular(
+                              //                                             10),
+                              //                               ),
+                              //                               fillColor:
+                              //                                   Color.fromARGB(
+                              //                                       255,
+                              //                                       212,
+                              //                                       203,
+                              //                                       203),
+                              //                               filled: true,
+                              //                               prefixIcon: Icon(Icons
+                              //                                   .search_outlined),
+                              //                               hintText: "Поиск",
+                              //                               hintStyle:
+                              //                                   GoogleFonts
+                              //                                       .nunito(
+                              //                                 fontSize: 14.sp,
+                              //                                 fontWeight:
+                              //                                     FontWeight
+                              //                                         .w600,
+                              //                                 color:
+                              //                                     const Color(
+                              //                                   0xff6F767E,
+                              //                                 ),
+                              //                               ),
+                              //                               contentPadding:
+                              //                                   const EdgeInsets
+                              //                                           .only(
+                              //                                       left: 15,
+                              //                                       top: 40,
+                              //                                       right: 15),
+                              //                             ),
+                              //                           ),
+                              //                         ),
+                              //                         TextButton(
+                              //                           child: const Text(
+                              //                               'Отменить'),
+                              //                           onPressed: () {},
+                              //                         )
+                              //                       ],
+                              //                     ),
+                              //                   ],
+                              //                 ),
+                              //               ),
+                              //             ),
+                              //           ),
+                              //         ),
+                              //       ],
+                              //     );
+                              //   },
+                              // );
+                              showModalBottomSheet(
+                                  isScrollControlled: true,
+                                  isDismissible: true,
+                                  context: context,
+                                  builder: (BuildContext context) {
+                                    return Padding(
+                                      padding: EdgeInsets.all(16),
+                                      child: Column(
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.start,
+                                        crossAxisAlignment:
+                                            CrossAxisAlignment.start,
+                                        children: [
+                                          Row(
+                                            children: [
+                                              SizedBox(
+                                                width: 250,
+                                                child: TextFormField(
+                                                  autovalidateMode:
+                                                      AutovalidateMode
+                                                          .onUserInteraction,
+                                                  onChanged: (v) {},
+                                                  decoration: InputDecoration(
+                                                    border:
+                                                        const OutlineInputBorder(),
+                                                    enabledBorder:
+                                                        OutlineInputBorder(
+                                                      borderSide:
+                                                          BorderSide.none,
+                                                      borderRadius:
+                                                          BorderRadius.circular(
+                                                              10),
+                                                    ),
+                                                    focusedBorder:
+                                                        OutlineInputBorder(
+                                                      borderSide:
+                                                          BorderSide.none,
+                                                      borderRadius:
+                                                          BorderRadius.circular(
+                                                              10),
+                                                    ),
+                                                    errorBorder:
+                                                        OutlineInputBorder(
+                                                      borderSide: BorderSide(
+                                                          color: Colors.red,
+                                                          width: 1),
+                                                      borderRadius:
+                                                          BorderRadius.circular(
+                                                              10),
+                                                    ),
+                                                    fillColor: Color.fromARGB(
+                                                        255, 212, 203, 203),
+                                                    filled: true,
+                                                    prefixIcon: Icon(
+                                                        Icons.search_outlined),
+                                                    hintText: "Поиск",
+                                                    hintStyle:
+                                                        GoogleFonts.nunito(
+                                                      fontSize: 14.sp,
+                                                      fontWeight:
+                                                          FontWeight.w600,
+                                                      color: const Color(
+                                                        0xff6F767E,
+                                                      ),
+                                                    ),
+                                                    contentPadding:
+                                                        const EdgeInsets.only(
+                                                            left: 15,
+                                                            top: 40,
+                                                            right: 15),
+                                                  ),
+                                                ),
+                                              ),
+                                              TextButton(
+                                                child: const Text('Отменить'),
+                                                onPressed: () {
+                                                  Navigator.of(context).pop();
+                                                },
+                                              )
+                                            ],
+                                          ),
+                                          SizedBox(height: 24.h),
+                                          Row(
+                                            children: const [
+                                              Icon(Icons.filter_alt),
+                                              Text('Фильтр')
+                                            ],
+                                          ),
+                                          SizedBox(height: 24.h),
+                                          Row(
+                                              mainAxisAlignment:
+                                                  MainAxisAlignment
+                                                      .spaceBetween,
+                                              children: const [
+                                                Text('Теги'),
+                                                Text('1/5 тегов')
+                                              ]),
+                                          Row(
+                                            children: [
+                                              Container(
+                                                width: 300,
+                                                height: 20,
+                                                decoration: BoxDecoration(
+                                                  color: Colors.blue,
+                                                ),
+                                              ),
+                                            ],
+                                          ),
+                                          Divider(
+                                            thickness: 1,
+                                          ),
+                                          Text('Сортировка'),
+                                          SizedBox(height: 24.h),
+                                          Row(
+                                            mainAxisAlignment:
+                                                MainAxisAlignment.start,
+                                            crossAxisAlignment:
+                                                CrossAxisAlignment.start,
+                                            children: [
+                                              Column(
+                                                mainAxisAlignment:
+                                                    MainAxisAlignment.start,
+                                                crossAxisAlignment:
+                                                    CrossAxisAlignment.start,
+                                                children: [
+                                                  Row(children: [
+                                                    IconButton(
+                                                        onPressed: () {},
+                                                        icon: Icon(Icons
+                                                            .check_box_outline_blank_outlined)),
+                                                    Text('Рейтингу')
+                                                  ]),
+                                                  Row(children: [
+                                                    IconButton(
+                                                        onPressed: () {},
+                                                        icon: Icon(Icons
+                                                            .check_box_outline_blank_outlined)),
+                                                    Text('Просмотрам')
+                                                  ])
+                                                ],
+                                              ),
+                                              Column(
+                                                mainAxisAlignment:
+                                                    MainAxisAlignment.start,
+                                                crossAxisAlignment:
+                                                    CrossAxisAlignment.start,
+                                                children: [
+                                                  Row(children: [
+                                                    IconButton(
+                                                        onPressed: () {},
+                                                        icon: Icon(Icons
+                                                            .check_box_outline_blank_outlined)),
+                                                    Text('Дате добавления')
+                                                  ]),
+                                                  Row(children: [
+                                                    IconButton(
+                                                        onPressed: () {},
+                                                        icon: Icon(Icons
+                                                            .check_box_outline_blank_outlined)),
+                                                    Text('Названию (A - Z)')
+                                                  ])
+                                                ],
+                                              )
+                                            ],
+                                          ),
+                                          Divider(
+                                            thickness: 1,
+                                          ),
+                                          Row(
+                                            mainAxisAlignment:
+                                                MainAxisAlignment.start,
+                                            crossAxisAlignment:
+                                                CrossAxisAlignment.start,
+                                            children: [
+                                              Row(children: [
+                                                IconButton(
+                                                    onPressed: () {},
+                                                    icon: Icon(Icons
+                                                        .check_box_outline_blank_outlined)),
+                                                Text('Рейтингу')
+                                              ]),
+                                              Row(children: [
+                                                IconButton(
+                                                    onPressed: () {},
+                                                    icon: Icon(Icons
+                                                        .check_box_outline_blank_outlined)),
+                                                Text('Просмотрам')
+                                              ])
+                                            ],
+                                          ),
+                                          Row(
+                                              mainAxisAlignment:
+                                                  MainAxisAlignment.spaceAround,
+                                              children: [
+                                                ElevatedButton(
+                                                  child: Text('Сбросить'),
+                                                  onPressed: () {},
+                                                ),
+                                                ElevatedButton(
+                                                  child: Text('Применить'),
+                                                  onPressed: () {},
+                                                ),
+                                              ])
+                                        ],
+                                      ),
+                                    );
+                                  });
+                            },
+                            child: Container(
+                              height: 32.h,
+                              width: 110.w,
+                              padding: EdgeInsets.symmetric(
+                                horizontal: 16.w,
+                                vertical: 8.h,
                               ),
-                              boxShadow: [
-                                BoxShadow(
-                                    color: Colors.black.withOpacity(0.1),
-                                    blurRadius: 5.r),
-                              ],
-                            ),
-                            child: Row(
-                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                              crossAxisAlignment: CrossAxisAlignment.center,
-                              children: [
-                                Icon(
-                                  Icons.filter_alt,
-                                  size: 16,
-                                  color: Colors.blue,
+                              decoration: BoxDecoration(
+                                color: Colors.white,
+                                borderRadius: BorderRadius.circular(
+                                  8.r,
                                 ),
-                                Text(
-                                  "Фильтр",
-                                  style: GoogleFonts.nunito(
-                                    fontSize: 14.sp,
-                                    fontWeight: FontWeight.w600,
+                                boxShadow: [
+                                  BoxShadow(
+                                      color: Colors.black.withOpacity(0.1),
+                                      blurRadius: 5.r),
+                                ],
+                              ),
+                              child: Row(
+                                mainAxisAlignment:
+                                    MainAxisAlignment.spaceBetween,
+                                crossAxisAlignment: CrossAxisAlignment.center,
+                                children: [
+                                  Icon(
+                                    Icons.filter_alt,
+                                    size: 16,
                                     color: Colors.blue,
                                   ),
-                                ),
-                              ],
+                                  Text(
+                                    "Фильтр",
+                                    style: GoogleFonts.nunito(
+                                      fontSize: 14.sp,
+                                      fontWeight: FontWeight.w600,
+                                      color: Colors.blue,
+                                    ),
+                                  ),
+                                ],
+                              ),
                             ),
                           ),
                         ],

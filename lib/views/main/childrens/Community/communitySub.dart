@@ -394,7 +394,7 @@ class _CommunitySubState extends State<CommunitySub> {
                             ),
                           ),
                         ))),
-              )
+              ),
             ],
           ),
         )));
